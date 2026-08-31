@@ -1,0 +1,47 @@
+html[data-accent-color="demoutrei"] {
+  --accent-9: #3ba55c;
+  --code-block-background: #0a0a0a;
+  --code-block-caption-background: #002a00;
+  --docsearch-search-button-background: #111111;
+  --sy-c-link: #3ba55c;
+  --sy-c-link-hover: #3ba55c;
+  --yue-c-code-background: #0a0a0a;
+  --yue-c-th-background: #002a00;
+
+  .sphinx-tabs-tab {
+    cursor: pointer;
+    
+    &[aria-selected=true] {
+      border-bottom: .125rem solid #3ba55c;
+      color: #3ba55c;
+    }
+  }
+}
+
+
+.project {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+
+  .project-icon {
+    aspect-ratio: 1 / 1;
+    height: 80px;
+  }
+
+  .project-info {
+    display: flex;
+    flex-direction: column;
+    
+    .project-info-title {
+      cursor: pointer;
+      font-size: 1.5rem;
+      font-weight: bold;
+      word-break: break-all;
+    }
+
+    .project-info-description {
+      word-break: break-all;
+    }
+  }
+}
