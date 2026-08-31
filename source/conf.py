@@ -38,7 +38,6 @@ html_context = {
   "source_user": "demoutrei",
   "source_repo": "guides",
   "source_version": "main",
-  "source_docs_path": "/",
   "source_edit_template": "https://github.com/demoutrei/guides/blob/main/{0}"
 }
 html_favicon = "_static/demoutrei.png"
