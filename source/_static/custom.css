@@ -18,30 +18,6 @@ html[data-accent-color="demoutrei"] {
   }
 }
 
-
-.project {
-  display: flex;
-  flex-direction: row;
-  gap: 15px;
-
-  .project-icon {
-    aspect-ratio: 1 / 1;
-    height: 80px;
-  }
-
-  .project-info {
-    display: flex;
-    flex-direction: column;
-    
-    .project-info-title {
-      cursor: pointer;
-      font-size: 1.5rem;
-      font-weight: bold;
-      word-break: break-all;
-    }
-
-    .project-info-description {
-      word-break: break-all;
-    }
-  }
+.sphinx-contributors img {
+  border-radius: 50%;
 }

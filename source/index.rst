@@ -17,8 +17,6 @@ demoutrei's guidebook
 Contributors
 ++++++++++++
 
-.. container:: rounded-image
-  
-    .. contributors:: demoutrei/guides
-        :avatars:
-        :contributions:
+.. contributors:: demoutrei/guides
+    :avatars:
+    :contributions:
