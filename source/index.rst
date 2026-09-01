@@ -7,6 +7,12 @@ demoutrei's guidebook
 =====================
 
 
+.. admonition:: DISCLAIMER
+    :class: attention
+
+    None in these guidebooks are deemed official or affiliated in any sort of way. For better documentation reference, refer to your resource's official documentation instead.
+
+
 .. toctree::
     :maxdepth: 1
     :caption: Guidebooks
