@@ -16,7 +16,6 @@ roman-numerals==4.1.0
 shibuya==2026.7.12
 snowballstemmer==3.1.1
 Sphinx==9.1.0
-sphinx-docsearch==0.3.1
 sphinx-tabs==3.5.0
 sphinx_contributors==0.3.0
 sphinx_design==0.7.0

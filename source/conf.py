@@ -17,13 +17,8 @@ extensions = [
   "shibuya",
   "sphinx_contributors",
   "sphinx_design",
-  "sphinx_docsearch",
   "sphinx_tabs.tabs"
 ]
-
-docsearch_app_id = "7SK6I97BWU"
-docsearch_api_key = "1a20bb0af63a8bd4ac12fea09b41ed0c"
-docsearch_index_name = "guidebooks_crawler_pages"
 
 templates_path = ['_templates']
 exclude_patterns = []
