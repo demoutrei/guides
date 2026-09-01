@@ -14,10 +14,11 @@ demoutrei's guidebook
 
 
 .. toctree::
-    :maxdepth: 1
+    :maxdepth: 2
     :caption: Guidebooks
 
     discord-api/index
+    programming-languages/index
 
 
 Contributors

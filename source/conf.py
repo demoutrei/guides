@@ -41,7 +41,8 @@ html_theme_options = {
   "accent_color": "demoutrei",
   "dark_code": True,
   "globaltoc_expand_depth": 1,
-  "toctree_maxdepth": 1,
+  "toctree_collapse": True,
+  "toctree_maxdepth": 2,
   "show_ai_links": False
 }
 html_static_path = ['_static']
