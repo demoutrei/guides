@@ -19,4 +19,3 @@ Contributors
 
 .. contributors:: demoutrei/guides
     :avatars:
-    :contributions:
