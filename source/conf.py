@@ -38,11 +38,11 @@ html_context = {
 html_favicon = "_static/demoutrei.png"
 html_theme = 'shibuya'
 html_theme_options = {
-  "accent_color": "demoutrei",
-  "dark_code": True,
+  "accent_color": "green",
+  "color_mode": "dark",
   "globaltoc_expand_depth": 1,
   "toctree_collapse": True,
-  "toctree_maxdepth": 1,
+  "toctree_maxdepth": 5,
   "show_ai_links": False
 }
 html_static_path = ['_static']

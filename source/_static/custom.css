@@ -1,19 +1,42 @@
-html[data-accent-color="demoutrei"] {
-  --accent-9: #3ba55c;
-  --code-block-background: #0a0a0a;
-  --code-block-caption-background: #002a00;
-  --docsearch-search-button-background: #111111;
+:root {
+  /* --accent-9: #3ba55c;
   --sy-c-link: #3ba55c;
-  --sy-c-link-hover: #3ba55c;
-  --yue-c-code-background: #0a0a0a;
-  --yue-c-th-background: #002a00;
-
+  --sy-c-link-hover: #3ba55c; */
+  
   .sphinx-tabs-tab {
     cursor: pointer;
     
-    &[aria-selected=true] {
+    /* &[aria-selected=true] {
       border-bottom: .125rem solid #3ba55c;
       color: #3ba55c;
-    }
+    } */
   }
 }
+
+.theme-switch {
+  display: none;
+}
+
+.js-menu {
+  cursor: pointer;
+}
+
+.toctree-wrapper a.reference.internal:hover {
+  border-bottom: 1px solid var(--accent-9);
+}
+
+/* html.light {
+  --code-block-background: #F8EEEC;
+  --code-block-caption-background: #49f8a2;
+  --yue-c-code-background: #F8EEEC;
+  --yue-c-code-text: #276221;
+  --yue-c-th-background: #49f8a2;
+}
+
+html.dark {
+  --code-block-background: #0a0a0a;
+  --code-block-caption-background: #002a00;
+  --yue-c-code-background: #0a0a0a;
+  --yue-c-code-text: #E5E5E5;
+  --yue-c-th-background: #002a00;
+} */
