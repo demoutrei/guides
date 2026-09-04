@@ -17,6 +17,7 @@ demoutrei's guidebook
     :maxdepth: 1
     :caption: Guidebooks
 
+    computer-ethics/index
     discord-api/index
     dsa/index
     programming-languages/index
