@@ -90,7 +90,7 @@ Lists
 
     Don't forget to add a space between the list bullet (``-``, ``*``, ``1.``, etc) and your text!
 
-You can create a bulleted list using either a dash (``-``) or an asterisk (``\*``) in the beginning of each line.
+You can create a bulleted list using either a dash (``-``) or an asterisk (``*``) in the beginning of each line.
 
 .. code:: text
 
