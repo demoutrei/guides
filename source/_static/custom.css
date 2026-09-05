@@ -13,6 +13,14 @@
   }
 }
 
+.strikethrough {
+  text-decoration: line-through;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
 .theme-switch {
   display: none;
 }

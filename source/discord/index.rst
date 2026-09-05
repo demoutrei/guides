@@ -6,6 +6,7 @@ Discord Guidebook
     :maxdepth: 1
     :caption: Topics
 
+    markdown
     api/index
 
 
