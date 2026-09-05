@@ -170,4 +170,10 @@ To use a block quote, prefix a ending angle bracket (``>``) at the beginning of 
         Sample text 3
 
 
+.. seealso::
+
+    `Markdown Text 101`_
+
+
+.. _Markdown Text 101: https://support.discord.com/hc/en-us/articles/210298617-Markdown-Text-101-Chat-Formatting-Bold-Italic-Underline
 .. _Rebane's Discord Colored Text Generator: https://rebane2001.com/discord-colored-text-generator/
