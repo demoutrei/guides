@@ -18,6 +18,7 @@ demoutrei's guidebook
     :caption: Guidebooks
 
     computer-ethics/index
+    dbms/index
     discord/index
     dsa/index
     programming-languages/index
