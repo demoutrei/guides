@@ -3,6 +3,19 @@
 This repository is open for contributions.
 
 
+## Build Configuration
+
+rST files must be added in the `.. toctree::` directive of the relative `index.rst` in its directory.
+
+Each directory must contain an `index.rst` file, containing at most one `.. toctree::` directive.
+
+To execute the build, run the following command in the terminal:
+
+```bash
+$ ./make.bat html
+```
+
+
 ## How can I contribute?
 
 
