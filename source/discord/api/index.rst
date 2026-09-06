@@ -9,3 +9,4 @@ The Discord API is a REST API that allows you to interact with Discord data from
     :caption: Topics
 
     getting-started
+    hosts
