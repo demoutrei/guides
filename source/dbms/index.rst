@@ -1,5 +1,5 @@
-DBMS GuideBook
-==============
+Database Management Systems
+===========================
 
 
 A **database** is an organized collection of digital data or information stored electronically in a computer system. It allows users to store, manage, update, and retrieve information quickly. Think of it as a smart, high-capacity digital filing cabinet managed by software called a Database Management System (DBMS).

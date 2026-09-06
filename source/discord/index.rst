@@ -1,5 +1,5 @@
-Discord Guidebook
-=================
+Discord
+=======
 
 
 .. toctree::

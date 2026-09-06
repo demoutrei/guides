@@ -1,5 +1,5 @@
-Programming Languages GuideBook
-===============================
+Programming Languages
+=====================
 
 
 .. toctree::
