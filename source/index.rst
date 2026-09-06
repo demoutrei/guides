@@ -20,6 +20,7 @@ demoutrei's guidebook
     computer-ethics/index
     dbms/index
     discord/index
+    discrete-mathematics/index
     dsa/index
     programming-languages/index
 
