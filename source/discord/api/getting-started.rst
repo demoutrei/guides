@@ -1,6 +1,11 @@
 Getting Started
 ===============
 
+**OP**: `c-bec-k@github <https://github.com/c-bec-k>`_
+
+-----
+
+
 If you *actually* want to learn, then here're the steps to take:
 
 1. Choose a programming language. `JavaScript <https://javascript.info>`_ and `Python <https://docs.python.org/3/tutorial>`_ are popular beginner languages.
