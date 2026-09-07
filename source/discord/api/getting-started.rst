@@ -1,7 +1,7 @@
 Getting Started
 ===============
 
-**OP**: `c-bec-k@github <https://github.com/c-bec-k>`_
+**OP**: `13eckdev@codeberg.org <https://codeberg.org/13eckdev>`_
 
 -----
 
