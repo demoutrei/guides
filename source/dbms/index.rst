@@ -116,7 +116,7 @@ Any DBMS based application is made up of six key components that work together t
         .. admonition:: Examples
             :class: hint
 
-            SQL, `MyAccess`_, `Oracle`_ `PL/SQL`_.
+            `SQL`_, `MyAccess`_, `Oracle`_ `PL/SQL`_.
 
 
     .. grid-item-card:: :octicon:`people` People
@@ -142,7 +142,7 @@ There are several types of DBMS, each tailored to different data structures, sca
 Relational Database Management System
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-RDBMS organizes data into tables (relations) composed of rows and columns. Uses primary keys to uniquely identify rows and foreign keys to establish relationships between tables. Queries are written in **Structured Query Language** (SQL), which allows for efficient data manipulation and retrieval.
+RDBMS organizes data into tables (relations) composed of rows and columns. Uses primary keys to uniquely identify rows and foreign keys to establish relationships between tables. Queries are written in **Structured Query Language** (`SQL`_), which allows for efficient data manipulation and retrieval.
 
 
 .. admonition:: Examples
@@ -201,7 +201,7 @@ It uses a graph-like model to allow more complex relationships between entities.
 Cloud-Based Database
 ~~~~~~~~~~~~~~~~~~~~
 
-They are hosted on cloud computing platforms like `AWS`_, `Azure`_, or `Google Cloud`_. They offer on-demand scalability, high availability, automatic backups, and remote accessibility. These databases can be relational (SQL) or non-relational (NoSQL) and are maintained by cloud service providers, reducing administrative overhead. They support modern application requirements, including distributed access and real-time analytics.
+They are hosted on cloud computing platforms like `AWS`_, `Azure`_, or `Google Cloud`_. They offer on-demand scalability, high availability, automatic backups, and remote accessibility. These databases can be relational (`SQL`_) or non-relational (NoSQL) and are maintained by cloud service providers, reducing administrative overhead. They support modern application requirements, including distributed access and real-time analytics.
 
 .. admonition:: Examples
     :class: hint
@@ -345,4 +345,5 @@ Applications of DBMS
 .. _PL/SQL: https://www.oracle.com/asean/database/technologies/appdev/plsql.html
 .. _PostgreSQL: https://postgresql.org
 .. _Redis: https://redis.io/
+.. _SQL: https://en.wikipedia.org/wiki/SQL
 .. _TurboIMAGE: https://en.wikipedia.org/wiki/TurboIMAGE
