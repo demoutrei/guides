@@ -1,15 +1,6 @@
-:root {
-  /* --accent-9: #3ba55c;
-  --sy-c-link: #3ba55c;
-  --sy-c-link-hover: #3ba55c; */
-  
+:root {  
   .sphinx-tabs-tab {
     cursor: pointer;
-    
-    /* &[aria-selected=true] {
-      border-bottom: .125rem solid #3ba55c;
-      color: #3ba55c;
-    } */
   }
 }
 
@@ -32,19 +23,3 @@
 .toctree-wrapper a.reference.internal:hover {
   border-bottom: 1px solid var(--accent-9);
 }
-
-/* html.light {
-  --code-block-background: #F8EEEC;
-  --code-block-caption-background: #49f8a2;
-  --yue-c-code-background: #F8EEEC;
-  --yue-c-code-text: #276221;
-  --yue-c-th-background: #49f8a2;
-}
-
-html.dark {
-  --code-block-background: #0a0a0a;
-  --code-block-caption-background: #002a00;
-  --yue-c-code-background: #0a0a0a;
-  --yue-c-code-text: #E5E5E5;
-  --yue-c-th-background: #002a00;
-} */

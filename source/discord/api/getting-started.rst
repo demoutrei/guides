@@ -1,10 +1,6 @@
 Getting Started
 ===============
 
-**OP**: `13eckdev@codeberg.org <https://codeberg.org/13eckdev>`_
-
------
-
 
 If you *actually* want to learn, then here're the steps to take:
 
@@ -25,3 +21,12 @@ If you *actually* want to learn, then here're the steps to take:
     :class: important
 
     **DO NOT USE LLMs/AI**. The only thing that will teach you is how to ask the LLM to do things. You, personally, won't learn a thing. And LLMs, by design, will give you false information as they're just very advanced word-suggestion-algorithms. They're not programmed to say, "I don't know" so they just put words together that statistically should go together, but don't always. So it'll give you a ton of wrong/broken/bloated/vulnerable code. So please, for the love of anything you hold dear, do it right.
+
+
+-----
+
+Authors
+    -- `13eckdev@codeberg`_
+
+
+.. _13eckdev@codeberg: https://codeberg.org/13eckdev

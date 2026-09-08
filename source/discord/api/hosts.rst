@@ -302,11 +302,10 @@ Features
 
 -----
 
-**Source thread**: `Bot & Server Host Mega Thread`_
+Authors
+  -- `Soheab@github`_
 
-**Thread OP**: `MatthewSH@github <https://github.com/MatthewSH>`_
-
-**OG Thread OP**: `Soheab@github <https://github.com/Soheab>`_
+  -- `MatthewSH@github`_
 
 
 .. _Aruba Cloud: https://www.arubacloud.com/
@@ -329,6 +328,7 @@ Features
 .. _Hetzner: https://www.hetzner.com/
 .. _Inbestigator's Hosting List: https://inbestigator.vercel.app/hosting
 .. _Linode / Akamai Cloud: https://www.linode.com/
+.. _MatthewSH@github: https://github.com/MatthewSH
 .. _Netcup: https://www.netcup.com/en
 .. _Netlify: https://www.netlify.com/
 .. _Netlify Functions: https://www.netlify.com/platform/core/functions/
@@ -340,6 +340,7 @@ Features
 .. _Racknerd: https://www.racknerd.com/
 .. _Railway: https://railway.com/
 .. _Scaleway: https://www.scaleway.com/en/
+.. _Soheab@github: https://github.com/Soheab
 .. _Time4VPS: https://www.time4vps.com/
 .. _Vercel: https://vercel.com/
 .. _Vultr: https://www.vultr.com/
