@@ -1,3 +1,6 @@
+:description: Binary Search is an efficient divide-and-conquer algorithm designed to locate a target value within a sorted array or list. By repeatedly halving the search space, it avoids checking every element individually, making it exponentially faster than linear search for large datasets.
+
+
 Binary Search
 =============
 

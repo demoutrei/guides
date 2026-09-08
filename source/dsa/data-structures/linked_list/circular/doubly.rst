@@ -1,3 +1,6 @@
+:description: A circular doubly linked list is a complex linear data structure where each node contains a data field and two pointers (Next and Previous), and the list forms a continuous loop. Specifically the Next pointer of the last node points back to the first node, and the Previous pointer of the first node points back to the last node.
+
+
 Circular Doubly Linked List
 ===========================
 

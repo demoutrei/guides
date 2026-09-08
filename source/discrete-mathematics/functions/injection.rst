@@ -1,3 +1,6 @@
+:description: An injective function is a one-to-one function where every distinct input in the domain maps to a unique output in the codomain. No two different elemetns share the same image, meaning no target value is hit more than once.
+
+
 Injection
 =========
 

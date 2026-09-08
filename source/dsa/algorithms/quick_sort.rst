@@ -1,7 +1,10 @@
+:description: Quick Sort is an efficient, comparison-based, divide-and-conquer sorting algorithm that sorts an array by selecting a "pivo" element and partitioning the other elements into two sub-arrays based on whether they are smaller or larger than the pivot.
+
+
 Quick Sort
 ==========
 
-**Quick Sort** is an efficient, comparison-based divide-and-conquer sorting algorithm that sorts an array by selecting a "pivot" element and partitioning the other elements into two sub-arrays based on whether they are smaller or larger than the pivot.
+**Quick Sort** is an efficient, comparison-based, divide-and-conquer sorting algorithm that sorts an array by selecting a "pivot" element and partitioning the other elements into two sub-arrays based on whether they are smaller or larger than the pivot.
 
 
 .. admonition:: Key Characteristics

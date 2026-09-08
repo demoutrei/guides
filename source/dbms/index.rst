@@ -1,3 +1,6 @@
+:description: A Database Management System (DBMS) is a software system that manages, stores, and retrieves data efficiently in a structured format. DBMS acts as a bridge between a central database and multiple clients, including apps and users.
+
+
 Database Management Systems
 ===========================
 

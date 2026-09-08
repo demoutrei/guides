@@ -1,3 +1,6 @@
+:description: A data structure is a specialized format for organizing, processing, retrieving, and storing data in a computer system so it can be used efficiently. It provides a physical implementation for abstract concepts, ensuring that code can access and modify information quickly and accurately.
+
+
 Data Structures
 ===============
 

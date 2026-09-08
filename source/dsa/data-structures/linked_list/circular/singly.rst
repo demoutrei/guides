@@ -1,3 +1,6 @@
+:description: a circular singly linked list is a linear data structure where the last node points back to the first node (Head) instead of pointing to Null. Each node contains a single "data" field and a single Next pointer, forming a continuous, closed loop.
+
+
 Circular Singly Linked List
 ===========================
 

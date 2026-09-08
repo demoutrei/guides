@@ -1,3 +1,6 @@
+:description: A function is a rule that assigns each input exactly one output.
+
+
 Functions
 =========
 

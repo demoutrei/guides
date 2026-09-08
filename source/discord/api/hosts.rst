@@ -1,3 +1,6 @@
+:description: Learn how to properly decide on which hosting/vps service to use/purchase for your Discord app.
+
+
 Bot & Server Hosts
 ==================
 

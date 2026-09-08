@@ -1,7 +1,10 @@
+:description: Bubble Sort is a simple, comparison-based sorting algorithm that works by repeatedly stepping through a list, comparing adjacent elements, and swapping them if they are in the wrong order. This process is repeated for multiple passes until the entire list is completely sorted and no further swaps are required.
+
+
 Bubble Sort
 ===========
 
-**Bubble Sort** is a simple, comparison-based sorting algorithm that works by repeatedly stepping through a list, comparing adjacent elements, and swapping tehm if they are in the wrong order. This process is repeated for multiple passes until the entire list is completely sorted and no further swaps are required.
+**Bubble Sort** is a simple, comparison-based sorting algorithm that works by repeatedly stepping through a list, comparing adjacent elements, and swapping them if they are in the wrong order. This process is repeated for multiple passes until the entire list is completely sorted and no further swaps are required.
 
 The algorithm earns its name because larger elements gradually "bubble up" to the end of the list with each successive pass, much like air bubbles rising to the surface of water.
 

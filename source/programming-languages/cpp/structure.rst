@@ -1,3 +1,6 @@
+:description: Basic C++ structure.
+
+
 C++ Basic Structure
 ===================
 

@@ -1,3 +1,6 @@
+:description: Space complexity is a metric that quantifies the total memory space an algorithm or data structure requires to run to completion as a function of the input size (n). It is expressed using Big O notation to define how memory requirements scale rather than measuring exact bytes, which vary by hardware.
+
+
 Space Complexity
 ================
 

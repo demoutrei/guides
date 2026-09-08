@@ -1,7 +1,10 @@
+:description: Selection Sort is an in-place, comparison-based sorting algorithm that works by repeatedly finding the minimum element from the unsorted portion of an array and swapping it with the first unsorted element. This shifts the boundary between the sorted and unsorted sections one step to the right until the entire dataset is ordered.
+
+
 Selection Sort
 ==============
 
-**Selection Sort** is an in-place, comparison-based sorting algorithm that works by repeatedly finding the minimum element from the unsorted portion of an array and swapping it with the first unsorted element. This shifts the boundary between the sorted and unsorted sections oen step to the right until the entire dataset is ordered.
+**Selection Sort** is an in-place, comparison-based sorting algorithm that works by repeatedly finding the minimum element from the unsorted portion of an array and swapping it with the first unsorted element. This shifts the boundary between the sorted and unsorted sections one step to the right until the entire dataset is ordered.
 
 
 .. admonition:: Key Characteristics

@@ -1,3 +1,6 @@
+:description: Counting Sort is a non-comparison-based integer sorting algorithm that runs in linera time. It works by counting the occurrences of each distinct value in the input array. It then uses arithmetic (prefix sums) to calculate the exact starting positions of those values in the sorted output array.
+
+
 Counting Sort
 =============
 

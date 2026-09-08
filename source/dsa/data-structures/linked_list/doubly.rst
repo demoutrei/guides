@@ -1,7 +1,10 @@
+:description: A doubly linked list is a linear data structure where each element (called a node) contains a data field and two pointers: one pointing to the next node, and another pointing to the previous node. This structure enabled bidirectional traversal, allowing you to move both forward and backward through the sequence.
+
+
 Doubly Linked List
 ==================
 
-A **doubly linked list** is a linear data structure where each element (called a **node**) contains a data field and two pointers: one opinting to the next node, and another pointing to the previous node. This structure enabled bidirectional traversal, allowing you to move both forward and backward through the sequence.
+A **doubly linked list** is a linear data structure where each element (called a **node**) contains a data field and two pointers: one pointing to the next node, and another pointing to the previous node. This structure enabled bidirectional traversal, allowing you to move both forward and backward through the sequence.
 
 
 Advantages and Disadvantages

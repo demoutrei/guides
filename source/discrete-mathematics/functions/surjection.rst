@@ -1,3 +1,6 @@
+:description: A surjective function (also called an "onto" function) is a function where every element in the codomain is mapped to by at least one element from the domain. No element in the target set is left out.
+
+
 Surjection
 ==========
 

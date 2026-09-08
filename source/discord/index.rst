@@ -1,3 +1,6 @@
+:description: Learn more about Discord.
+
+
 Discord
 =======
 

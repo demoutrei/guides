@@ -1,3 +1,6 @@
+:description: Merge Sort is an efficient, comparison-based, divide-and-conquer sorting algorithm invented by John von Neumann in 1945. It works by recursively breaking down an array into smaller sub-arrays until they contain only one element each, and the nmerging those sub-arrays back together in sorted order.
+
+
 Merge Sort
 ==========
 

@@ -1,3 +1,6 @@
+:description: Data Structures and Algorithms (DSA) represetns the foundational building blocks of computer science that enable efficient data organization and problem solving.
+
+
 Data Structures and Algorithms
 ==============================
 

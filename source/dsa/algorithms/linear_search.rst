@@ -1,3 +1,6 @@
+:description: A lienar search (also known as a sequential search) is a simple searching algorithm that checks every element in a data collection one by one in a sequential order until it finds the target value or reaches the end of the collection.
+
+
 Linear Search
 =============
 

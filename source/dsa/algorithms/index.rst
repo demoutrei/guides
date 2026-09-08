@@ -1,3 +1,6 @@
+:description: An algorithm is a step-by-step set of rules or instructions used to solve a problem, perform a calculation, or complete a specific task.
+
+
 Algorithms
 ==========
 

@@ -1,3 +1,6 @@
+:description: An identity function is a special mapping on a set that returns every element exactly as it was given.
+
+
 Identity
 ========
 

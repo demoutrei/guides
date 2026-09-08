@@ -1,3 +1,6 @@
+:description: An array is a fundamental, linear data structure that stores a collection of elements of the same data type in contiguous (adjacent) memory locations. Because elements are stored in a continuous block, each item can be directly identified and accessed using a numerical index, typically starting at 0.
+
+
 Arrays
 ======
 

@@ -1,3 +1,6 @@
+:description: A circular linked list is a variation of a linked list where the last node points back to the first node, forming a closed loop. Unlike regular linked lists, it does not contain any Null pointers at the end.
+
+
 Circular Linked List
 ====================
 

@@ -1,3 +1,6 @@
+:description: A many-to-one function is a function where two or more distinct inputs from the domain map to the same single output in the codomain. It satisfies the core rule of a function---each input has only one output---but breaks uniqueness in reverse, meaning multiple inputs share an image.
+
+
 Many-to-One
 ===========
 

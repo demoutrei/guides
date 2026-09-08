@@ -1,3 +1,6 @@
+:description: Don't know what to do? Read this Getting Started guide on where to start.
+
+
 Getting Started
 ===============
 

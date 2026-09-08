@@ -3,6 +3,10 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
+
+:description: Whose guidebook it is, do you think?
+
+
 demoutrei's guidebook
 =====================
 

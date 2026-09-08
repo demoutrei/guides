@@ -1,3 +1,6 @@
+:description: Radix Sort is a non-comparison-based sorting algorithm that organizes data with integer keys by grouping elements by their individual digits sharing the same significant position and value. Unlike comparison sorts like Merge Sort and Quick Sort, Radix Sort utilizes a stable subroutine (typically Counting Sort) to sort data iteratively from the least significant digit (LSD) to the most significant digit (MSD).
+
+
 Radix Sort
 ==========
 

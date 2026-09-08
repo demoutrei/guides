@@ -1,3 +1,6 @@
+:description: Insertion Sort is a simple, comparison-based sorting algorithm that builds a final sorted array one element at a time. It words exactly like sorting playing cards in your hands; you pick an unsorted card, compare it to the sorted cards in your hand, and slide it into its correct position.
+
+
 Insertion Sort
 ==============
 

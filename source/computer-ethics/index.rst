@@ -1,3 +1,6 @@
+:description: Computer ethics is a set of moral standards and philosophical guidelines that govern the responsible use of computers, digital systems, and technology.
+
+
 Computer Ethics
 ===============
 
