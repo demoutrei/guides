@@ -18,3 +18,5 @@ Hello World Program
 .. toctree::
     :maxdepth: 1
     :caption: Topics
+
+    resources
