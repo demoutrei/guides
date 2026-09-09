@@ -13,3 +13,4 @@ The Discord API is a REST API that allows you to interact with Discord data from
 
     getting-started
     hosts
+    faq
