@@ -1,8 +1,8 @@
 :description: View a list of online resources made by the people of the Internet for learning Python.
 
 
-Online Python Resources
-=======================
+Online Resources
+================
 
 Below is a list of online resources made by the people of the Internet for learning Python.
 
