@@ -88,3 +88,20 @@ Authors
 .. _Author1@example: https://example.com/Author1
 .. _Author2@example: https://example.com/Author2
 ```
+
+If otherwise there was no prior attribution of Authors in the page, which determines that the page was made by the Repository Owner, then therefore you must include the Repository Owner's author attribution, followed by yours, with the following template:
+
+```rst
+-----
+
+Authors
+  -- `demoutrei@github`_
+
+  -- `Author2@example`_
+
+
+.. _demoutrei@github: https://github.com/demoutrei
+.. _Author2@example: https://example.com/Author2
+```
+
+This simply indicates you're editing a part of the content in the page.
