@@ -43,7 +43,8 @@ html_theme_options = {
   "globaltoc_expand_depth": 1,
   "toctree_collapse": True,
   "toctree_maxdepth": 5,
-  "show_ai_links": False
+  "show_ai_links": False,
+  "og_image_url": "https://cdn.discordapp.com/embed/avatars/2.png"
 }
 html_static_path = ['_static']
 html_css_files = [ "custom.css" ]
