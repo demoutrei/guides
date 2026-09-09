@@ -10,6 +10,7 @@ Discord
     :caption: Topics
 
     markdown
+    message-formatting
     api/index
 
 
