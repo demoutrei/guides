@@ -12,4 +12,5 @@ A **programming language** is a formal, structured language composed of a specif
     :caption: List of Programming Languages
 
     cpp/index
+    javascript/index
     python/index
