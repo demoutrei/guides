@@ -12,3 +12,4 @@ Discrete Mathematics
     :caption: On This Course
 
     functions/index
+    propositions/index
