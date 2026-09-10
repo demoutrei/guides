@@ -43,7 +43,8 @@ html_theme_options = {
   "toctree_collapse": True,
   "toctree_maxdepth": 5,
   "show_ai_links": False,
-  "og_image_url": "https://cdn.discordapp.com/embed/avatars/2.png"
+  "og_image_url": "https://cdn.discordapp.com/embed/avatars/2.png",
+  "discussion_url": "https://github.com/demoutrei/guides/discussions"
 }
 html_static_path = ['_static']
 html_css_files = [ "custom.css" ]
