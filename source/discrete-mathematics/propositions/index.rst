@@ -405,6 +405,7 @@ That is, the only way for an implication to be ``false`` is for the hypothesis t
     :caption: SubTopics
 
     deductions
+    predicates
 
 
 -----
