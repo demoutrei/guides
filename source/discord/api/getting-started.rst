@@ -7,7 +7,7 @@ Getting Started
 
 If you *actually* want to learn, then here're the steps to take:
 
-1. Choose a programming language. `JavaScript <https://javascript.info>`_ and `Python <https://docs.python.org/3/tutorial>`_ are popular beginner languages.
+1. Choose a programming language. `JavaScript`_ and `Python`_ are popular beginner languages.
 
 2. Learn your chosen programming language from documentations, tutorials, and people. Do **not** use LLMs/"AI".
 
@@ -15,7 +15,7 @@ If you *actually* want to learn, then here're the steps to take:
 
 4. Choose an `API Wrapper <https://libs.advaith.io>`_ for your chosen programming language.
 
-5. Learn how the API wrapper works, as well as about the `Discord API <https://discord.dev>`_ so you know what is and isn't possible.
+5. Learn how the API wrapper works, as well as about the `Discord API`_ so you know what is and isn't possible.
 
 6. Start coding your first bot!
 
@@ -33,3 +33,6 @@ Authors
 
 
 .. _13eckdev@codeberg: https://codeberg.org/13eckdev
+.. _Discord API: https://discord.dev
+.. _JavaScript: ../../programming-languages/javascript
+.. _Python: ../../programming-languages/python
