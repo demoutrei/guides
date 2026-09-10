@@ -71,7 +71,7 @@ Types of AI
 
     .. grid-item-card:: Reactive
 
-        These systems respond to user inputs but have no memory to enable previous mistakes to inform future decisions. Because of this, a specific inpute will always have the same input.
+        These systems respond to user inputs but have no memory to enable previous mistakes to inform future decisions. Because of this, a specific input will always have the same input.
 
 
     .. grid-item-card:: Theory of Mind
