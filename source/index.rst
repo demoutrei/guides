@@ -21,7 +21,7 @@ demoutrei's guidebook
     :maxdepth: 1
     :caption: Guidebooks
 
-    computer-ethics/index
+    computers/index
     dbms/index
     discord/index
     discrete-mathematics/index
