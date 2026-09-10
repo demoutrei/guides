@@ -4,26 +4,26 @@
 Propositional Logic
 ===================
 
-**Propositional logic** is concerned with statements to which the truth values, ``true`` and ``false``, can be assigned. The purpose is to analyze these statements either individually or in a composite manner.
+**Propositional logic** is concerned with statements to which the truth values, |true| and |false|, can be assigned. The purpose is to analyze these statements either individually or in a composite manner.
 
 
 Definition
 ++++++++++
 
-A **proposition** is a collection of declarative statements that has either a truth value ``true`` or ``false``. A propositional consists of propositional variables and `connectives <#connectives>`_. We denote the propositional variables by capital letters (:math:`A`, :math:`B`, etc). The connectives must connect the propositional variables.
+A **proposition** is a collection of declarative statements that has either a truth value |true| or |false|. A propositional consists of propositional variables and `connectives <#connectives>`_. We denote the propositional variables by capital letters (:math:`A`, :math:`B`, etc). The connectives must connect the propositional variables.
 
 
 .. admonition:: Example
     :class: hint
 
-    - "Man is Mortal": it returns truth value ``true``
+    - "Man is Mortal": it returns truth value |true|
 
-    - "12 + 9 = 32": it returns truth value ``false``
+    - "12 + 9 = 32": it returns truth value |false|
 
 
 The following is not a proposition:
 
-- ":math:`A` is less than 2": It is because unless we give a specific value of :math:`A`, we cannot say whether the statement is ``true`` or ``false``.
+- ":math:`A` is less than 2": It is because unless we give a specific value of :math:`A`, we cannot say whether the statement is |true| or |false|.
 
 
 Connectives
@@ -37,103 +37,103 @@ In propositional logic, generally we use five connectives, which are:
 Disjunction (:math:`∨`)
 ^^^^^^^^^^^^^^^^^^^^^^^
 
-The logical-OR operation of two propositions :math:`A` and :math:`B` (written as :math:`A ∨ B`) is ``true`` if at least any of the propositional variable :math:`A` or :math:`B` is ``true``.
+The logical-OR operation of two propositions :math:`A` and :math:`B` (written as :math:`A ∨ B`) is |true| if at least any of the propositional variable :math:`A` or :math:`B` is |true|.
 
 The truth table is as follows:
 
 +-----------+-----------+---------------+
 | :math:`A` | :math:`B` | :math:`A ∨ B` |
 +===========+===========+===============+
-| ``true``  | ``true``  | ``true``      |
+| |true|    | |true|    | |true|        |
 +-----------+-----------+---------------+
-| ``true``  | ``false`` | ``true``      |
+| |true|    | |false|   | |true|        |
 +-----------+-----------+---------------+
-| ``false`` | ``true``  | ``true``      |
+| |false|   | |true|    | |true|        |
 +-----------+-----------+---------------+
-| ``false`` | ``false`` | ``false``     |
+| |false|   | |false|   | |false|       |
 +-----------+-----------+---------------+
 
 
 Conjunction (:math:`∧`)
 ^^^^^^^^^^^^^^^^^^^^^^^
 
-The logical-AND operation of two propositions :math:`A` and :math:`B` (written as :math:`A ∧ B`) is ``true`` if both the propositional variable :math:`A` and :math:`B` is ``true``.
+The logical-AND operation of two propositions :math:`A` and :math:`B` (written as :math:`A ∧ B`) is |true| if both the propositional variable :math:`A` and :math:`B` is |true|.
 
 The truth table is as follows:
 
 +-----------+-----------+---------------+
 | :math:`A` | :math:`B` | :math:`A ∧ B` |
 +===========+===========+===============+
-| ``true``  | ``true``  | ``true``      |
+| |true|    | |true|    | |true|        |
 +-----------+-----------+---------------+
-| ``true``  | ``false`` | ``false``     |
+| |true|    | |false|   | |false|       |
 +-----------+-----------+---------------+
-| ``false`` | ``true``  | ``false``     |
+| |false|   | |true|    | |false|       |
 +-----------+-----------+---------------+
-| ``false`` | ``false`` | ``false``     |
+| |false|   | |false|   | |false|       |
 +-----------+-----------+---------------+
 
 
 Negation (:math:`¬`)
 ^^^^^^^^^^^^^^^^^^^^
 
-The negation of a proposition :math:`A` (written as :math:`¬A`) is ``false`` when :math:`A` is ``true``, and is ``true`` when :math:`A` is ``false``.
+The negation of a proposition :math:`A` (written as :math:`¬A`) is |false| when :math:`A` is |true|, and is |true| when :math:`A` is |false|.
 
 The truth table is as follows:
 
 +-----------+------------+
 | :math:`A` | :math:`¬A` |
 +===========+============+
-| ``true``  | ``false``  |
+| |true|    | |false|    |
 +-----------+------------+
-| ``false`` | ``true``   |
+| |false|   | |true|     |
 +-----------+------------+
 
 
 Implication (:math:`→`)
 ^^^^^^^^^^^^^^^^^^^^^^^
 
-An implication :math:`A → B` is the proposition if :math:`A`, then :math:`B`. It is ``false`` if :math:`A` is ``true`` and :math:`B` is ``false``. The rest cases are ``true``.
+An implication :math:`A → B` is the proposition if :math:`A`, then :math:`B`. It is |false| if :math:`A` is |true| and :math:`B` is |false|. The rest cases are |true|.
 
 The truth table is as follows:
 
 +-----------+-----------+---------------+
 | :math:`A` | :math:`B` | :math:`A → B` |
 +===========+===========+===============+
-| ``true``  | ``true``  | ``true``      |
+| |true|    | |true|    | |true|        |
 +-----------+-----------+---------------+
-| ``true``  | ``false`` | ``false``     |
+| |true|    | |false|   | |false|       |
 +-----------+-----------+---------------+
-| ``false`` | ``true``  | ``true``      |
+| |false|   | |true|    | |true|        |
 +-----------+-----------+---------------+
-| ``false`` | ``false`` | ``true``      |
+| |false|   | |false|   | |true|        |
 +-----------+-----------+---------------+
 
 
 Biconditional (:math:`⇔`)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-:math:`A ⇔ B` is biconditional logical connective which is ``true`` when ``p`` and ``q`` are same, i.e. both are ``false`` or both are ``true``.
+:math:`A ⇔ B` is biconditional logical connective which is |true| when :math:`p` and :math:`q` are same, i.e. both are |false| or both are |true|.
 
 The truth table is as follows:
 
 +-----------+-----------+---------------+
 | :math:`A` | :math:`B` | :math:`A ⇔ B` |
 +===========+===========+===============+
-| ``true``  | ``true``  | ``true``      |
+| |true|    | |true|    | |true|        |
 +-----------+-----------+---------------+
-| ``true``  | ``false`` | ``false``     |
+| |true|    | |false|   | |false|       |
 +-----------+-----------+---------------+
-| ``false`` | ``true``  | ``false``     |
+| |false|   | |true|    | |false|       |
 +-----------+-----------+---------------+
-| ``false`` | ``false`` | ``true``      |
+| |false|   | |false|   | |true|        |
 +-----------+-----------+---------------+
 
 
 Tautology
 +++++++++
 
-A **tautology** is a formula which is always ``true`` for every value of its propositional variables.
+A **tautology** is a formula which is always |true| for every value of its propositional variables.
 
 
 .. admonition:: Example
@@ -144,22 +144,22 @@ A **tautology** is a formula which is always ``true`` for every value of its pro
     +-----------+-----------+---------------+---------------------+---------------------------+
     | :math:`A` | :math:`B` | :math:`A → B` | :math:`(A → B) ∧ A` | :math:`[(A → B) ∧ A] → B` |
     +===========+===========+===============+=====================+===========================+
-    | ``true``  | ``true``  | ``true``      | ``true``            | ``true``                  |
+    | |true|    | |true|    | |true|        | |true|              | |true|                    |
     +-----------+-----------+---------------+---------------------+---------------------------+
-    | ``true``  | ``false`` | ``false``     | ``false``           | ``true``                  |
+    | |true|    | |false|   | |false|       | |false|             | |true|                    |
     +-----------+-----------+---------------+---------------------+---------------------------+
-    | ``false`` | ``true``  | ``true``      | ``false``           | ``true``                  |
+    | |false|   | |true|    | |true|        | |false|             | |true|                    |
     +-----------+-----------+---------------+---------------------+---------------------------+
-    | ``false`` | ``false`` | ``true``      | ``false``           | ``true``                  |
+    | |false|   | |false|   | |true|        | |false|             | |true|                    |
     +-----------+-----------+---------------+---------------------+---------------------------+
 
-    As we can see, every value of :math:`[(A → B) ∧ A] → B` is ``true``. Therefore, it is a tautology.
+    As we can see, every value of :math:`[(A → B) ∧ A] → B` is |true|. Therefore, it is a tautology.
 
 
 Contradictions
 ++++++++++++++
 
-A **contradiction** is a formula which is always ``false`` for every value of its propositional variables.
+A **contradiction** is a formula which is always |false| for every value of its propositional variables.
 
 
 .. admonition:: Example
@@ -170,22 +170,22 @@ A **contradiction** is a formula which is always ``false`` for every value of it
     +-----------+-----------+---------------+------------+------------+------------------------+------------------------------------+
     | :math:`A` | :math:`B` | :math:`A ∨ B` | :math:`¬A` | :math:`¬B` | :math:`(¬ A) ∧ ( ¬ B)` | :math:`(A ∨ B) ∧ [( ¬ A) ∧ (¬ B)]` |
     +===========+===========+===============+============+============+========================+====================================+
-    | ``true``  | ``true``  | ``true``      | ``false``  | ``false``  | ``false``              | ``false``                          |
+    | |true|    | |true|    | |true|        | |false|    | |false|    | |false|                | |false|                            |
     +-----------+-----------+---------------+------------+------------+------------------------+------------------------------------+
-    | ``true``  | ``false`` | ``true``      | ``false``  | ``true``   | ``false``              | ``false``                          |
+    | |true|    | |false|   | |true|        | |false|    | |true|     | |false|                | |false|                            |
     +-----------+-----------+---------------+------------+------------+------------------------+------------------------------------+
-    | ``false`` | ``true``  | ``true``      | ``true``   | ``false``  | ``false``              | ``false``                          |
+    | |false|   | |true|    | |true|        | |true|     | |false|    | |false|                | |false|                            |
     +-----------+-----------+---------------+------------+------------+------------------------+------------------------------------+
-    | ``false`` | ``false`` | ``false``     | ``true``   | ``true``   | ``true``               | ``false``                          |
+    | |false|   | |false|   | |false|       | |true|     | |true|     | |true|                 | |false|                            |
     +-----------+-----------+---------------+------------+------------+------------------------+------------------------------------+
 
-    As we can see, every value of :math:`(A ∨ B) ∧ [( ¬ A) ∧ (¬ B)]` is ``false``. Therefore, it is a contradiction.
+    As we can see, every value of :math:`(A ∨ B) ∧ [( ¬ A) ∧ (¬ B)]` is |false|. Therefore, it is a contradiction.
 
 
 Contingency
 +++++++++++
 
-A **contingency** is a formula which has both some ``true`` and some ``false`` values for every value of its propositional variables.
+A **contingency** is a formula which has both some |true| and some |false| values for every value of its propositional variables.
 
 
 .. admonition:: Example
@@ -196,16 +196,16 @@ A **contingency** is a formula which has both some ``true`` and some ``false`` v
     +-----------+-----------+---------------+------------+-------------------------+
     | :math:`A` | :math:`B` | :math:`A ∨ B` | :math:`¬A` | :math:`(A ∨ B) ∧ (¬ A)` |
     +===========+===========+===============+============+=========================+
-    | ``true``  | ``true``  | ``true``      | ``false``  | ``false``               |
+    | |true|    | |true|    | |true|        | |false|    | |false|                 |
     +-----------+-----------+---------------+------------+-------------------------+
-    | ``true``  | ``false`` | ``true``      | ``false``  | ``false``               |
+    | |true|    | |false|   | |true|        | |false|    | |false|                 |
     +-----------+-----------+---------------+------------+-------------------------+
-    | ``false`` | ``true``  | ``true``      | ``true``   | ``true``                |
+    | |false|   | |true|    | |true|        | |true|     | |true|                  |
     +-----------+-----------+---------------+------------+-------------------------+
-    | ``false`` | ``false`` | ``false``     | ``true``   | ``false``               |
+    | |false|   | |false|   | |false|       | |true|     | |false|                 |
     +-----------+-----------+---------------+------------+-------------------------+
 
-    As we can see, every value of :math:`(A ∨ B) ∧ (¬A)` has both ``true`` and ``false``. Therefore, it is a contingency.
+    As we can see, every value of :math:`(A ∨ B) ∧ (¬A)` has both |true| and |false|. Therefore, it is a contingency.
 
 
 Propositional Equivalences
@@ -229,13 +229,13 @@ Two statements :math:`A` and :math:`B` are logically equivalent if any of the fo
     +-----------+-----------+---------------+-------------------+------------+-------------+-----------------------+
     | :math:`A` | :math:`B` | :math:`A ∨ B` | :math:`¬ (A ∨ B)` | :math:`¬A` | :math:`¬ B` | :math:`[(¬A) ∧ (¬B)]` |
     +===========+===========+===============+===================+============+=============+=======================+
-    | ``true``  | ``true``  | ``true``      | ``false``         | ``false``  | ``false``   | ``false``             |
+    | |true|    | |true|    | |true|        | |false|           | |false|    | |false|     | |false|               |
     +-----------+-----------+---------------+-------------------+------------+-------------+-----------------------+
-    | ``true``  | ``false`` | ``true``      | ``false``         | ``false``  | ``true``    | ``false``             |
+    | |true|    | |false|   | |true|        | |false|           | |false|    | |true|      | |false|               |
     +-----------+-----------+---------------+-------------------+------------+-------------+-----------------------+
-    | ``false`` | ``true``  | ``true``      | ``false``         | ``true``   | ``false``   | ``false``             |
+    | |false|   | |true|    | |true|        | |false|           | |true|     | |false|     | |false|               |
     +-----------+-----------+---------------+-------------------+------------+-------------+-----------------------+
-    | ``false`` | ``false`` | ``false``     | ``true``          | ``true``   | ``true``    | ``true``              |
+    | |false|   | |false|   | |false|       | |true|            | |true|     | |true|      | |true|                |
     +-----------+-----------+---------------+-------------------+------------+-------------+-----------------------+
 
     Here, we can see the truth values of :math:`¬(A ∨ B)` and :math:`[(¬A) ∧ (¬B)]` are the same, hence the statements are equivalent.
@@ -246,13 +246,13 @@ Two statements :math:`A` and :math:`B` are logically equivalent if any of the fo
     +-----------+-----------+--------------------+-------------------------+-----------------------------------+
     | :math:`A` | :math:`B` | :math:`¬ (A ∨ B )` | :math:`[(¬ A) ∧ (¬ B)]` | :math:`¬(A ∨ B) ⇔ [(¬A) ∧ (¬B)]`  |
     +===========+===========+====================+=========================+===================================+
-    | ``true``  | ``true``  | ``false``          | ``false``               | ``true``                          |
+    | |true|    | |true|    | |false|            | |false|                 | |true|                            |
     +-----------+-----------+--------------------+-------------------------+-----------------------------------+
-    | ``true``  | ``false`` | ``false``          | ``false``               | ``true``                          |
+    | |true|    | |false|   | |false|            | |false|                 | |true|                            |
     +-----------+-----------+--------------------+-------------------------+-----------------------------------+
-    | ``false`` | ``true``  | ``false``          | ``false``               | ``true``                          |
+    | |false|   | |true|    | |false|            | |false|                 | |true|                            |
     +-----------+-----------+--------------------+-------------------------+-----------------------------------+
-    | ``false`` | ``false`` | ``false``          | ``true``                | ``true``                          |
+    | |false|   | |false|   | |false|            | |true|                  | |true|                            |
     +-----------+-----------+--------------------+-------------------------+-----------------------------------+
 
     As :math:`¬(A ∨ B) ⇔ [(¬A) ∧ (¬B)]` is a `tautology`_, the statements are equivalent.
@@ -397,7 +397,7 @@ The negation of an implication is a `conjunction <#conjunction>`_:
     | :math:`\neg(P \rightarrow Q)` is logically equivalent to :math:`P \wedge \neg Q`.
 
 
-That is, the only way for an implication to be ``false`` is for the hypothesis to be ``true`` *AND* the conclusion to be ``false``.
+That is, the only way for an implication to be |false| is for the hypothesis to be |true| *AND* the conclusion to be |false|.
 
 
 .. toctree::
@@ -419,3 +419,6 @@ Source
 
 .. _Discrete Mathematics - Propositional Logic: https://www.tutorialspoint.com/discrete_mathematics/discrete_mathematics_propositional_logic.htm
 .. _tautology: #tautology
+
+.. |false| replace:: :bdg-danger-line:`false`
+.. |true| replace:: :bdg-success-line:`true`
