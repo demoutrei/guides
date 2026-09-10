@@ -294,7 +294,6 @@ Binary Operations
 
 
 .. grid:: 1 2 2 2
-    :class-row: surface
     :gutter: 3
 
 

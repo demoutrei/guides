@@ -21,6 +21,7 @@ demoutrei's guidebook
     :maxdepth: 1
     :caption: Guidebooks
 
+    artificial-intelligence
     computers/index
     dbms/index
     discord/index

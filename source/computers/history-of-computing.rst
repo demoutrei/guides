@@ -10,7 +10,6 @@ Timeline Creation
 
 
 .. grid:: auto
-    :class-row: surface
     :gutter: 3
 
 
@@ -194,7 +193,6 @@ Generations of Computer
 
 
 .. grid:: auto
-    :class-row: surface
     :gutter: 3
 
 
