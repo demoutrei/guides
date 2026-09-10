@@ -32,7 +32,8 @@ html_context = {
   "source_type": "github",
   "source_user": "demoutrei",
   "source_repo": "guides",
-  "source_version": "main"
+  "source_version": "main",
+  "source_docs_path": "/source/"
 }
 html_favicon = "_static/demoutrei.png"
 html_theme = 'shibuya'
