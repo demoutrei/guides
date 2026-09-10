@@ -11,4 +11,5 @@ A **computer** is a machine that can be programmed to automatically carry out se
     :maxdepth: 1
     :caption: Topics
 
+    binary
     ethics/index.rst
