@@ -28,7 +28,12 @@ In propositional logic, the rule is expressed as:
 
 .. math::
 
-    \frac{P → Q, P}{∴ Q}
+    \begin{matrix}
+    P \rightarrow Q \\
+    P \\
+    \hline
+    \therefore Q
+    \end{matrix}
 
 
 .. admonition:: Example

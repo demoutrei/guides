@@ -394,7 +394,7 @@ The negation of an implication is a `conjunction <#conjunction>`_:
 
 .. epigraph::
 
-    | :math:`\neg(P \imp Q)` is logically equivalent to :math:`P \wedge \neg Q`.
+    | :math:`\neg(P \rightarrow Q)` is logically equivalent to :math:`P \wedge \neg Q`.
 
 
 That is, the only way for an implication to be ``false`` is for the hypothesis to be ``true`` *AND* the conclusion to be ``false``.
