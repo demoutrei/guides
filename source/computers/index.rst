@@ -13,3 +13,4 @@ A **computer** is a machine that can be programmed to automatically carry out se
 
     binary
     ethics/index.rst
+    history-of-computing
