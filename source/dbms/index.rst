@@ -5,6 +5,11 @@ Database Management Systems
 ===========================
 
 
+.. seealso::
+
+    `Databases, from the ground up`_
+
+
 A **database** is an organized collection of digital data or information stored electronically in a computer system. It allows users to store, manage, update, and retrieve information quickly. Think of it as a smart, high-capacity digital filing cabinet managed by software called a Database Management System (DBMS).
 
 
@@ -333,6 +338,7 @@ Applications of DBMS
 .. _AWS: https://aws.amazon.com/
 .. _Azure: https://azure.microsoft.com/en-us
 .. _Cassandra: https://cassandra.apache.org/_/index.html
+.. _Databases, from the ground up: https://docs.cyrodev.fun/dbms/
 .. _DynamoDB: https://aws.amazon.com/dynamodb/
 .. _Google BigQuery: https://cloud.google.com/bigquery
 .. _Google Cloud: https://cloud.google.com/
