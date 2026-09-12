@@ -69,6 +69,7 @@ demoutrei's guidebook
     
     Introductory <./discrete-mathematics/index.rst>
     discrete-mathematics/functions/index
+    discrete-mathematics/graph-theory/index
     discrete-mathematics/matrix
     discrete-mathematics/propositions/index
 
