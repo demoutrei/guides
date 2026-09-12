@@ -327,13 +327,6 @@ Applications of DBMS
 - **Data science**: Supports analytics and predictions.
 
 
-.. toctree::
-    :maxdepth: 1
-    :caption: Topics
-
-    getting-started
-
-
 .. _Amazon RDS: https://aws.amazon.com/rds/
 .. _AWS: https://aws.amazon.com/
 .. _Azure: https://azure.microsoft.com/en-us

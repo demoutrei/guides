@@ -4,20 +4,4 @@
 Discord
 =======
 
-
-.. toctree::
-    :maxdepth: 1
-    :caption: Topics
-
-    markdown
-    message-formatting
-    api/index
-
-
-.. seealso::
-
-    Join the `Discord Developers`_ server for announcements, updates, or if you just wanna chat or get help (dev-related)!
-
-
-.. _Discord API: https://discord.dev
-.. _Discord Developers: https://discord.gg/discord-developers
+Discord is great for playing games and chilling with friends, or even building a worldwide community. Customize your own space to talk, play, and hang out.

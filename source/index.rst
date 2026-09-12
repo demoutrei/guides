@@ -19,15 +19,68 @@ demoutrei's guidebook
 
 .. toctree::
     :maxdepth: 1
-    :caption: Guidebooks
+    :caption: Artificial Intelligence
 
-    artificial-intelligence
-    computers/index
-    dbms/index
-    discord/index
-    discrete-mathematics/index
-    dsa/index
-    programming-languages/index
+    Introductory <./artificial-intelligence.rst>
+
+
+.. toctree::
+    :maxdepth: 1
+    :caption: Computers
+    
+    Introductory <./computers/index.rst>
+    computers/binary
+    computers/ethics/index
+    computers/history-of-computing
+
+
+.. toctree::
+    :maxdepth: 1
+    :caption: Database Management Systems
+    
+    Introductory <./dbms/index.rst>
+    dbms/getting-started
+
+
+.. toctree::
+    :maxdepth: 1
+    :caption: Data Structures & Algorithms
+    
+    Introductory <./dsa/index.rst>
+    dsa/algorithms/index
+    dsa/data-structures/index
+    dsa/space-complexity
+    dsa/time-complexity
+
+
+.. toctree::
+    :maxdepth: 1
+    :caption: Discord
+    
+    Introductory <./discord/index.rst>
+    discord/api/index
+    discord/markdown
+    discord/message-formatting
+
+
+.. toctree::
+    :maxdepth: 1
+    :caption: Discrete Mathematics
+    
+    Introductory <./discrete-mathematics/index.rst>
+    discrete-mathematics/functions/index
+    discrete-mathematics/matrix
+    discrete-mathematics/propositions/index
+
+
+.. toctree::
+    :maxdepth: 1
+    :caption: Programming Languages
+    
+    Introductory <./programming-languages/index.rst>
+    programming-languages/cpp/index
+    programming-languages/javascript/index
+    programming-languages/python/index
 
 
 Contributors
