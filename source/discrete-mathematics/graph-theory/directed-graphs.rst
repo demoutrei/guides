@@ -78,4 +78,3 @@ Given a directed graph :math:`G = (V, E)`, its **underlying graph** is the undir
 
 
 A directed graph is **weakly connected** if its underlying graph is connected.
-

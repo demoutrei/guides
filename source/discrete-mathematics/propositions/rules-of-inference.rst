@@ -245,8 +245,10 @@ If :math:`(P \rightarrow Q) \wedge (R \rightarrow S)` and :math:`\lnot Q \vee \l
 
 -----
 
-Source
-  `Discrete Mathematics - Rules of Inference`_
+.. admonition:: Sources
+    :class: seealso
+  
+    `Discrete Mathematics - Rules of Inference`_
 
 
 .. _Discrete Mathematics - Rules of Inference: https://www.tutorialspoint.com/discrete_mathematics/rules_of_inference.htm

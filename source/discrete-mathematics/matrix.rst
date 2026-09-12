@@ -677,8 +677,10 @@ For square zero-one matrices, we can extend Boolean product to **Boolean power**
 
 -----
 
-Source
-  `Matrices --- Discrete Structures for Computing`_
+.. admonition:: Sources
+    :class: seealso
+  
+    `Matrices --- Discrete Structures for Computing`_
 
 
 .. _Matrices --- Discrete Structures for Computing: https://www.csd.uwo.ca/~abrandt5/teaching/DiscreteStructures/Chapter3/matrices.html

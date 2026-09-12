@@ -367,6 +367,7 @@ The **inverse image** of a subset :math:`B` of the codomain is the set :math:`f^
 
 -----
 
+.. admonition:: Sources
+    :class: seealso
 
-*Sources*
-  `discrete.openmathbooks.org <https://discrete.openmathbooks.org/dmoi3/sec_intro-functions.html>`_
+    `discrete.openmathbooks.org <https://discrete.openmathbooks.org/dmoi3/sec_intro-functions.html>`_

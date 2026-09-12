@@ -64,8 +64,10 @@ In propositional logic, the rule is expressed as:
 
 -----
 
-Source
-  `Deductions in Discrete Mathematics`_
+.. admonition:: Sources
+    :class: seealso
+    
+    `Deductions in Discrete Mathematics`_
 
 
 .. _Deductions in Discrete Mathematics: https://www.tutorialspoint.com/discrete_mathematics/discrete_mathematics_deductions.htm

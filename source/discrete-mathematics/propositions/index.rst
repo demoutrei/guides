@@ -411,10 +411,12 @@ That is, the only way for an implication to be |false| is for the hypothesis to 
 
 -----
 
-Source
-  `Discrete Mathematics - Propositional Logic`_
+.. admonition:: Sources
+    :class: seealso
+  
+    `Discrete Mathematics - Propositional Logic`_
 
-  `discrete.openmathbooks.org <https://discrete.openmathbooks.org/dmoi3/sec_propositional.html>`_
+    `discrete.openmathbooks.org <https://discrete.openmathbooks.org/dmoi3/sec_propositional.html>`_
 
 
 .. _Discrete Mathematics - Propositional Logic: https://www.tutorialspoint.com/discrete_mathematics/discrete_mathematics_propositional_logic.htm

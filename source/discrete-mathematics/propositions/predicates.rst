@@ -90,8 +90,10 @@ If we use a quantifier that appears within the scope of another quantifier, it i
 
 -----
 
-Source
-  `Discrete Mathematics - Predicate Logic`_
+.. admonition:: Sources
+    :class: seealso
+  
+    `Discrete Mathematics - Predicate Logic`_
 
 
 .. _Discrete Mathematics - Predicate Logic: https://www.tutorialspoint.com/discrete_mathematics/discrete_mathematics_predicate_logic.htm
