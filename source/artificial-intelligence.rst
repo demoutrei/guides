@@ -19,8 +19,6 @@ Examples of AI applications include expert systems, natural language processing 
 
         Automation of repetitive tasks.
 
-        24/7 availability.
-
         Faster devision-making.
 
         Reduction of human error.
