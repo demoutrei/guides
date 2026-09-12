@@ -224,6 +224,7 @@ Therefore, the matrix multiplication :math:`A_{m\times n} \cdot B_{n\times p} = 
 
 .. figure:: https://www.csd.uwo.ca/~abrandt5/teaching/DiscreteStructures/_images/MatrixMult.svg
     :align: center
+    :class: bg-white
     :width: 80%
 
     A :math:`4` by :math:`4` matrix multiplication showing the inner product producing :math:`c_{2, 2}`.

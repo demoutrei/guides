@@ -37,3 +37,7 @@
 
   }
 }
+
+figure img.bg-white {
+  background-color: white !important;
+}
