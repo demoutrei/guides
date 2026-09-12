@@ -32,6 +32,17 @@ In the figure above, we have a graph with 5 vertices and 5 edges.
     E = \{\{1,3\}, \{3,4\}, \{1,4\}, \{4,5\}, \{2,4\}\}
 
 
+Special Edges
++++++++++++++
+
+Parallel edges
+  Two or more edges joining a pair of vertices.
+
+
+Loops
+  An edge that starts and ends at the same vertex.
+
+
 The Language of Graphs
 ++++++++++++++++++++++
 
@@ -412,6 +423,17 @@ A **complete bipartite graph** is a bipartite graph whose vertices can be partit
     :math:`K_{5, 3}`
 
 
+Weighted Graph
+^^^^^^^^^^^^^^
+
+A graph where each edge is assigned a numerical label or "weight".
+
+
+.. figure:: https://ucarecdn.com/a67cb888-aa0c-424b-8c7f-847e38dd5691/
+    :align: center
+    :width: 80%
+
+
 Trees
 +++++
 
@@ -516,5 +538,8 @@ A **binary tree** is a rooted tree where each vertex has at most 2 children. A *
 
     `7.1 Graphs --- Discrete Structures for Computing`_
 
+    `Graphs -- Discrete Math | PPT`_
+
 
 .. _7.1 Graphs --- Discrete Structures for Computing: https://www.csd.uwo.ca/~abrandt5/teaching/DiscreteStructures/Chapter7/graphs.html
+.. _Graphs -- Discrete Math | PPT: https://www.slideshare.net/slideshow/graphs-discrete-math/55596313

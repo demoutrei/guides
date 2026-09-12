@@ -12,6 +12,7 @@ Graph Theory
     :caption: Topics
 
     graphs
+    directed-graphs
 
 
 -----
