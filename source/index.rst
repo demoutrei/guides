@@ -65,6 +65,7 @@ demoutrei's guidebook
     discord/api/index
     discord/markdown
     discord/message-formatting
+    discord/glossary
 
 
 .. toctree::

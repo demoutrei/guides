@@ -134,16 +134,6 @@ Once things are set, an invite URL will be generated in the **Install Link** sec
     Setting an install link will append an "Add App" button in your app's profile that other users can use to invite your app to their servers or install to their accounts, depending on the configuration.
 
 
-Glossary
-++++++++
-
-
-.. glossary::
-
-    Bot user
-      Physical manifestation of your application---the user/member that you see in the Members List in a channel.
-
-
 .. seealso::
 
     `Discord API Documentation`_
