@@ -28,7 +28,8 @@ If you *actually* want to learn, then here're the steps to take:
 
 -----
 
-Authors
+.. admonition:: Authors
+  
     -- `13eckdev@codeberg`_
 
 

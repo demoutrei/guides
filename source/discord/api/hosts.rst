@@ -305,10 +305,11 @@ Features
 
 -----
 
-Authors
-  -- `Soheab@github`_
+.. admonition:: Authors
 
-  -- `MatthewSH@github`_
+    -- `Soheab@github`_
+
+    -- `MatthewSH@github`_
 
 
 .. _Aruba Cloud: https://www.arubacloud.com/

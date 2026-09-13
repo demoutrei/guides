@@ -79,10 +79,11 @@ Contributors must attribute their social network, e.g. Github, at the end of the
 ```rst
 -----
 
-Authors
-  -- `Author1@example`_
+.. admonition:: Authors
 
-  -- `Author2@example`_
+    -- `Author1@example`_
+
+    -- `Author2@example`_
 
 
 .. _Author1@example: https://example.com/Author1
@@ -94,10 +95,11 @@ If otherwise there was no prior attribution of Authors in the page, which determ
 ```rst
 -----
 
-Authors
-  -- `demoutrei@github`_
+.. admonition:: Authors
+  
+    -- `demoutrei@github`_
 
-  -- `Author2@example`_
+    -- `Author2@example`_
 
 
 .. _demoutrei@github: https://github.com/demoutrei
