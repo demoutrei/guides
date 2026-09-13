@@ -335,7 +335,7 @@ Inverse, Converse, and Contra-positive
 
     .. grid-item-card:: Contra-positive
 
-        The **contra-positive** of the conditional is computed by interchanging the hypothesis and the conclusion of the inverse statement. The contra-positive of :math:`P → Q` is :math:`¬Q → ¬P`.
+        The **contra-positive** of the conditional statement is computed by interchanging the hypothesis and the conclusion of the inverse statement. The contra-positive of :math:`P → Q` is :math:`¬Q → ¬P`.
 
 
         .. admonition:: Example
@@ -407,6 +407,84 @@ That is, the only way for an implication to be |false| is for the hypothesis to 
     deductions
     predicates
     rules-of-inference
+
+
+Glossary
+++++++++
+
+.. glossary::
+
+    Biconditional
+      :math:`A ⇔ B` is biconditional logical connective which is |true| when :math:`p` and :math:`q` are same, i.e. both are |false| or both are |true|.
+
+    Conjunction
+      The conjunction of two propositions :math:`A` and :math:`B` (written as :math:`A ∧ B`) is |true| if both the propositional variable :math:`A` and :math:`B` is |true|.
+
+    Contingency
+      A formula which has both some |true| and some |false| values for every value of its propositional variables.
+
+    Contradiction
+      A formula which is always |false| for every value of its propositional variables.
+
+    Contra-positive Conditional Statement
+      The contra-positive of the conditional statement is computed by interchanging the hypothesis and the conclusion of the inverse statement.
+
+    Converse Conditional Statement
+      The converse of the conditional statement is computed by interchanging the hypothesis and the conclusion.
+
+    Deduction
+      A logical process where, starting from a set of premises (assumptions), we find a conclusion that logically follows.
+
+    De Morgan's Laws
+      A pair of logical equivalence rules that show how negation interacts with conjunction and disjunction.
+
+    Disjunction
+      The disjunction of two propositions :math:`A` and :math:`B` (written as :math:`A ∨ B`) is |true| if at least any of the propositional variable :math:`A` or :math:`B` is |true|.
+
+    Existential Quantifier
+      States that the statements within its scope are |true| for some values of the specific variable. It is denoted by the symbol :math:`∃`.
+
+    Implication
+      An implication :math:`A → B` is the proposition if :math:`A`, then :math:`B`. It is |false| if :math:`A` is |true| and :math:`B` is |false|. The rest cases are |true|.
+
+    Inverse Conditional Statement
+      An inverse of the conditional statement is the negation of both hypothesis and the conclusion.
+
+    Logical Connectives
+      Symbols or words used to combine simple propositions into complex compound statements.
+
+    Modus Ponens
+      Latin for "method of affirming"; a fundamental rule of inference which states that if a conditional statement and its antecedent are both |true|, then its consequent must also be |true|.
+
+    Negation
+      The negation of proposition :math:`A` (written as :math:`¬A`) is |false| when :math:`A` is |true|, and is |true| when :math:`A` is |false|.
+
+    Predicate
+      An expression of one or more variables defined on some specific domain. A predicate with variables can be made a proposition by either assigning a value to the variable or by quantifying the variable.
+
+    Predicate Logic
+      Deals with predicates, which are propositions containing variables.
+
+    Proposition
+      A collection of declarative statements that has either a truth value |true| or |false|.
+
+    Propositional Equivalence
+      Two statements :math:`A` and :math:`B` are logically equivalent if either: the truth tables of each statement have the same truth values; or, the biconditional statement :math:`A ⇔ B` is a tautology.
+
+    Propositional Logic
+      Concerned with statements to which the truth values, |true| and |false|, can be assigned. The purpose is to analyze these statements either individually or in a composite manner.
+
+    Rules of Inference
+      Standard logical templates used to build valid arguments and prove conclusions from given premises in propositional logic.
+
+    Tautology
+      A formula which is always |true| for every value of its propositional variables.
+
+    Universal Quantifier
+      States that the statements within its scope are |true| for every value of the specific variable. It is denoted by the symbol :math:`∀`.
+
+    Well Formed Formula
+      A predicate holding either: all propositional constants and propositional variables are WFFs; if :math:`x` is a variable and :math:`Y` is a WFF, :math:`∀xY` and :math:`∃xY` are also WFFs; truth value and false values are WFFs; each atomic formula is a WFF; or, all connectives connecting WFFs are WFFs.
 
 
 -----

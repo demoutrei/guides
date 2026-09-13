@@ -12,7 +12,7 @@ To deduce new statements from the statements whose truth that we already know, *
 Addition
 ++++++++
 
-If :math:`P` is a premise, we cna use Addition rule to derive :math:`P \vee Q`.
+If :math:`P` is a premise, we can use Addition rule to derive :math:`P \vee Q`.
 
 
 .. math::

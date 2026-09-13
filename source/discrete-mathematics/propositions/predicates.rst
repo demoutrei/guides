@@ -44,9 +44,9 @@ The variable of predicates is quantified by **quantifiers**. There are two types
 Universal Quantifier
 ^^^^^^^^^^^^^^^^^^^^
 
-**Universal quantifier** states that the statements within its scope are ``true`` for every value of the specific variable. It is denoted by the symbol :math:`∀`.
+**Universal quantifier** states that the statements within its scope are |true| for every value of the specific variable. It is denoted by the symbol :math:`∀`.
 
-:math:`∀xP(x)` is read as "for every value of :math:`x`, :math:`P(x)` is true."
+:math:`∀xP(x)` is read as "for every value of :math:`x`, :math:`P(x)` is |true|."
 
 
 .. admonition:: Example
@@ -58,9 +58,9 @@ Universal Quantifier
 Existential Quantifier
 ^^^^^^^^^^^^^^^^^^^^^^
 
-**Existential quantifier** states that the statements within its scope are ``true`` for some values of the specific variable. It is denoted by the symbol :math:`∃`.
+**Existential quantifier** states that the statements within its scope are |true| for some values of the specific variable. It is denoted by the symbol :math:`∃`.
 
-:math:`∃xP(x)` is read as "for some values of :math:`x`, :math:`P(x)` is true."
+:math:`∃xP(x)` is read as "for some values of :math:`x`, :math:`P(x)` is |true|."
 
 
 .. admonition:: Example
@@ -97,3 +97,6 @@ If we use a quantifier that appears within the scope of another quantifier, it i
 
 
 .. _Discrete Mathematics - Predicate Logic: https://www.tutorialspoint.com/discrete_mathematics/discrete_mathematics_predicate_logic.htm
+
+.. |false| replace:: :bdg-danger-line:`false`
+.. |true| replace:: :bdg-success-line:`true`
