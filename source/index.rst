@@ -42,6 +42,7 @@ demoutrei's guidebook
     
     Introductory <./dbms/index.rst>
     dbms/getting-started
+    dbms/glossary
 
 
 .. toctree::
