@@ -58,7 +58,7 @@ Ths is a reference_. Works for `multiple words`_ too.
 
 ### Glossary
 
-When a word or terminology is used in a page, and it conveys a different meaning than its conceptual/logical meaning, then that term must be added to the page's glossary section.
+When a word or terminology is used in a page, and it conveys a different meaning than its conceptual/logical meaning, then that term must be added in the guidebook's global glossary page.
 
 ```rst
 [...] :term:`language` [...]

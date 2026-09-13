@@ -78,6 +78,7 @@ demoutrei's guidebook
     discrete-mathematics/matrix
     discrete-mathematics/propositions/index
     discrete-mathematics/set-theory
+    discrete-mathematics/glossary
 
 
 .. toctree::

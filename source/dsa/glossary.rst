@@ -1,4 +1,4 @@
-:description: Data Structures & Algorithms Glossary
+:description: Data Structures & Algorithms Guidebook Glossary
 
 
 Glossary

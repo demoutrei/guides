@@ -361,55 +361,6 @@ Types of Functions
     constant
 
 
-Glossary
-^^^^^^^^
-
-
-.. glossary::
-
-    Bijective Function
-      A function that is both injective (one-to-one) and surjectie (onto). It pairs every element in the domain with a unique element in the codomain, leaving no elements unmatched in either set, creating a direct one-to-one correspondence.
-
-    Codomain
-      Set of all allowable outputs.
-
-    Complete Inverse Image
-      The set of all elements in the domain which are assigned to the codomain by the function.
-
-    Composite Function
-      A new function created by using the output of one function as the input for another function.
-
-    Constant Function
-      A specific type of function where every input from the domain maps to the exact same single output in the codomain.
-
-    Domain
-      Set of all inputs for a function.
-
-    Function
-      A rule that assigns each input exactly one output.
-
-    Identity Function
-      A special mapping on a set that returns every elemetn exactly as it was given.
-
-    Image
-      The elemnet in the codomain that the domain is mapped to.
-
-    Injective Function
-      A one-to-one function where every distinct input in the domain maps to a unique output in the codomain.
-
-    Inverse Function
-      A mathematical operation that reverses or "undoes" the actions of an original function.
-
-    Many-to-One Function
-      A function where two or more distinct inputs from the domain map to the same single output in the codomain.
-
-    Range
-      Subset of the codomain.
-      
-    Surjective Function
-      Also called an **onto function**; a function where every element in the codomain is mapped to by at least one element from the domain.
-
-
 -----
 
 .. admonition:: Sources

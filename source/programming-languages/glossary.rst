@@ -1,4 +1,4 @@
-:description: Programming Languages Glossary
+:description: Programming Languages Guidebook Glossary
 
 
 Glossary
