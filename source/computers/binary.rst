@@ -353,13 +353,3 @@ Binary Operations
         +-------+--------+
         | 1 / 1 | 1      |
         +-------+--------+
-
-
-Glossary
-^^^^^^^^
-
-
-.. glossary::
-
-    Binary
-      The base-2 numbering system consisting solely of ``0`` s and ``1`` s.
