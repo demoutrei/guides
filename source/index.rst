@@ -84,6 +84,7 @@ demoutrei's guidebook
     programming-languages/cpp/index
     programming-languages/javascript/index
     programming-languages/python/index
+    programming-languages/glossary
 
 
 Contributors
