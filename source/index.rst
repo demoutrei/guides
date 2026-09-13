@@ -21,7 +21,8 @@ demoutrei's guidebook
     :maxdepth: 1
     :caption: Artificial Intelligence
 
-    Introductory <./artificial-intelligence.rst>
+    Introductory <./artificial-intelligence/index.rst>
+    artificial-intelligence/glossary
 
 
 .. toctree::
