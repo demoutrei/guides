@@ -12,9 +12,9 @@ A :term:`zero-day exploit` is a :term:`cyber attack` that takes place before the
 
 While one would hope that the discoverer of a zero-day vulnerability would immediately inform the original software manufacturer so that a fix can be created for the problem, unfortunately this is often not the case. In some cases, this knowledge is sold on the black market to hackers, cyberterrorists, governments, or large organizations that may then use it to launch their own cyberattacks.
 
-The U.S. Federal Bureau of Investigation, Department of Defense, National Security Agency, and other government agencies spend heavily on information about vulnerabilities in computer systems. In many cases, these agencies choose not to inform the public about such cyber threats, leaving all users of the affected software vulnerable to the attack. The reasoning behind such an approach is that keeping a zero-day vulnerability secret from others allows these intelligence and law enforcement agencies to create a powerful tool that can be wielded for :term:`espionage` or cyberattack purposes.
+The :term:`U.S. Federal Bureau of Investigation <Federal Bureau of Investigation>` (FBI), :term:`Department of Defense`, :term:`National Security Agency`, and other government agencies spend heavily on information about vulnerabilities in computer systems. In many cases, these agencies choose not to inform the public about such cyber threats, leaving all users of the affected software vulnerable to the attack. The reasoning behind such an approach is that keeping a zero-day vulnerability secret from others allows these intelligence and law enforcement agencies to create a powerful tool that can be wielded for :term:`espionage` or cyberattack purposes.
 
-In theory, U.S. agencies are not allowed to withhold "major" cybersecurity vulnerabilities from the companies affected by them, with few exceptions, under a policy known as the :term:`Vulnerabilities Equities Process` (VEP). However, critics argue that this policy is not transparent (for instance, it is not clear what triggers the VEP or how many cybersecurity vulnerabilities have been disclosed to affected organizations).
+In theory, U.S. agencies are not allowed to withhold "major" cybersecurity vulnerabilities from the companies affected by them, with few exceptions, under a policy known as the :term:`Vulnerability Equities Process (VEP) <Vulnerability Equities Process>`. However, critics argue that this policy is not transparent (for instance, it is not clear what triggers the VEP or how many cybersecurity vulnerabilities have been disclosed to affected organizations).
 
 Under the VEP, the FBI found an exception that allowed it to refuse to reveal the vulnerability that enabled it to hack into the iPhone of the San Bernandino shooter who killed 14 people in late 2015. In addition, because the VEP is an executive branch administrative policy---not a law or executive order---it can be overturned at any time by the president.
 
@@ -25,10 +25,10 @@ The Threat Landscape
 The security of data and information systems used in business is of utmost importance. Confidential business data and private customer and employee information must be safeguarded, and systems must be protected against malicious acts of theft or disruption. Although the need for security is obvious, it must often be balanced against other business needs.
 
 
-Why Compuer Incidents Are So Prevalent?
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Why Computer Incidents Are So Prevalent?
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Increasing computing complexity, expanding and changing systems, an increase in the :term:`prevalence` of :term:`Bring Your Own Device` (BYOD) policies, a growing reliance on software with known vulnerabilities, and the increasing sophistication of those who would do harm have caused a dramatic increase in the number, variety, and severity of security incidents.
+Increasing computing complexity, expanding and changing systems, an increase in the :term:`prevalence` of :term:`Bring Your Own Device (BYOD) policies <Bring Your Own Device Policy>`, a growing reliance on software with known vulnerabilities, and the increasing sophistication of those who would do harm have caused a dramatic increase in the number, variety, and severity of security incidents.
 
 
 .. grid:: 1
@@ -37,7 +37,7 @@ Increasing computing complexity, expanding and changing systems, an increase in 
 
     .. grid-item-card:: Increasing Complexity Increases Vulnerability
 
-        Computing environments have become enormously complex. :term:`Cloud computing`, networks, computers, mobile devices, :term:`virtualization`, operating systems, applications, websites, switches, routers, and :term:`gateway` s are interconnected and driven by hundreds fo millions of lines of code. This environment continues to increase in complexity every day. The number of possible :term:`entry point` s to a network expands continually as more devices are added, increasing the possibility of :term:`security breach` es.
+        Computing environments have become enormously complex. :term:`Cloud computing`, networks, computers, mobile devices, :term:`virtualization`, operating systems, applications, websites, switches, routers, and :term:`gateways <Gateway>` are interconnected and driven by hundreds of millions of lines of code. This environment continues to increase in complexity every day. The number of possible :term:`entry points <Entry point>` to a network expands continually as more devices are added, increasing the possibility of :term:`security breaches <Security breach>`.
 
 
     .. grid-item-card:: Expanding and Changing Systems Introduce New Risks
@@ -47,7 +47,7 @@ Increasing computing complexity, expanding and changing systems, an increase in 
 
     .. grid-item-card:: Increasing Prevalence of BYOD Policies
 
-        Bring Your Own Device (BYOD) is a business policy that permits, and in some cases encourages, employees to use their own mobile devices to access company computing resources and applications, including email, ocrporate databases, the corporate intranet, and the Internet. Proponetns of BYOD say it improves employee's productivity by allowing workers to use devices with which they are already familiar---while also helping to create an image of a company as a flexible and progressive employer.
+        :term:`Bring Your Own Device (BYOD) <Bring Your Own Device Policy>` is a business policy that permits, and in some cases encourages, employees to use their own mobile devices to access company computing resources and applications, including email, corporate databases, the corporate intranet, and the Internet. Proponents of BYOD say it improves employee's productivity by allowing workers to use devices with which they are already familiar---while also helping to create an image of a company as a flexible and progressive employer.
 
         Most companies have found that they cannot entirely prevent employees from using their own devices to perform work functions. However, this practice raises many potential security issues as it is highly likely that such devices are also used for nonwork activity that exposes them to malware much more frequently than a device used strictly for business purposes.
 
@@ -60,14 +60,14 @@ Increasing computing complexity, expanding and changing systems, an increase in 
 
         Any delay in installing a patch exposes the user to a potential security breach. The need to install a fix to prevent a hacker from taking advantage of a known system vulnerability can create a time-management dilemma for system support personnel trying to balance a busy work schedule.
 
-        Clearly, it can be difficult to keep up with all the required patches to fix these vulnerabilities, and U.S. companies increasingly rely on commercial software to use already installed software as is rather than implement security fixes that will either make the software harder to use or eliminate "nice-to-have" features that will help sell the software to :term:`end-user` s.
+        Clearly, it can be difficult to keep up with all the required patches to fix these vulnerabilities, and U.S. companies increasingly rely on commercial software to use already installed software as is rather than implement security fixes that will either make the software harder to use or eliminate "nice-to-have" features that will help sell the software to :term:`end-users <End-user>`.
 
 
     .. grid-item-card:: Increasing Sophistication of Those Who Would Do Harm
 
         Previously, the stereotype of a computer troublemaker was that of an introverted "geek" working on his or her own and motivated by the desire to gain some degree of notoriety. This individual was armed with specialized, but limited, knowledge of computers and networks and used rudimentary tools, perhaps downloaded from the Internet, to execute his or her exploits.
 
-        While such individuals still exist, it is not this stereotyped individual who is the biggest threat to IT security. Today's computer manace is much better organized and may be part of an organized group (for example, Anonymous, Chaos Computer club, Lizard Squad, TeslaTeam, and hacker teams sponsored by national governments) that has an agenda and targets specific organizations and websites. Some of these groups have ample resources, including money and sophisticated tools to support their efforts. Today's computer attacker has great depth of knowledge and expertise in getting around computer and network security :term:`safeguard` s.
+        While such individuals still exist, it is not this stereotyped individual who is the biggest threat to IT security. Today's computer manace is much better organized and may be part of an organized group (for example, :term:`Anonymous`, :term:`Chaos Computer Club`, :term:`Lizard Squad`, :term:`TeslaTeam`, and hacker teams sponsored by national governments) that has an agenda and targets specific organizations and websites. Some of these groups have ample resources, including money and sophisticated tools to support their efforts. Today's computer attacker has great depth of knowledge and expertise in getting around computer and network security :term:`safeguards <Safeguard>`.
 
 
 Types of Perpetrator
@@ -79,7 +79,7 @@ Types of Perpetrator
 
     .. grid-item-card:: Black Hat Hacker
 
-        Someone who violates computer or Interent security maliciously for illegal personal gain (in contrast to a white hat hacker who is someone who has been hired by an organization to test the security of its information systems).
+        Someone who violates computer or Internet security maliciously for illegal personal gain (in contrast to a white hat hacker who is someone who has been hired by an organization to test the security of its information systems).
 
 
     .. grid-item-card:: Cracker
@@ -89,12 +89,12 @@ Types of Perpetrator
 
     .. grid-item-card:: Malicious Insider
 
-        An employee or contractor who attempts to gain financially and/or distrupt a company's information systems and business operations.
+        An employee or contractor who attempts to gain financially and/or disrupt a company's information systems and business operations.
 
 
     .. grid-item-card:: Industrial Spy
 
-        An individual who captures :term:`trade secret` s and attempts to gain an unfair competitive advantage.
+        An individual who captures :term:`trade secrets <Trade secret>` and attempts to gain an unfair competitive advantage.
 
 
     .. grid-item-card:: Cybercriminal
@@ -117,7 +117,7 @@ Types of Exploit
 
 There are numerous types of computer attacks, with new varieties being invented all the time.
 
-While we usually think of such exploits being aimed at computers, smartphones continue to become more computer capable. Increasingly, smartphone users store an array of personal identity information on their devices, including credit card numbers and bank account numbers. The more people use their smartphones for these purposes, the more attractice these devices become as targets for cyberthieves.
+While we usually think of such exploits being aimed at computers, smartphones continue to become more computer capable. Increasingly, smartphone users store an array of personal identity information on their devices, including credit card numbers and bank account numbers. The more people use their smartphones for these purposes, the more attractice these devices become as targets for :term:`cyberthieves <Cyberthief>`.
 
 One form of smartphone malware runs up charges on users' accounts by automatically sending messages to numbers that charge fees upon receipt of a message.
 
@@ -128,68 +128,68 @@ One form of smartphone malware runs up charges on users' accounts by automatical
 
     .. grid-item-card:: Ransomware
 
-        **Ransomware** is a malware that stops you from using your computer or accessing your data until you meet certain demands, such as paying a :term:`ransom` or sending photos to the attacker. A computer becomes infected with ransomware when a user opens an email attachment containing the malware or is lured to a compromised website by a deceptive email or pop-up window. Ransomware can also be spread through removable USB drives or by texting applications such as Yahoo Messenger, with the payload disguised as an image.
+        :term:`Ransomware` is a :term:`malware` that stops you from using your computer or accessing your data until you meet certain demands, such as paying a :term:`ransom` or sending photos to the attacker. A computer becomes infected with ransomware when a user opens an email attachment containing the :term:`malware` or is lured to a compromised website by a deceptive email or pop-up window. :term:`Ransomware` can also be spread through removable USB drives or by texting applications such as Yahoo Messenger, with the payload disguised as an image.
 
 
     .. grid-item-card:: Virus
 
-        Computer virus has become an umbrella term for many types of malicious code. Technically, a **virus** is a piece of programming code, usually disguised as something else, that causes a computer to behave in an unexpected and usually undesirable manner. For example, a virus may be programmed to display a certain message on an infected computer's display screen, delete or modify a certain document, or reformat the hard drive.
+        Computer virus has become an umbrella term for many types of malicious code. Technically, a :term:`virus` is a piece of programming code, usually disguised as something else, that causes a computer to behave in an unexpected and usually undesirable manner. For example, a virus may be programmed to display a certain message on an infected computer's display screen, delete or modify a certain document, or reformat the hard drive.
 
         Almost all viruses are attached to a file, meaning the virus executes only when the infected file is opened. A virus is spread to other machines when a computer user shares an infected file or sends an email with a virus-infected attachment. In other words, viruses are spread by the action of the "infected" computer user.
 
-        Macro viruses have become a common and easily created form of virus. Attackers use an :term:`application macro language` (such as Visual Basic or VBScript) to create program that infect documents and templates. After an infected document is opened, the virus is executed and infects the user's application templates. :term:`Macro` s can insert unwanted words, numbers, or phrases into documents or alter command functions.
+        :term:`Macro viruses <Macro virus>` have become a common and easily created form of virus. Attackers use an :term:`application macro language` (such as Visual Basic or VBScript) to create program that infect documents and templates. After an infected document is opened, the virus is executed and infects the user's application templates. :term:`Macros <Macro>` can insert unwanted words, numbers, or phrases into documents or alter command functions.
 
-        After a macro virus infects a user's application, it can embed itself in all future documents created with the application.
+        After a :term:`macro virus` infects a user's application, it can embed itself in all future documents created with the application.
 
 
     .. grid-item-card:: Worm
 
-        Unlike a computer virus, which requires users to spread infected files to other users, a **worm** is a harmful program that resides in the active memory of the computer and duplicates itself. Worms differ from viruses in that they can propagate without human intervention, often sending copies of themselves to other computers by email. A worm is capable of replicating itself on your ocomputer so that it can potentially send out thousands of copies of itself to everyone in your email address book, for example.
+        Unlike a computer virus, which requires users to spread infected files to other users, a :term:`worm` is a harmful program that resides in the active memory of the computer and duplicates itself. Worms differ from viruses in that they can propagate without human intervention, often sending copies of themselves to other computers by email. A worm is capable of replicating itself on your computer so that it can potentially send out thousands of copies of itself to everyone in your email address book, for example.
 
         The negative impact of a worm attack on an organization's computers can be considerable---lost data and programs, lost productivity due to workers being unable to use their computers, additional lost productivity as workers attempt to recover data and programs, and lots of effort for IT workers to clean up the mess and restore everything to as close to normal as possible.
 
 
     .. grid-item-card:: Trojan Horse
 
-        A **Trojan horse** is a seemingly harmless program in which malicious code is hidden. A victim on the receiving end of a Trojan horse is usually tricked into opening it because it appears to be useful software from a legitimate source, such as an update for software the user currently has installed on his or her computer. The program's harmful payload might be designed to enable the hacker to destroy hard drives, corrupt files, control the computer remotely, launch attacks against other computers, steal passowrds, or spy on users by recording keystrokes and transmitting them to a server operated by a third-party. A Trojan horse often creates a ":term:`backdoor`" on a computer that enables an attacker to gain future access to the system and compromise confidential or private information.
+        A :term:`Trojan horse` is a seemingly harmless program in which malicious code is hidden. A victim on the receiving end of a Trojan horse is usually tricked into opening it because it appears to be useful software from a legitimate source, such as an update for software the user currently has installed on his or her computer. The program's harmful payload might be designed to enable the hacker to destroy hard drives, corrupt files, control the computer remotely, launch attacks against other computers, steal passowrds, or spy on users by recording keystrokes and transmitting them to a server operated by a third-party. A Trojan horse often creates a ":term:`backdoor`" on a computer that enables an attacker to gain future access to the system and compromise confidential or private information.
 
         A Trojan horse can be delivered via an email attachment, downloaded to a user's computer when he or she visits a website, or contracted via a removable media device, such as a DVD or USB memory stick. Once an unsuspecting user executes the program that hosts the Trojan horse, the malicious payload is automatically launched as well---with not telltale signs. Common host programs include scree nservers, greeting card systems, and games.
 
-        Another type of Trojan horse is a **logic bomb**, which executes when it is triggered by a specific event. For example, logic bombs can be triggered by a change in a particular file, by typing a specific series of keystrokes, or at a specific time or date.
+        Another type of Trojan horse is a :term:`logic bomb`, which executes when it is triggered by a specific event. For example, logic bombs can be triggered by a change in a particular file, by typing a specific series of keystrokes, or at a specific time or date.
 
 
     .. grid-item-card:: Blended Threat
 
-        A **blended threat** is a sophisticated threat that combines the features of a virus, worms, Trojan horse, and other malicious code into a single payload. A blended threat attack might use server and Internet vulnerabilities to initiate and then transmit and spread an attack on an organization's computing devices, using multiple modes to transport itself, including email, :term:`Internet Relay Chat` (IRC), and file-sharing networks. Rather than launching a narrowly focused attack on specific EXE files, a blended threat might attack multiple EXE files, HTML files, and :term:`registry key` s simultaneously.
+        A :term:`blended threat` is a sophisticated threat that combines the features of a :term:`virus`, :term:`worms <Worm>`, :term:`Trojan horse`, and other malicious code into a single payload. A blended threat attack might use server and Internet vulnerabilities to initiate and then transmit and spread an attack on an organization's computing devices, using multiple modes to transport itself, including email, :term:`Internet Relay Chat (IRC) <Internet Relay Chat>`, and file-sharing networks. Rather than launching a narrowly focused attack on specific EXE files, a blended threat might attack multiple EXE files, HTML files, and :term:`registry keys <Registry key>` simultaneously.
 
 
     .. grid-item-card:: Spam
 
-        Email **spam** is the use of email systems to send unsolicited email to large numbers of people. Most spam is a form of low-cost commercial advertising, sometimes for questionable products such as pornography, :term:`phony` get-rich-quick schemes, and worthless stock. Spam is also an extremely inexpensive marketing tool used by many legitimate organizations. However, spam is also used to deliver harmful worms and other malware.
+        Email :term:`spam` is the use of email systems to send unsolicited email to large numbers of people. Most spam is a form of low-cost commercial advertising, sometimes for questionable products such as pornography, :term:`phony` get-rich-quick schemes, and worthless stock. Spam is also an extremely inexpensive marketing tool used by many legitimate organizations. However, spam is also used to deliver harmful worms and other malware.
 
-        Spam forces unwanted and often objectionable material into email boxes, detracts from the ability of recipients to communicate effectively due to full mailboxes and relevant emails being hidden among many unsolicited messages, and costs Internet users and service providers millions of dollars annually. It takes user's time to scan and delete spam email, a cost that can add up if they pay for Internet connection charges on an hourly basis. It also costs money for :term:`Internet Service Provider` s (ISPs) and online services to transmit spam, which is reflected in the rates of charged to all subscibers.
+        Spam forces unwanted and often objectionable material into email boxes, detracts from the ability of recipients to communicate effectively due to full mailboxes and relevant emails being hidden among many unsolicited messages, and costs Internet users and service providers millions of dollars annually. It takes user's time to scan and delete spam email, a cost that can add up if they pay for Internet connection charges on an hourly basis. It also costs money for :term:`Internet Service Providers (ISPs) <Internet Service Provider>` and online services to transmit spam, which is reflected in the rates of charged to all subscibers.
 
         There is an even more sinister side to spam---often it is used to entice unsuspective recipients to take actions that will result in malware being downloaded to their computer.
 
-        The **Controlling the Assault of Non-Solicited Pornography and Marketing (CAN-SPAM) Act** states that it is legal to spam, provided the messages meet a few basic requirements---spammers cannot disguise their identity by using a false return address, the email must include a label specifying that it is an ad or a solicitation, and the email must include a way for recipients to indicate that they do not want future mass mailings.
+        The :term:`Controlling the Assault of Non-Solicited Pornography and Marketing (CAN-SPAM) Act <Controlling the Assault of Non-Solicited Pornography and Marketing Act>` states that it is legal to spam, provided the messages meet a few basic requirements---spammers cannot disguise their identity by using a false return address, the email must include a label specifying that it is an ad or a solicitation, and the email must include a way for recipients to indicate that they do not want future mass mailings.
 
         Many companies---including Google, Microsoft, and Yahoo!---offer free email services. Spammers often seek to use email accounts from such major, free, and reputable web-based email service providers, as their spam can be sent at no charge and is less likely to be blocked. Spammers can defeat the registration process of the free email services by launching a coordinated bot attack that can sign up for thousands of email accounts. These accounts are then used by the spammers to send thousands of untraceable email messages for free.
 
-        A partial solution to this problem is the use of **Completely Automated Public Turing Test to Tell Computers and Humans Apart (CAPTCHA)** to ensure that only humans obtain free accounts. CAPTCHA software generates and grades tests that humans can pass and all but the most sophisticated computer programs cannot. For example, humans can read the distorted text but simple computer programs cannot.
+        A partial solution to this problem is the use of :term:`Completely Automated Public Turing Test to Tell Computers and Humans Apart (CAPTCHA) <Completely Automated Public Turing Test to Tell Computers and Humans Apart>` to ensure that only humans obtain free accounts. CAPTCHA software generates and grades tests that humans can pass and all but the most sophisticated computer programs cannot. For example, humans can read the distorted text but simple computer programs cannot.
 
 
     .. grid-item-card:: DDoS Attack
 
-        A **distributed denial-of-service (DDoS) attack** is one in which a malicious hacker takes over computers via the Internet and causes them to flood a target site with demands for data and otehr small tasks. A DDoS attack does not involve infiltration of the targeted system. Instead, it keeps the target so busy responding to a stream of automated requests that legitimate users cannot get in---the Internet equivalent of dialing a telephone number repeatedly so that all other callers hear a busy signal. The targeted machine essentially holds the line open while waiting for a reply that never comes; eventually, the requests exhaust all resources of the target.
+        A :term:`distributed denial-of-service (DDoS) attack <Distributed Denial-of-Service Attack>` is one in which a malicious hacker takes over computers via the Internet and causes them to flood a target site with demands for data and other small tasks. A DDoS attack does not involve infiltration of the targeted system. Instead, it keeps the target so busy responding to a stream of automated requests that legitimate users cannot get in---the Internet equivalent of dialing a telephone number repeatedly so that all other callers hear a busy signal. The targeted machine essentially holds the line open while waiting for a reply that never comes; eventually, the requests exhaust all resources of the target.
 
         The software required to initiate a DDoS is simple to use, and many DDoS tools are readily available at a variety of hacker sites. In a DDoS attack, a tiny program is downloaded :term:`surreptitiously` from the attacker's computer to dozens, hundres, or even thousands of computers all over the world.
 
-        The term **botnet** is used to describe a large group of such computers, which are controlled from one or more remote locations by hackers, without the knowledge or consent of their owners. The collective processing capacity of some botnets exceeds that of the world's most powerful supercomputers. Based on a command by the attacker or at a preset time, the botnet computers (called **zombies**) go into action, each sending a simple request for access to the target site again and again---dozens of times per second. The target computers become so overwhelmed by requests for service that legitimate users are unable to get through to the target computer.
+        The term :term:`botnet` is used to describe a large group of such computers, which are controlled from one or more remote locations by hackers, without the knowledge or consent of their owners. The collective processing capacity of some botnets exceeds that of the world's most powerful supercomputers. Based on a command by the attacker or at a preset time, the botnet computers (called **zombies**) go into action, each sending a simple request for access to the target site again and again---dozens of times per second. The target computers become so overwhelmed by requests for service that legitimate users are unable to get through to the target computer.
 
 
     .. grid-item-card:: Rootkit
 
-        A **rootkit** is a set of programs that enables its user to gain administrator-level access to a computer without the end-user's consent or knowledge. Once installed, the attacker can gain full control of the system and even obscure the presence of the rootkit from legitimate system administrators. Attackers can use the rootkit to execute files, access logs, monitor user activity, and change the computer's configuration. Rootkits are one part of a type of blended threat that consists of a dropper, a loader, and a rootkit. The dropper code gets the rootkit installation started and can be activated by clicking on a link to a malicious website in an email or opening an infected PDF file. The dropper lauches the loader program and then deletes itself. The loader loads the rootkit into memory; at that point, the computer has been compromised. Rootkits are designed so cleverly that it is difficul even to discover if they are installed on a computer. The fundamental problem with trying to detect a rootkit is that the operating system cannot be trusted to provide valid test results.
+        A :term:`rootkit` is a set of programs that enables its user to gain administrator-level access to a computer without the end-user's consent or knowledge. Once installed, the attacker can gain full control of the system and even obscure the presence of the rootkit from legitimate system administrators. Attackers can use the rootkit to execute files, access logs, monitor user activity, and change the computer's configuration. Rootkits are one part of a type of blended threat that consists of a dropper, a loader, and a rootkit. The dropper code gets the rootkit installation started and can be activated by clicking on a link to a malicious website in an email or opening an infected PDF file. The dropper lauches the loader program and then deletes itself. The loader loads the rootkit into memory; at that point, the computer has been compromised. Rootkits are designed so cleverly that it is difficul even to discover if they are installed on a computer. The fundamental problem with trying to detect a rootkit is that the operating system cannot be trusted to provide valid test results.
 
         The following are some symptoms of rootkit infections:
         
@@ -206,7 +206,7 @@ One form of smartphone malware runs up charges on users' accounts by automatical
 
     .. grid-item-card:: Advanced Persistent Threat
 
-        An **advanced persistent threat (APT)** is a network attack in which an intruder gains access to a network and stays there---undetected---with the intention of stealing data over a long period of time (weeks or even months). Attackers in an APT must continuously rewrite code and employ sophisticated evasion techniques to avoid discovery. APT attacks target organizations with high-value information, such as banks and financial institutions, government agencies, and insurance companies with the goal of stealing data rather than disrupting services.
+        An :term:`advanced persistent threat (APT) <Advanced Persistent Threat>` is a network attack in which an intruder gains access to a network and stays there---undetected---with the intention of stealing data over a long period of time (weeks or even months). Attackers in an APT must continuously rewrite code and employ sophisticated evasion techniques to avoid discovery. APT attacks target organizations with high-value information, such as banks and financial institutions, government agencies, and insurance companies with the goal of stealing data rather than disrupting services.
 
         An APT attack advances through the following five phases:
 
@@ -230,9 +230,9 @@ One form of smartphone malware runs up charges on users' accounts by automatical
 
     .. grid-item-card:: Phishing
 
-        **Phishing** is the act of fraudulently using email to try to get the recipient to reveal personal data. In a phishing scam, :term:`con artist` s send legitimate-looking emails urging the recipient to take action to avoid a negative consequence or to receive a reward. The requested action may involve clicking on a link to a website or opening an email attachment. These emails lead consumers to :term:`counterfeit` websites designed to trick them into :term:`divulging` personal data or to download malware onto their computers.
+        :term:`Phishing` is the act of fraudulently using email to try to get the recipient to reveal personal data. In a phishing scam, :term:`con artist` s send legitimate-looking emails urging the recipient to take action to avoid a negative consequence or to receive a reward. The requested action may involve clicking on a link to a website or opening an email attachment. These emails lead consumers to :term:`counterfeit` websites designed to trick them into :term:`divulging` personal data or to download malware onto their computers.
 
-        **Spear phishing** is a variation of phishing in which the phisher sends fraudulent emails to a certain organization's employees. It is known as spear phishing because the attack is much more precise and narrow, like the tip of a spear. The :term:`phony` emails are designed to look like they came from high-level executives within the organization. Employees are directed to a fake website and then asked to enter personal information, such as name, Social Security number, and network passwords. Botnets have become the primary means for distributing phishing scams.
+        :term:`Spear phishing` is a variation of :term:`phishing` in which the phisher sends fraudulent emails to a certain organization's employees. It is known as spear phishing because the attack is much more precise and narrow, like the tip of a spear. The :term:`phony` emails are designed to look like they came from high-level executives within the organization. Employees are directed to a fake website and then asked to enter personal information, such as name, Social Security number, and network passwords. Botnets have become the primary means for distributing phishing scams.
 
 
         .. grid:: 1
@@ -241,9 +241,9 @@ One form of smartphone malware runs up charges on users' accounts by automatical
 
             .. grid-item-card:: Smishing and Vishing
 
-                **Smishing** is another variation fo phishing that involves the use of texting. In a smishing scam, people receive a legitimate-looking text message telling them to call a specific phone number or log on to a website. This is often done under the guise that there is a problem with the recipient's bank account or credit card that requires immediate attention. However, the phone number or website is :term:`phony` and is used to trick unsuspecting victims into providing personal information such as a bank account number, personal identification number, or credit card number, which can then be used to steal money from victims' bank accounts, charge purchases on their credit cards, or open new accounts. In some cases, if victims log on to a website, malicious software is downloaded onto their smartphones, providing criminals with access to information stored on the phones. The number of smishing scams typically increases around the holidays as more people use their smartphones to make online purchases.
+                :term:`Smishing` is another variation of phishing that involves the use of texting. In a smishing scam, people receive a legitimate-looking text message telling them to call a specific phone number or log on to a website. This is often done under the guise that there is a problem with the recipient's bank account or credit card that requires immediate attention. However, the phone number or website is :term:`phony` and is used to trick unsuspecting victims into providing personal information such as a bank account number, personal identification number, or credit card number, which can then be used to steal money from victims' bank accounts, charge purchases on their credit cards, or open new accounts. In some cases, if victims log on to a website, malicious software is downloaded onto their smartphones, providing criminals with access to information stored on the phones. The number of smishing scams typically increases around the holidays as more people use their smartphones to make online purchases.
 
-                **Vishing** is similar to smishing except that the victims receive a voice-mail message telling them to call a phone number or access a website.
+                :term:`Vishing` is similar to smishing except that the victims receive a voice-mail message telling them to call a phone number or access a website.
 
                 Financial institutions, credit card companies, and other organizations whose customers may be targeted by criminals in this manner should be on the alert for phishing, smishing, and vishing scams. They must be prepared to act quickly and decisively, without alarming their customers if such a scam is detected. Recommended action steps for institutions and organizatiosn include the following:
 
@@ -260,7 +260,7 @@ One form of smartphone malware runs up charges on users' accounts by automatical
 
     .. grid-item-card:: Cyberspionage
 
-        **Cyberspionage** involved the deployment of malware that secretly steals data in the computer systems of organizations, such as government agencies, military contractors, political organizations, and manufacturing firms. The type of data most frequently targeted includes data that can provide an unfair competitive advantage to the perpetrator. These data are typically not public knowledge and may even be protected via patent, copyright, or :term:`trade secret`. High-value data include the following:
+        :term:`Cyberspionage` involved the deployment of malware that secretly steals data in the computer systems of organizations, such as government agencies, military contractors, political organizations, and manufacturing firms. The type of data most frequently targeted includes data that can provide an unfair competitive advantage to the perpetrator. These data are typically not public knowledge and may even be protected via patent, copyright, or :term:`trade secret`. High-value data include the following:
 
         - Sales, marketing, and new product development plans, schedules, and budgets
 
@@ -275,7 +275,7 @@ One form of smartphone malware runs up charges on users' accounts by automatical
 
     .. grid-item-card:: Cyberterrorism
 
-        **Cyberterrorism** is the intimidation of government or civilian population by using information technology to disable critical national infrastructure (for example, energy, transportation, financial, law enforcement, and emergency response) to achieve political, religious, or ideological goals. It is an increasing concern for countries and organizations around the globe. Indeed, in a statement released by the White House in early 2015, President Obama said, “Cyber threats pose one of the gravest national security danges that the United States faces.”
+        :term:`Cyberterrorism` is the intimidation of government or civilian population by using information technology to disable critical national infrastructure (for example, energy, transportation, financial, law enforcement, and emergency response) to achieve political, religious, or ideological goals. It is an increasing concern for countries and organizations around the globe. Indeed, in a statement released by the White House in early 2015, President Obama said, “Cyber threats pose one of the gravest national security danges that the United States faces.”
 
         The Department of Homeland Security (DHS) is a large federal agency with more than 240,000 employees and a budget of almost $65 billion whose goal is to provide for a “safer, moe secure America, which is resilient against terrorism and other potential threats.” The agency's Office of Cybersecurity and Communications resides within the National Protection and Programs Directorate and is responsible for enhancing the security, resilience, and reliability of U.S. cyber and communications infrastructure.
 
@@ -328,12 +328,12 @@ Implementing CIA begins at the organization level with the definition of an over
 
     .. grid-item-card:: Security Strategy
 
-        Implementing CIA security at the organization level requires a risk-based security strategy with an active governance process to minimize the potential impact of any security incident and to ensure business continuity in the event of a cyberattack. Creating such a strategy typically beings with performing a risk assessment to identify and prioritize the threats that the organization faces. The security strategy must define a disaster recovery plan that ensures the availability of key data and information technology assets. Security policies are needed to guide employees to follow recommended processes and practices to avoid security-related problems. Periodic :term:`security audit` s are needed to ensure that individuals are following established policies and to assess if the policies are still adequate even under changing conditions. In addition to complying with its internal policies, an organization may also need to comply with standards defined by external parties, including regulatory agencies. Many organizations employ a security dashboard to help track the key performance indicators of their security strategy. The various components of the security strategy will now be defined.
+        Implementing CIA security at the organization level requires a risk-based security strategy with an active governance process to minimize the potential impact of any security incident and to ensure business continuity in the event of a cyberattack. Creating such a strategy typically beings with performing a risk assessment to identify and prioritize the threats that the organization faces. The security strategy must define a disaster recovery plan that ensures the availability of key data and information technology assets. Security policies are needed to guide employees to follow recommended processes and practices to avoid security-related problems. Periodic :term:`security audits <Security audit>` are needed to ensure that individuals are following established policies and to assess if the policies are still adequate even under changing conditions. In addition to complying with its internal policies, an organization may also need to comply with standards defined by external parties, including regulatory agencies. Many organizations employ a security dashboard to help track the key performance indicators of their security strategy. The various components of the security strategy will now be defined.
 
 
     .. grid-item-card:: Risk Assessment
 
-        **Risk assessment** is the process of assessing security-related risks to an organization’s computers and networks from both internal and external threats. Such threats can prevent an organization from meeting its key business objectives. The goal of risk assessment if to identify which investments of time and resources will best protect the organization from its most likely and serious threats.
+        :term:`Risk assessment` is the process of assessing security-related risks to an organization's computers and networks from both internal and external threats. Such threats can prevent an organization from meeting its key business objectives. The goal of risk assessment if to identify which investments of time and resources will best protect the organization from its most likely and serious threats.
 
         In the context of an IT risk assessment, an asset is any hardware, software, information system, network, or database that is used by the organization to achieve its business objectives. A loss event is any occurrence that has a negative impact on an asset, such as a computer contracting a virus or a website undergoing a DDoS attack.
 
@@ -414,13 +414,13 @@ Implementing CIA begins at the organization level with the definition of an over
 
     .. grid-item-card:: Security Policies
 
-        A **security policy** defines an organization's security requirements, as well as the controls and sanctions needed to meet those requirements. A good security policy :term:`delineates` responsibilities and the behavior expected of members of the organization. A security policy outlines what needs to be done but not *how* to do it. The details of *how* to accomplish the goals of the policy are typically provided in separate documents and procedure guidelines.
+        A :term:`security policy` defines an organization's security requirements, as well as the controls and sanctions needed to meet those requirements. A good security policy :term:`delineates` responsibilities and the behavior expected of members of the organization. A security policy outlines what needs to be done but not *how* to do it. The details of *how* to accomplish the goals of the policy are typically provided in separate documents and procedure guidelines.
 
         Experienced IT managers understand that users will often attempt to circumvent security policies or simply ignore them altogether. Because of that, automated system rules should mirror an organization's written policies whenever possible. Automated system rules can often be put into practice using the configuration options in software program. For example, if a written policy states that passwords must be changed every 30 days, then all systems should be configured to enforce this policy automatically.
 
         System administrators must also be vigilant about changing the default username sand passwords for specific devices when they are added to an organization's network. Cybercriminals and others looking to access the networks of various organizations can easily find information online regarding the default username and password combinations for many vendor's products.
 
-        A growing area of concern for security experts is the use of wireless devices to access corporate email, store confidential data, and run critical applications, such as inventory management and sales force automation. Mobile devices such as smartphones can be susceptible to viruses and worms. However, the primary security threat for mobile devices to be loss or theft of the device. Wary companies have begun to include special security requirements for mobile devices as part of their security policies. In some cases, users of laptops and mobile devices must use a :term:`virtual private network` (VPN) to gain access to their corporate network.
+        A growing area of concern for security experts is the use of wireless devices to access corporate email, store confidential data, and run critical applications, such as inventory management and sales force automation. Mobile devices such as smartphones can be susceptible to viruses and worms. However, the primary security threat for mobile devices to be loss or theft of the device. Wary companies have begun to include special security requirements for mobile devices as part of their security policies. In some cases, users of laptops and mobile devices must use a :term:`virtual private network (VPN) <Virtual Private Network>` to gain access to their corporate network.
 
 
     .. grid-item-card:: Security Audits
@@ -506,7 +506,7 @@ Implementing CIA begins at the organization level with the definition of an over
 
     .. grid-item-card:: Security Dashboard
 
-        Many organizations use security dashboard software to provide a comprehensive display of all key performance indicators related to an organization's security defenses, including threats, exposures, policy compliance, and incident alerts. The purpose of a security dashboard is to reduce the effort required to monitor and identify threats in time to take action. Data that appear in a security dahsboard can come from a variety of sources, including security audits, :term:`firewall` s, applications, servers, and other hardware and software devices.
+        Many organizations use security dashboard software to provide a comprehensive display of all key performance indicators related to an organization's security defenses, including threats, exposures, policy compliance, and incident alerts. The purpose of a security dashboard is to reduce the effort required to monitor and identify threats in time to take action. Data that appear in a security dahsboard can come from a variety of sources, including security audits, :term:`firewalls <Firewall>`, applications, servers, and other hardware and software devices.
 
         +---+----------------------------------------------------------------+------+--------+--------+
         | # | Key performance measure                                        | Goal | Actual | Status |
@@ -559,7 +559,7 @@ The Internet provides a wide-open and well-travelled pathway for anyone in the w
 
         Any Internet traffic that is not explicitly permitted into the internal network is denied entry through a firewall. Similarly, most firewalls can be configured so that itnernal network users can be blocked from gaining access to websites deemed inappropriate for employees, such as those whose content is based on sex and violence. Most firewalls can also be configured to block instant messaging, access to newsgroups, and other Internet activities.
 
-        A **next-generation firewall** (NFGW) is a hardware- or software-based network security system that is able to detect and block sophisticated attacks by filtering network traffic dependent on the packet contents. Compared to first- and second-generation firewalls, an NFGW goes deeper to inspect the content of packets and match sequences of bytes for harmful activities, such as known vulnerabilities, exploit attacks, viruses, and malware.
+        A :term:`next-generation firewall (NFGW) <Next-Generation Firewall>` is a hardware- or software-based network security system that is able to detect and block sophisticated attacks by filtering network traffic dependent on the packet contents. Compared to first- and second-generation firewalls, an NFGW goes deeper to inspect the content of packets and match sequences of bytes for harmful activities, such as known vulnerabilities, exploit attacks, viruses, and malware.
 
 
     .. grid-item-card:: Routers
@@ -575,16 +575,16 @@ The Internet provides a wide-open and well-travelled pathway for anyone in the w
 
         An encryption key is a value that is applied (using an algorithm) to a set of unencrypted text (plaintext) to produce encrypted text that appears as a series of seemingly random characters (ciphertext) that is unreadable by those without the encryption key needed to decipher it. There are two types of encryption algorithms: symmetric and asymmetric.
 
-        **Symmetric algorithms** use the same key for both encryption and decryption. **Asymmetric algorithms** use one key for encryption and a different key for decryption. **Advanced Encryption Standard** (AES) is the most widely used symmetric algorithm and is entrusted to protect classified U.S. government information. **Wireless Protected Access 2** (WPA2), which is the most commonly used security protocol for wireless networks today, employs the AES encryption algorithm.
+        :term:`Symmetric algorithms <symmetric algorithm>` use the same key for both encryption and decryption. :term:`Asymmetric algorithms <Asymmetric algorithm>` use one key for encryption and a different key for decryption. :term:`Advanced Encryption Standard (AES) <Advanced Encryption Standard>` is the most widely used symmetric algorithm and is entrusted to protect classified U.S. government information. :term:`Wireless Protected Access 2 (WPA2) <Wireless Protected Access 2>`, which is the most commonly used security protocol for wireless networks today, employs the AES encryption algorithm.
 
         The ability to keep encrypted data secret is not determined by the encryption algorithm, which is widely known, but rather on the encryption key. The encryption key is chosen from one of a large number of possible encryption keys. In general, the longer the key, the stronger the encryption. Thus, an encryption protocol is based on a 56-bit key is not as strong as one based on a 128-bit key. Of course, it is essential that the key be kept secret from possible interceptors. A hacker who obtains the key can recover the original message from the encrypted data. Encryption methods rely on the limitations of computing power for their security. If breaking a code requries too much computing power, even the most determined hacker cannot be successful.
 
-        Many online shoppers fear the theft of their credit card numbers and banking information. To help prevent this type of theft, the Transport Layer Security (TLS) communications protocol is used to secure sensitive data. **Transport Layer Security** (TLS) is a communications protocol or system of rules that ensures privacy between communicating applications and their users on the Internet. TLS enables a client (such as a web browser) to initiate a temporary, private conversation with a server (such as an online shopping site or bank). Before the client and server start communicating, they perform an automated process called a “handshake” during which they exchange information about who they are and which secret codes and algorithms they will use to encode their messages to each other. Then, for the duration of the conversation, all the data that pass between the client and server is encrypted so that even if somebody does listen in, they won't be able to determine what is being communicated.
+        Many online shoppers fear the theft of their credit card numbers and banking information. To help prevent this type of theft, the Transport Layer Security (TLS) communications protocol is used to secure sensitive data. :term:`Transport Layer Security (TLS) <Transport Layer Security>` is a communications protocol or system of rules that ensures privacy between communicating applications and their users on the Internet. TLS enables a client (such as a web browser) to initiate a temporary, private conversation with a server (such as an online shopping site or bank). Before the client and server start communicating, they perform an automated process called a “handshake” during which they exchange information about who they are and which secret codes and algorithms they will use to encode their messages to each other. Then, for the duration of the conversation, all the data that pass between the client and server is encrypted so that even if somebody does listen in, they won't be able to determine what is being communicated.
 
 
     .. grid-item-card:: Proxy Servers and Virtual Private Networks
 
-        A **proxy server** serves as an intermediary between a web browser and another server on the Internet that makes requests to websites, servers, and services on the Internet for you. When you enter the URL for a website, the request is forwarded to the proxy server, which relays the request to the server where the website is hosted. The homepage of the website is returned to the proxy server, which then passes it on to you. Thus the website sees the proxy server as the actual visitor and not you.
+        A :term:`proxy server` serves as an intermediary between a web browser and another server on the Internet that makes requests to websites, servers, and services on the Internet for you. When you enter the URL for a website, the request is forwarded to the proxy server, which relays the request to the server where the website is hosted. The homepage of the website is returned to the proxy server, which then passes it on to you. Thus the website sees the proxy server as the actual visitor and not you.
 
         By forcing employees to access the Internet through a proxy server, companies can prevent employees from accessing certain websites. A proxy server can also capture detailed records of all the websites each employee has visited, when, and for how long. When you access a website directly, the server hosting the website can see your IP address and store cookies on your computer, but a proxy server can hide your IP address and block cookies from being sent to your device. A proxy server relays those packets for you and strips the originating address so instead of your IP address, the website only sees the address of the proxy server.
 
@@ -593,9 +593,9 @@ The Internet provides a wide-open and well-travelled pathway for anyone in the w
 
     .. grid-item-card:: Intrusion Detection System
 
-        An intrusion detection system (IDS) is software and/or hardware that monitors system and network resources and activities and notifies network security personnel when it detects network traffic that attempts to circumvent the security measures of a networked computer environment. Such activities usually signal an attempt to breach the integrity of the system or to limit the availability of network resources.
+        An :term:`intrusion detection system (IDS) <Intrusion Detection System>` is software and/or hardware that monitors system and network resources and activities and notifies network security personnel when it detects network traffic that attempts to circumvent the security measures of a networked computer environment. Such activities usually signal an attempt to breach the integrity of the system or to limit the availability of network resources.
 
-        Knowledge-based approaches and behavior-based approaches are two fundamentally different approaches to intrusion detection. Knowledge-based IDSs contain information about specific attacks and system vulnerabilities and watch for attempts to exploit these vulnerabilities, such as repeated failed login attempts or recurring attempts to download a program to a server. When such an attempt is detected, an alarm is triggered. A behavior-based IDS models normal behavior of a system and its users from reference infokrmation collected by various means. The IDS compares current activity to this model and generates an alarm if it finds a deviation. Examples include unusual traffic at odd hours or a user in the human resources department who accesses an accounting program that he or she has never before used.
+        Knowledge-based approaches and behavior-based approaches are two fundamentally different approaches to intrusion detection. Knowledge-based IDSs contain information about specific attacks and system vulnerabilities and watch for attempts to exploit these vulnerabilities, such as repeated failed login attempts or recurring attempts to download a program to a server. When such an attempt is detected, an alarm is triggered. A behavior-based IDS models normal behavior of a system and its users from reference information collected by various means. The IDS compares current activity to this model and generates an alarm if it finds a deviation. Examples include unusual traffic at odd hours or a user in the human resources department who accesses an accounting program that he or she has never before used.
 
 
 Implementing CIA at the Application Level
@@ -628,7 +628,7 @@ Authentication methods, user roles and accounts, and data encryption are key ele
 
     .. grid-item-card:: Data Encryption
 
-        Major enterprise systems such as enterprise resource planning (ERP), customer relationship management (CRM), and product lifecycle management (PLM) access sensitive data residing on data storage devices located in data centers, in the cloud, or at third-party locations. Data encryption should be used within such applications to ensure that these sensitive data are protected from unauthorized access.
+        Major enterprise systems such as :term:`enterprise resource planning (ERP) <Enterprise Resource Planning>`, :term:`customer relationship management (CRM) <Customer Relationship Management>`, and :term:`product lifecycle management (PLM) <Product Lifecycle Management>` access sensitive data residing on data storage devices located in data centers, in the cloud, or at third-party locations. Data encryption should be used within such applications to ensure that these sensitive data are protected from unauthorized access.
 
 
 Implementing CIA at the End-User Level
@@ -788,12 +788,12 @@ In a security incident, the primary goal must be to regain control and limit dam
 
     .. grid-item-card:: Using an MSSP
 
-        Keeping up with computer criminals---and with new laws and regulations---can be daunting for organizations. Criminal hackers are constantly poking and prodding, trying to breach the security defenses of organizations. Also, laws such as HIPAA, Sarbanes-Oxley, and the USA Patriot Act require businesses to prove that they are securing their data. For most small and mid-sized organizations, the level of in-house network security expertise needed to protect their business operations is too costly to acquire and maintain. As a result, many organizations outsource their network security operations to a **managed security service provider** (MSSP), which is a company that monitors, manages, and maintains computer and network security for other organizations. MSSPs include such companies as AT&T, Computer Sciences Corporation, Dell SecureWorks, IBM, Symantec, and Verizon. MSSPs provide a valuable service for IT departments drowning in reams of alerts and false alarms coming from VPNs; antivirus, firewall, and IDSs; and other security-monitoring systems. In addition, some MSSPs provide vulnerability scanning and web blocking and filtering capabilities.
+        Keeping up with computer criminals---and with new laws and regulations---can be daunting for organizations. Criminal hackers are constantly poking and prodding, trying to breach the security defenses of organizations. Also, laws such as :term:`HIPAA <Health Insurance Portability and Accountability Act>`, :term:`Sarbanes-Oxley`, and the :term:`USA Patriot Act` require businesses to prove that they are securing their data. For most small and mid-sized organizations, the level of in-house network security expertise needed to protect their business operations is too costly to acquire and maintain. As a result, many organizations outsource their network security operations to a :term:`managed security service provider (MSSP) <Managed Security Service Provider>`, which is a company that monitors, manages, and maintains computer and network security for other organizations. MSSPs include such companies as AT&T, Computer Sciences Corporation, Dell SecureWorks, IBM, Symantec, and Verizon. MSSPs provide a valuable service for IT departments drowning in reams of alerts and false alarms coming from VPNs; antivirus, firewall, and IDSs; and other security-monitoring systems. In addition, some MSSPs provide vulnerability scanning and web blocking and filtering capabilities.
 
 
     .. grid-item-card:: Computer Forensics
 
-        **Computer forensics** is a discipline that combines elements of law and computer science to identify, collect, examine, and preserve data from computer systems, networks, and storage devices in a manner that preserves the integrity of the data gathered so that it is admissible as evidence in a court of law. A computer forensics investigation may be opened in response to a criminal investigation or civil litigation. It may also be launched for a variety of othe reasons, for example, to retrace steps taken when a data have been lost, to assess damage following a computer incident, to investigate the unauthorized disclosure of personal or corporate confidential data, or to confirm or evaluate the impact of industrial espionage.
+        :term:`Computer forensics` is a discipline that combines elements of law and computer science to identify, collect, examine, and preserve data from computer systems, networks, and storage devices in a manner that preserves the integrity of the data gathered so that it is admissible as evidence in a court of law. A computer forensics investigation may be opened in response to a criminal investigation or civil litigation. It may also be launched for a variety of othe reasons, for example, to retrace steps taken when a data have been lost, to assess damage following a computer incident, to investigate the unauthorized disclosure of personal or corporate confidential data, or to confirm or evaluate the impact of industrial espionage.
 
         Computer forensics investigators work as a team to investigate an incident and conduct forensic analysis by using various methodologies and tools to ensure the computer network system is secure in an organization.
 
@@ -862,137 +862,3 @@ In a security incident, the primary goal must be to regain control and limit dam
         |                                                                                                               |
         | - Incident follow-up                                                                                          |
         +---------------------------------------------------------------------------------------------------------------+
-
-Glossary
-++++++++
-
-.. glossary::
-
-    Application macro language
-      A specialized programming or command language built into a software program to automate repetitive tasks and control the application's features.
-
-    Backdoor
-      A secret, hidden method that bypasses normal security and authentication processes to access a system or data.
-
-    Bogus
-      Data, packets, or code that is fake, incorrect, broken, or sent from an invalid source.
-
-    Bring Your Own Device
-      A set of workplace rules that lets employees use their personal phones, tablets, or laptops to do work and access company networks.
-
-    Cloud computing
-      The delivery of computing services---including data storage, servers, databases, networking, and software---over the Internet on an on-demand basis.
-    
-    Con artist
-      A person who deceives and manipulates others to steal their money, property, or sensitive data through a false sense of trust.
-
-    Counterfeit
-      Unauthorized, fake software, hardware, or digital goods make to look authentic and sold to deceive buyers into thinking they are genuine.
-
-    Cyber attack
-      A deliberate attempt by malicious actors to gain unauthorized access to, disrupt, steal, or destroy computer systems, networks, or digital data.
-
-    Delineates
-      To describe, draw, or explain something with exact detail, or to mark the physical boundaries and outlines of an object or area.
-
-    Divulging
-      The act of making secret, private, or sensitive information known to other people.
-
-    End-user
-      The ultimate person who uses a software application, hardware device, or computer system for its intended practical purpose.
-
-    Entry point
-      The specific vulnerability, device, or pathway that an attacker uses to gain initialized unauthorized access to a system, network, or application.
-
-    Espionage
-      The act of secretly collecting confidential, classified, or military information without authorization.
-
-    Exploit
-      A piece of code, a tool, or a technique that takes advantage of a security flaw or vulnerability in a system, software, or hardware.
-
-    Firewall
-      A network security device that monitors and filters incoming and outgoing network traffic based on preset safety rules.
-
-    Gateway
-      A hardware or software that links two different computer networks together. It translates data from one network protocol so it can travel safely to another, like connecting a home network to the Internet.
-
-    Image log
-      A recorded copy of data pages or records showing their state before (before-image) or after (after-image) a modification is made.
-
-    Incremental backup
-      A data protection method that copies only the files or data blocks created or changed since the most recent backup of any kind.
-
-    Incursion
-      More commonly referred to as a cyber intruction or system breach; an unauthorized electronic entry or attack that penetrates a network, database, or computer system's security boundaries.
-
-    Internet Relay Chat
-      A real-time, text-based communication protocol used for group discussions and private messaging.
-
-    Internet Service Provider
-      A company that gives individuals, homes, and businesses access to the Internet.
-
-    Macro
-      A single rule, pattern, or instruction that automatically expands into a larger sequence of commands or code.
-
-    Mainframe computer
-      A high-performance, ultra-reliable enterprise system built to process massive volumnes of real-time transactions and bulk data securely for large organizations.
-
-    Outbound data
-      Information or traffix that originates inside a private network, device, or system and moves outward toward an external destination on the public Internet.
-
-    Patch
-      A piece of software code released by a vendor to fix a specific security flaw, bug, or vulnerability in an existing program or operating system.
-
-    Penetration Test
-      A simulated, authorized cyberattack on a computer system, network, or application designed to find weak spots before malicious hackers can exploit them.
-
-    Phony
-      Something that is fake and not real, or an insincere person who tries to trick others.
-
-    Prevalence
-      The state or fact of being widespread, common, or happening often.
-
-    Prosecute
-      Refers to the legal process of initiating and conducting criminal proceedings against individuals or groups who commit digital crimes.
-
-    Ransom
-      A payment demanded by cybercriminals to restore access to a locked device or encrypted data. It is the core financial demand made during a Ransomware attack.
-
-    Reconnaissance
-      The preliminary phase of getting information about a target system, network, or organization to identify vulnerabilities and plan a potential breach.
-
-    Registry key
-      A folder-like container in the Windows registry database that stores configuration settings and othe keys.
-      
-    Safeguard
-      Any action, device, policy, or technical control used to reduce vulnerabilities and protect computer systems, networks, and data from harm, damage, or unauthorized access.
-
-    Security audit
-      A systematic, independent evaluation of an organization's security infrastructure, policies, controls, and operations to identify vulnerabilities and ensure regulatory compliance.
-
-    Security breach
-      Any incident where an unauthorized party gains access to a computer system, network, application, or device..
-
-    Security Vulnerability
-      A weakness or flaw in a system, software, hardware, or process that an attacker can exploit to compromise data security or gain unauthorized access.
-
-    Surreptitiously
-      Actions taken by software, hackers, or systems secretly, stealthily, and without the user's knowledge or consent.
-
-    Trade secret
-      Any confidential technical or commercial information---such as source code, proprietary algorithms, or internal software architecture---that gives a business a competitive advantage and is actively kept secret.
-
-    Ubiquitous
-      Technology, data, or connectivity are present, accessible, and active everywhere at all times.
-
-    Virtualization
-      A technology that uses software to create a simulated, or virtual, version of a physical computer system, server, storage device, or network.
-
-    Virtual Private Network
-      A service that creates a safe, encrypted connection between your device and the Internet.
-
-    Vulnerabilities Equities Process
-      A U.S. government interagency framework used to decide whether to disclose a newly discovered zero-day software flaw to a vendor for patching or to withhold it for national security and law enforcement operations.
-
-    Zero-day Exploit
-      A cyberattack that targets a software or hardware flaw before the developer knows about the problem or has a chance to fix it.
