@@ -4,7 +4,7 @@
 Binary
 ======
 
-:term:`Binary` is the base-2 numbering system consisting solely of ``0`` s and ``1`` s.
+**Binary** is the base-2 numbering system consisting solely of ``0`` s and ``1`` s.
 
 
 Decimal and Binary Conversion

@@ -4,7 +4,7 @@
 Constant
 ========
 
-A :term:`constant function` is a specific type of function where every input from the domain maps to the exact same single output in the codomain.
+A **constant function** is a specific type of function where every input from the domain maps to the exact same single output in the codomain.
 
 
 .. admonition:: Key Characteristics

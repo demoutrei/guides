@@ -4,7 +4,7 @@
 Computer Ethics
 ===============
 
-:term:`Computer ethics` is a set of moral standards and philosophical guidelines that govern the responsible use of computers, digital systems, and technology.
+**Computer ethics** is a set of moral standards and philosophical guidelines that govern the responsible use of computers, digital systems, and technology.
 
 
 .. admonition:: Core Issues
@@ -40,7 +40,7 @@ Glossary
 .. glossary::
 
     Advanced Encryption Standard
-      Most widely used :term:`symmetric algorithm` and is entrusted to protect classified U.S. government information.
+      Most widely used **symmetric algorithm** and is entrusted to protect classified U.S. government information.
 
     Advanced Persistent Threat
       A network attack in which an intruder gains access to a network and stays there---undetected---with the intention of stealing data over a long period of time (weeks or even months).
@@ -61,7 +61,7 @@ Glossary
       Someone who violates computer or Internet security maliciously for illegal personal gain.
 
     Blended threat
-      A sophisticated threat that combines the faetures of a :term:`virus`, :term:`worms <Worm>`, :term:`Trojan horse`, and other malicious code into a single payload.
+      A sophisticated threat that combines the faetures of a **virus**, **worms**, **Trojan horse**, and other malicious code into a single payload.
 
     Bogus
       Data, packets, or code that is fake, incorrect, broken, or sent from an invalid source.
@@ -169,7 +169,7 @@ Glossary
       A United States federal law designed to protect sensitive patient health information from being disclosed without consent.
 
     Industrial spy
-      An individual who captures :term:`trade secrets <Trade secret>` and attempts to gain an unfair competitive advantage.
+      An individual who captures **trade secrets** and attempts to gain an unfair competitive advantage.
 
     Image log
       A recorded copy of data pages or records showing their state before (before-image) or after (after-image) a modification is made.
@@ -250,7 +250,7 @@ Glossary
       A payment demanded by cybercriminals to restore access to a locked device or encrypted data. It is the core financial demand made during a Ransomware attack.
 
     Ransomware
-      A :term:`malware` that stops you from using your computer or accessing your data until you meet certain demands, such as paying a :term:`ransom` or sending photos to the attacker.
+      A **malware** that stops you from using your computer or accessing your data until you meet certain demands, such as paying a **ransom** or sending photos to the attacker.
 
     Reconnaissance
       The preliminary phase of getting information about a target system, network, or organization to identify vulnerabilities and plan a potential breach.
@@ -289,7 +289,7 @@ Glossary
       Unsolicited, bulk messages sent over the internet or mobile networks.
 
     Spear phishing
-      A variation of :term:`phishing` in which the phisher sends fraudulent emails to a certain organization's employees.
+      A variation of **phishing** in which the phisher sends fraudulent emails to a certain organization's employees.
 
     Stored Wire and Electronic Communications and Transactional Records Access Statutes
       Focuses on unlawful access to stored communications to obtain, alter, or prevent authorized access to a wire or electronic communication while it is in electronic storage.
@@ -328,7 +328,7 @@ Glossary
       A piece of programming code, usually disguised as something else, that causes a computer to behave in an unexpected and unusually undesirable manner.
 
     Vishing
-      Similar to :term:`smishing` except that the victims receive a voice-mail message telling them to call a phone number or access a website.
+      Similar to **smishing** except that the victims receive a voice-mail message telling them to call a phone number or access a website.
 
     Vulnerability Equities Process
       A U.S. government interagency framework used to decide whether to disclose a newly discovered zero-day software flaw to a vendor for patching or to withhold it for national security and law enforcement operations.

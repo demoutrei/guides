@@ -10,10 +10,10 @@ Database Management Systems
     `Databases, from the ground up`_
 
 
-A :term:`database` is an organized collection of digital data or information stored electronically in a computer system. It allows users to store, manage, update, and retrieve information quickly. Think of it as a smart, high-capacity digital filing cabinet managed by software called a :term:`Database Management System (DBMS) <Database Management System>`.
+A **database** is an organized collection of digital data or information stored electronically in a computer system. It allows users to store, manage, update, and retrieve information quickly. Think of it as a smart, high-capacity digital filing cabinet managed by software called a **Database Management System (DBMS)**.
 
 
-:term:`Database Management System` is a software system that manages, stores, and retrieves data efficiently in a structured format. DBMS acts as a bridge between a central database and multiple clients, including apps and users.
+**Database Management System** is a software system that manages, stores, and retrieves data efficiently in a structured format. DBMS acts as a bridge between a central database and multiple clients, including apps and users.
 
 - A DBMS connects the central database with multiple clients (applications and users).
 - It allows users to create, update, and query databases efficiently.
@@ -150,7 +150,7 @@ There are several types of DBMS, each tailored to different data structures, sca
 Relational Database Management System
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-RDBMS organizes data into tables (relations) composed of rows and columns. Uses primary keys to uniquely identify rows and foreign keys to establish relationships between tables. Queries are written in :term:`Structured Query Language` (`SQL`_), which allows for efficient data manipulation and retrieval.
+RDBMS organizes data into tables (relations) composed of rows and columns. Uses primary keys to uniquely identify rows and foreign keys to establish relationships between tables. Queries are written in **Structured Query Language** (`SQL`_), which allows for efficient data manipulation and retrieval.
 
 
 .. admonition:: Examples
