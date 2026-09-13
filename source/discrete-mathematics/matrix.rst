@@ -73,7 +73,7 @@ When matrices have entries coming from a set with supports addition and multipli
 Scalar Multiplication
 ^^^^^^^^^^^^^^^^^^^^^
 
-Scalar multiplication is a simple operation which multiplies a single number against each entry of a matrix to produce another matrix of the same dimensions.
+**Scalar multiplication** is a simple operation which multiplies a single number against each entry of a matrix to produce another matrix of the same dimensions.
 
 Say :math:`A = (a_{i, j})` is an :math:`m` by :math:`n` integer matrix. Given some other integer :math:`c`, :math:`cA` is another :math:`m` by :math:`n` matrix where:
 
@@ -187,7 +187,7 @@ Matrix Multiplication
 
 Matrix multiplication is much more involved than addition. First, we must consider under which conditions two matrices can be multiples.
 
-Matrix multiplication between two matrices is only defined when the number of columns in the left-hand matrix equals the number of rows in the right-hand matrix. The result of the multiplication is another matrix whose number of rows equals the left-hand matrix's and whose number of columns equals the right-hand matrix's.
+**Matrix multiplication** between two matrices is only defined when the number of columns in the left-hand matrix equals the number of rows in the right-hand matrix. The result of the multiplication is another matrix whose number of rows equals the left-hand matrix's and whose number of columns equals the right-hand matrix's.
 
 
 .. math::

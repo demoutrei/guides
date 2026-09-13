@@ -294,7 +294,7 @@ A set :math:`X` is a subset of set :math:`Y` (written as :math:`X \subseteq Y`) 
 Proper Subset
 ^^^^^^^^^^^^^
 
-The term **proper subset** can be defiend as subset of but not equal to. A set :math:`X` is a proper subset of set :math:`Y` (written as :math:`X \subset Y`) if every element of :math:`X` is an element of set :math:`Y` and :math:`|X| < |Y|`.
+The term **proper subset** can be defined as subset of but not equal to. A set :math:`X` is a proper subset of set :math:`Y` (written as :math:`X \subset Y`) if every element of :math:`X` is an element of set :math:`Y` and :math:`|X| < |Y|`.
 
 
 .. admonition:: Example
@@ -472,7 +472,7 @@ The set difference of sets :math:`A` and :math:`B` (denoted by :math:`A - B`) is
 Symmetric Difference
 ~~~~~~~~~~~~~~~~~~~~
 
-A special kind of difference is **symmetric difference**. IT is the set-equivalent of "exclusive or" from propositional logic.
+A special kind of difference is **symmetric difference**. It is the set-equivalent of "exclusive or" from propositional logic.
 
 The **symmetric difference** of two sets :math:`A` and :math:`B` is the set of elements which are members of :math:`A` or members of :math:`B` but not both. The symmetric difference of :math:`A` and :math:`B` is denoted :math:`A \oplus B`.
 
