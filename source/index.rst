@@ -72,6 +72,7 @@ demoutrei's guidebook
     discrete-mathematics/graph-theory/index
     discrete-mathematics/matrix
     discrete-mathematics/propositions/index
+    discrete-mathematics/set-theory
 
 
 .. toctree::
