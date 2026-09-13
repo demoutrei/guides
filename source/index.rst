@@ -51,6 +51,7 @@ demoutrei's guidebook
     dsa/data-structures/index
     dsa/space-complexity
     dsa/time-complexity
+    dsa/glossary
 
 
 .. toctree::

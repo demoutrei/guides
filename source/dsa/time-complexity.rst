@@ -4,7 +4,7 @@
 Time Complexity
 ===============
 
-Time Complexity is a theoretical measure that quantifies the amount of time an algorithm takes to run as a function of the length of its input (:math:`n`). Instead of measuring actual seconds---which change based on hardware, compilers, and processors---time complexity counts the number of elementary operations or code statements executed.
+**Time Complexity** is a theoretical measure that quantifies the amount of time an algorithm takes to run as a function of the length of its input (:math:`n`). Instead of measuring actual seconds---which change based on hardware, compilers, and processors---time complexity counts the number of elementary operations or code statements executed.
 
 
 Asymptotic Notations

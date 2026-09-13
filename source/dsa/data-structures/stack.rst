@@ -127,7 +127,7 @@ A fixed-size stack has a predefined capacity. Once it becomes full, no more elem
 Dynamic Size
 ~~~~~~~~~~~~
 
-A dynamic size stack can grow and shrinik automatically as needed. If the stack is full, its capacity expands to allow more elements. As elements are removed, memory usage can shrinik as well. Can be implemented using `linked list <./linked_list>`_ (grows/shrinks naturally), and dynamic `array <./array>`_ (like vector in C++ or ArrayList in Java).
+A dynamic size stack can grow and shrink automatically as needed. If the stack is full, its capacity expands to allow more elements. As elements are removed, memory usage can shrink as well. Can be implemented using `linked list <./linked_list>`_ (grows/shrinks naturally), and dynamic `array <./array>`_ (like vector in C++ or ArrayList in Java).
 
 
 .. admonition:: Example

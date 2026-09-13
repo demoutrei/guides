@@ -14,7 +14,7 @@ Insertion Sort
       It modifies the original array directly without requiring extra temporary array copies, preserving valuable memory.
 
     Stable Sort
-      It preserves the original reltaive order of equal elements, preventing unnecessary shifts for identical values.
+      It preserves the original relative order of equal elements, preventing unnecessary shifts for identical values.
 
     Adaptive Nature
       The algorithm runs significantly faster on data sets that are already partially or substantially sorted.
