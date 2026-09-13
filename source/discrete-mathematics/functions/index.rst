@@ -4,11 +4,39 @@
 Functions
 =========
 
-A **function** is a rule that assigns each input exactly one output. We call the output the **image** of the input. The set of all inputs for a function is called the **domain**. The set of all allowable outputs is called the **codomain**. We would write :math:`f : X → Y` to describe a function with name :math:`f`, domain :math:`X` and codomain :math:`Y`. This does not tell us *which* function :math:`f` is though. To define the function, we must describe the rule. This is often done by giving a formula to compute the output for any input (although this is certainly not the only way to describe the rule).
+A :term:`function` is a rule that assigns each input exactly one output. We call the output the :term:`image` of the input. The set of all inputs for a function is called the :term:`domain`. The set of all allowable outputs is called the :term:`codomain`. We would write :math:`f : X → Y` to describe a function with name :math:`f`, domain :math:`X` and codomain :math:`Y`. This does not tell us *which* function :math:`f` is though. To define the function, we must describe the rule. This is often done by giving a formula to compute the output for any input (although this is certainly not the only way to describe the rule).
 
 For example, consider the function :math:`f : ℕ → ℕ` defined by :math:`f(x) = x ^ 2 + 3`. Here the domain and codomain are the same set (the natural numbers). The rule is: take your input, multiply it by itself and add :math:`3`.This works because we can apply this rule to every natural number (every element of the domain) and the result is always a natural number (an element of the codomain). Notice though that not every natural number is actually an output (there is no way to get :math:`0`, :math:`1`, :math:`2`, :math:`5`, etc.). The set of natural numbers that *are* outputs is called the **range** of the function (in this case, the range is :math:`\{ 3, 4, 7, 12, 19, 28, ... \}`, all the natural numbers that are 3 or more than a perfect square).
 
 The key thing that makes a rule a *function* is that there is *exactly one* output for each input. That is, it is important that the rule be a good rule. What output do we assign to the input :math:`7`? There can only be one answer for any particular.
+
+A :term:`function` is a rule that assigns each element of a set, called the :term:`domain`, to exactly one element of a second set, called the :term:`codomain`.
+
+Notation :math:`f:X→Y` is the way of saying that the function is called :math:`f`, the domain is the set :math:`X`, and the codomain is the set :math:`Y`.
+
+To specify the rule for a function with small domain, user **two-line notation** by writing a matrix with each output directly below its corresponding input, as in:
+
+.. math::
+
+    f = \begin{pmatrix}1 & 2 & 3 & 4 \\ 2 & 1 & 3 & 1 \end{pmatrix}
+
+:math:`f(x)=y` means the element :math:`x` of the domain (input) is assigned to the element :math:`y` of the codomain. We say :math:`y` is an output. Alternatively, we call :math:`y` the **image of** :math:`x` **under** :math:`f`.
+
+The :term:`range` is a subset of the codomain. It is the set of all elements which are assigned to at least one element of the domain by the function. That is, the range is the set of all outputs.
+
+A function is `injective <./injection>`_ if every element of the codomain is the image of at most one element from the domain.
+
+A function is `surjective <./surjection>`_ if every element of the codomain is the image of at least one element from the domain.
+
+A `bijection <./bijection>`_ is a function which is both an `injection <./injection>`_ and `surjection <./surjection>`_. In other words, if every element of the codomain is the image of exactly one element from the domain.
+
+The **image** of an element :math:`x` in the domain is the element :math:`y` in the codomain that :math:`x` is mapped to. That is, the image of :math:`x` under :math:`f` is :math:`f(x)`.
+
+The :term:`complete inverse image` of an element :math:`y` in the codomain, written :math:`f^{-1}(y)`, is the set of all elements in the domain which are assigned to :math:`y` by the function.
+
+The **image** of a subset :math:`A` of the domain is the set :math:`f(A) = \{ f(a) \in Y:a \in A \}`.
+
+The **inverse image** of a subset :math:`B` of the codomain is the set :math:`f^{-1}(B) = \{ x \in X:f(x) \in B \}`.
 
 
 .. admonition:: Function Properties
@@ -225,7 +253,7 @@ The division of two functions, :math:`f(x)` and :math:`g(x)`, is written as :mat
 Composite
 ~~~~~~~~~
 
-A composite function is a new function created by using the output of one function as the input for another function.
+A :term:`composite function` is a new function created by using the output of one function as the input for another function.
 
 
 .. admonition:: How It Works
@@ -270,7 +298,7 @@ A composite function is a new function created by using the output of one functi
 Inverse
 ~~~~~~~
 
-An inverse function is a mathematical operation that reverses or "undoes" the actions of an original function, written as :math:`f^{-1}(x)`.
+An :term:`inverse function` is a mathematical operation that reverses or "undoes" the actions of an original function, written as :math:`f^{-1}(x)`.
 
 
 .. admonition:: How To Find the Inverse
@@ -336,33 +364,50 @@ Types of Functions
 Glossary
 ^^^^^^^^
 
-A **function** is a rule that assigns each element of a set, called the **domain**, to exactly one element of a second set, called the **codomain**.
 
-Notation :math:`f:X→Y` is the way of saying that the function is called :math:`f`, the domain is the set :math:`X`, and the codomain is the set :math:`Y`.
+.. glossary::
 
-To specify the rule for a function with small domain, user **two-line notation** by writing a matrix with each output directly below its corresponding input, as in:
+    Bijective Function
+      A function that is both injective (one-to-one) and surjectie (onto). It pairs every element in the :term:`domain` with a unique element in the :term:`codomain`, leaving no elements unmatched in either set, creating a direct one-to-one correspondence.
 
-.. math::
+    Codomain
+      Set of all allowable outputs.
 
-    f = \begin{pmatrix}1 & 2 & 3 & 4 \\ 2 & 1 & 3 & 1 \end{pmatrix}
+    Complete Inverse Image
+      The set of all elements in the domain which are assigned to the codomain by the function.
 
-:math:`f(x)=y` means the element :math:`x` of the domain (input) is assigned to the element :math:`y` of the codomain. We say :math:`y` is an output. Alternatively, we call :math:`y` the **image of** :math:`x` **under** :math:`f`.
+    Composite Function
+      A new function created by using the output of one function as the input for another function.
 
-The **range** is a subset of the codomain. It is the set of all elements which are assigned to at least one element of the domain by the function. That is, the range is the set of all outputs.
+    Constant Function
+      A specific type of function where every input from the :term:`domain` maps to the exact same single output in the :term:`codomain`.
 
-A function is `injective <./injection>`_ if every element of the codomain is the image of at most one element from the domain.
+    Domain
+      Set of all inputs for a function.
 
-A function is `surjective <./surjection>`_ if every element of the codomain is the image of at least one element from the domain.
+    Function
+      A rule that assigns each input exactly one output.
 
-A `bijection <./bijection>`_ is a function which is both an `injection <./injection>`_ and `surjection <./surjection>`_. In other words, if every element of the codomain is the image of exactly one element from the domain.
+    Identity Function
+      A special mapping on a set that returns every elemetn exactly as it was given.
 
-The **image** of an element :math:`x` in the domain is the element :math:`y` in the codomain that :math:`x` is mapped to. That is, the image of :math:`x` under :math:`f` is :math:`f(x)`.
+    Image
+      The elemnet in the :term:`codomain` that the :term:`domain` is mapped to.
 
-The **complete inverse image** of an element :math:`y` in the codomain, written :math:`f^{-1}(y)`, is the set of all elements in the domain which are assigned to :math:`y` by the function.
+    Injective Function
+      A one-to-one function where every distinct input in the :term:`domain` maps to a unique output in the :term:`codomain`.
 
-The **image** of a subset :math:`A` of the domain is the set :math:`f(A) = \{ f(a) \in Y:a \in A \}`.
+    Inverse Function
+      A mathematical operation that reverses or "undoes" the actions of an original function.
 
-The **inverse image** of a subset :math:`B` of the codomain is the set :math:`f^{-1}(B) = \{ x \in X:f(x) \in B \}`.
+    Many-to-One Function
+      A function where two or more distinct inputs from the :term:`domain` map to the same single output in the :term:`codomain`.
+
+    Range
+      Subset of the codomain.
+      
+    Surjective Function
+      Also called an **onto function**; a function where every element in the :term:`codomain` is mapped to by at least one element from the :term:`domain`.
 
 
 -----

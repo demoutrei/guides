@@ -4,7 +4,7 @@
 Bijection
 =========
 
-A **bijective function** is a function that is both injective (one-to-one) and surjective (onto). It pairs every element in the domain with a unique element in the codomain, leaving no elements unmatched in either set, creating a direct one-to-one correspondence.
+A :term:`bijective function` is a function that is both injective (one-to-one) and surjective (onto). It pairs every element in the domain with a unique element in the codomain, leaving no elements unmatched in either set, creating a direct one-to-one correspondence.
 
 
 .. admonition:: Key Characteristics

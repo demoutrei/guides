@@ -4,7 +4,7 @@
 Identity
 ========
 
-An **identity function** is a special mapping on a set that returns every element exactly as it was given. Written as :math:`i_A` or :math:`id_A:A→A`, it is formally defined by the rule :math:`id_A(x) = x` for every :math:`x \in A`.
+An :term:`identity function` is a special mapping on a set that returns every element exactly as it was given. Written as :math:`i_A` or :math:`id_A:A→A`, it is formally defined by the rule :math:`id_A(x) = x` for every :math:`x \in A`.
 
 
 .. admonition:: Key Characteristics
