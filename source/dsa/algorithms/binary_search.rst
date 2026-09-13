@@ -77,9 +77,9 @@ Implementation
             int midpoint { low + (high - low) / 2 };
             if (array[midpoint] == target) return midpoint;
             if (array[midpoint] < target) {
-              low = midpoint + 1;
+              low = ++midpoint;
             } else {
-              high = midpoint - 1;
+              high = --midpoint;
             }
           }
           return -1;
