@@ -4,7 +4,7 @@
 Computer Ethics
 ===============
 
-**Computer ethics** is a set of moral standards and philosophical guidelines that govern the responsible use of computers, digital systems, and technology.
+:term:`Computer ethics` is a set of moral standards and philosophical guidelines that govern the responsible use of computers, digital systems, and technology.
 
 
 .. admonition:: Core Issues
@@ -31,3 +31,13 @@ Computer Ethics
     :caption: Topics
 
     cybersecurity
+
+
+Glossary
+++++++++
+
+
+.. glossary::
+
+    Computer ethics
+      A set of moral standards and philosophical guidelines that govern the responsible use of computers, digital systems, and technology.

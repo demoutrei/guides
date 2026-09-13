@@ -32,7 +32,6 @@ demoutrei's guidebook
     computers/binary
     computers/ethics/index
     computers/history-of-computing
-    computers/glossary
 
 
 .. toctree::
