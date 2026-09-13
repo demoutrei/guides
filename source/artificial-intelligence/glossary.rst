@@ -1,4 +1,4 @@
-:description: Artificial Intelligence Glossary
+:description: Artificial Intelligence Guidebook Glossary
 
 
 Glossary
