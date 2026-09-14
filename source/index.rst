@@ -83,6 +83,15 @@ demoutrei's guidebook
 
 .. toctree::
     :maxdepth: 1
+    :caption: IS Innovations
+
+    Introductory <./is-innovations/index.rst>
+    is-innovations/disruptive-innovation
+    is-innovations/glossary
+
+
+.. toctree::
+    :maxdepth: 1
     :caption: Programming Languages
     
     Introductory <./programming-languages/index.rst>
