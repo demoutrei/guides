@@ -87,7 +87,7 @@ Once things are set, you will be given with an invite URL under **Generated URL*
 .. admonition:: Misconception
     :class: attention
 
-    The **OAuth2 General URL** does **NOT** function as settings and will **NOT** save as you go on.
+    The **OAuth2 URL Generator** does **NOT** function as settings and will **NOT** save as you go on.
 
 
 Method 2
