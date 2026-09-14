@@ -50,7 +50,7 @@ Navigate to your application's **OAuth2** tab from the left sidebar, and scroll 
     :width: 80%
 
 
-Under the **Scopes** area, tick ``bot`` and, if your bot utilizes application commands, ``applications.commands`` scopes.
+Under the **Scopes** area, tick the ``bot`` scope.
 
 Ticking the ``bot`` scope will prompt the **Bot Permissions** area. Select the scopes necessary for your bot to function.
 
