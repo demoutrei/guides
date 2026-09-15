@@ -86,6 +86,7 @@ demoutrei's guidebook
     :caption: Information Management
 
     Introductory <./information-management/index.rst>
+    information-management/fundamentals
 
 
 .. toctree::
