@@ -478,18 +478,3 @@ ERD Symbols and Notations
     :width: 80%
 
     *Source*: `Venngage <https://venngage.com/blog/entity-relationship-diagram/>`_
-
-
-Glossary
-^^^^^^^^
-
-.. glossary::
-
-    Foreign Key
-      An attribute or group of attributes in one table that links to the primary key of another table, establishing a relationship between them.
-
-    Partial Key
-      An attribute that uniquely identifies weak entity instances only when combined with the primary key of a related strong (owner) entity.
-
-    Primary Key
-      A specific attribute or set of attributes that uniquely identifies every single record or row within an entity.
