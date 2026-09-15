@@ -1,0 +1,495 @@
+:description: Entity-Relationship Diagram (ERD) is a data modeling technique that graphically illustrates an information system's entities and the relationships between those entities. It's a conceptual and representational model of data used to represent the entity framework infrastructure.
+
+
+Entity-Relationship Diagram
+===========================
+
+**Entity-Relationship Diagram (ERD)** is a data modeling technique that graphically illustrates an information system's entities and the relationships between those entities. It's a conceptual and representational model of data used to represent the entity framework infrastructure.
+
+
+.. admonition:: Sample Database Application
+    :class: hint
+
+    Company
+      - Employees, departments, projects (tables)
+      - Company is organized into departments
+      - Department controls a number of projects
+      - Employee: store each employee's name, Social Security Number, address, salary, sex (gender), and birth date
+      - Keep track of the dependents of each employee
+
+
+Models of ERD
+^^^^^^^^^^^^^
+
+.. grid:: 1
+    :gutter: 3
+
+
+    .. grid-item-card:: Conceptual ERD
+
+        A **conceptual ERD** is a high-level visual blueprint that maps out core business concepts and how they relate to one another, completely ignoring technical database details.
+
+
+        .. admonition:: Core Components
+            :class: tip
+
+            Entities
+              The main "nouns" or business projects you want to track.
+
+            Relationships
+              The business connections or "verbs" linking those entities.
+
+            No Technical Details
+              Leaves out attributes, primary keys, foreign keys, and exact data types.
+
+
+        .. admonition:: Why It Matters
+            :class: tip
+
+            Scope Definition
+              Helps project managers and stakeholders agree on what data the system needs before building anything.
+
+            Platform Agnostic
+              Focuses purely on business rules and terminology rather than a specific database engine.
+            
+            First Step
+              Serves as the foundation before moving to more detailed *logical* and *physical* data models.
+
+    .. grid-item-card:: Logical ERD
+
+        A **logical ERD** is a mid-level data model that defines the structure of data elements, attributes, keys, and relationships using business terminology without tying them to a specific database software.
+
+
+        .. admonition:: Key Components
+
+            Entities
+              Represent the core business objects or nouns being tracked.
+
+            Attributes
+              Detail the specific characteristics or properties of each entities.
+
+            Primary Keys
+              Uniquely identify each specific record within an entity.
+
+            Foreign Keys
+              Connect entities together by referencing a primary key in another table.
+
+            Cardinality
+              Define the numerical nature of the relationship.
+
+            Normalization
+              Organizes data to reduce redundancy and improve overall integrity.
+
+
+    .. grid-item-card:: Physical ERD
+
+        A **physical ERD** is the final implementation blueprint of a relational database that shows exact tables, specific data types, column lengths, primary keys, foreign keys, and constraints tailored to a chosen database management system.
+
+
+        .. admonition:: Key Elements
+
+            Tables and Columns
+              Entities from earlier design stages turn into actual database tables, and attributes become columns.
+
+            Data Types and Lengths
+              Every column gets a specific data type supported by your database system.
+
+            Keys and Indexes
+              Primary keys, foreign keys, composite keys, and indexes are clearly defined to link tables and speed up searches.
+
+            Constraints and Rules
+              Rules like ``NOT NULL``, ``UNIQUE``, or ``CHECK`` restrict what data can enter the tables.
+
+            Junction Tables
+              Many-to-many relationships are broken down into physical junction tables containing foreign keys.
+
+
+Steps in Creating an ERD
+^^^^^^^^^^^^^^^^^^^^^^^^
+
+1. Identifying and defining the identities.
+2. Determining all interactions between the entities.
+3. Analyzing the nature of interactions/determining the cardinality of the relationships.
+4. Creating the ERD.
+
+
+Components of ER Diagram
+^^^^^^^^^^^^^^^^^^^^^^^^
+
+ERD is used to represent the requirement analysis at the conceptual design stage. The database is designed from the ERD or ERD is converted to the database.
+
+Each `entity <#entity>`_ in the ERD corresponds to a table in the database. The `attributes <#attribute>`_ of any entity correspond to field (column) of a table. The ERD is converted to the database.
+
+
+Entity
+~~~~~~
+
+An **entity** is a real-world item or concept that exists on its own. They are equivalent to database tables in a relational database, with each row of the table representing an instance of that entity. Entities are objects or concepts that represent important data. They are typically nouns (customer, supervisor, location, or promotion).
+
+
+Types of Entities
+-----------------
+
+.. grid:: 1
+    :gutter: 3
+
+
+    .. grid-item-card:: Strong Entity
+
+        Strong entities exist independently from other entity types. They always possess one or more attributes that uniquely distinguish each occurence of the entity.
+
+        **ER Diagram Representation**: Single solid square.
+
+
+    .. grid-item-card:: Weak Entity
+
+        Weak entities depend on some other entity type. They don't possess unique attributes (also known as a **primary key**) and have no meaning in the diagram without depending on another entity. This other entity is known as the **owner**.
+
+        **ER Diagram Representation**: Double solid square.
+
+
+    .. grid-item-card:: Associative Entity
+
+        Associative entities associate the instances of one or more entity types. They also contain attributes that are unique to the relationship between those entity instances.
+
+        **ER Diagram Representation**: Single solid squircle.
+
+
+Attribute
+~~~~~~~~~
+
+An **attribute** of an entity is a particular property that describes the entity. It's the characteristics of either an entity, a many-to-many relationship, or a one-to-one relationship.
+
+.. grid:: 1 2 2 2
+    :class-row: surface
+    :gutter: 3
+
+
+    .. grid-item-card:: Required Attribute
+
+        Attribute must have a value for every entity (or relationship) instance with which it is associated.
+
+
+    .. grid-item-card:: Optional Attribute
+
+        Attribute may not have a value for every entity (or relationship) instance with which it is associated.
+
+
+Types of Attributes
+-------------------
+
+.. grid:: 1
+    :gutter: 3
+
+
+    .. grid-item-card:: Multivalued Attribute
+
+        Attributes that are capable of taking in more than one value.
+
+        **ER Diagram Representation**: A double-lined ellipse.
+
+
+        .. admonition:: Why Use It?
+            :class: tip
+
+            Captures real-world scenarios where an entity has a variable number of items for the same property.
+
+
+        .. admonition:: Examples
+            :class: hint
+
+            A ``Person`` entity having multiple values for ``PhoneNumber`` (e.g. personal, work, mobile).
+
+            An ``Employee`` entity having multiple values for ``Skill`` or ``Degree``.
+
+
+    .. grid-item-card:: Derived Attribute
+
+        Attributes whose value is not stored directly in the database, but instead calculated or derived from other stored attributes or system values.
+
+        **ER Diagram Representation**: A dashed ellipse.
+
+
+        .. admonition:: Why Use It?
+            :class: tip
+
+            Eliminates data redundancy and prevents stale data (e.g. storing age directly requires updating it every year).
+
+
+        .. admonition:: Examples
+            :class: hint
+
+            ``Age`` calculated from ``DateOfBirth`` and the current date.
+
+            ``TotalAmount`` calculated from ``Quantity`` multiplied by ``UnitPrice``.
+
+            ``YearsOfService`` calculated from ``HireDate``.
+
+
+    .. grid-item-card:: Composite Attribute
+
+        Attribute can be divided into smaller sub-parts, each with its own independent meaning.
+
+        **ER Diagram Representation**: Main ellipse connected to smaller component ellipses.
+
+
+        .. admonition:: Why Use It?
+            :class: tip
+
+            Allows querying or organizing individual sub-components (e.g. searching by city) while maintaining cohesive unit.
+
+        
+        .. admonition:: Examples
+            :class: hint
+
+            ``Address`` broken down into ``Street``, ``City``, ``State``, and ``ZipCode``.
+
+            ``FullName`` broken down into ``FirstName``, ``MiddleName``, and ``LastName``.
+
+
+    .. grid-item-card:: Identifier Attribute
+
+        Used to represent **Primary Key**. An attribute (or combination of attributes) that uniquely identifies individual instances of an entity type.
+
+        **ER Diagram Representation**: An oval (ellipse) with underlined text connected to its entity rectangle.
+
+
+        .. admonition:: Key Characteristics
+            :class: tip
+
+            Uniqueness
+              Every instance of the entity must have a distinct value for this attribute; no two rows can share the same value.
+
+            Non-null
+              An identifier cannot contain a null or empty value.
+
+            Types
+              It can be a simple attribute (like a single ``student_id``) or a composite attribute made of multiple combined fields.
+
+            Discriminators
+              In weak entities, a partial identifier (or discriminator) is used alongside the parent entity's key to uniquely identify records.
+
+
+Relationship
+^^^^^^^^^^^^
+
+A **relationship** is the association that describes the interaction between entities. They are usually verbs, e.g. *assign*, *associate*, or *track*. A relationship provides useful information that could not be discerned with just the entity types.
+
+
+Kinds of Relationships
+~~~~~~~~~~~~~~~~~~~~~~
+
+.. grid:: 1
+    :gutter: 3
+
+
+    .. grid-item-card:: Strong Relationship
+
+        A connection between two independent strong entities where each entity has its own primary key.
+
+        **ER Diagram Representation**: Single solid line.
+
+
+    .. grid-item-card:: Weak Relationship
+
+        Or **identifying relationships**; are connections that exist between a weak entity type and its owner.
+
+        **ER Diagram Representation**: Single double line.
+
+
+    .. grid-item-card:: Ternary Relationship
+
+        A single diamond-shaped connection that links three distinct entity types together. It is used when a normal two-way (binary) link cannot correctly show how all three things depend on each other at the same time.
+
+
+Degree of Relationship
+~~~~~~~~~~~~~~~~~~~~~~
+
+The number of entity types that participate in it.
+
+
+.. grid:: 1
+    :gutter: 3
+
+
+    .. grid-item-card:: Unary Relationship
+
+        An association where a single entity type relates to instances of itself, giving it a degree of 1.
+
+
+        .. admonition:: Key Characteristics
+            :class: tip
+
+            Degree 1
+              Only one entity set participates in the relationship.
+
+            Recursive
+              Also called a recursive relationship because the single entity references back to itself.
+
+            Role Names
+              Different roles are often assigned to the participating instances to clarify how they interact.
+
+
+        .. admonition:: Examples
+            :class: hint
+
+            An ``Employee`` managers another ``Employee`` (Supervisor vs. Subordinate).
+
+            A ``Person`` is married to another ``Person``, or an ``Ancestor`` is a parent of a ``Person``.
+
+
+    .. grid-item-card:: Binary Relationship
+
+        A relationship that has a degree of two, meaning it connects exactly two different entity types or sets.
+
+
+        .. admonition:: Key Characteristics
+            :class: tip
+
+            Degree
+              Always equal to 2
+
+            Usage
+              It is the most common and widely used type of relationship in database design.
+
+            Implementation
+              Easily mapped into relational table foreign keys.
+
+
+        .. admonition:: Examples
+            :class: hint
+
+            A ``Student`` enrolls in a ``Course``.
+
+            An ``Employee`` works in a ``Department``.
+
+            A ``Customer`` holds an ``Account``.
+
+
+    .. grid-item-card:: Ternary Relationship
+
+        A single relationship set that simultaneously connects exactly three distinct entity types, giving it a degree of 3.
+
+
+        .. admonition:: Key Characteristics
+            :class: tip
+
+            Degree 3
+              Exactly three entity types participate in one joint relationship
+            
+            Complexity
+              It cannot always be accurately split into separate binary relationships without losing business logic or contextual constraints.
+
+            Representation
+              Visualized in Chen notation as a diamond-shaped relationship box connected by lines to three distinct entity rectangles.
+
+
+        .. admonition:: Examples
+            :class: hint
+
+            ``Doctor``, ``Patient``, and ``Medicine``.
+
+            A ``Prescribes`` or ``Treats`` association where a specific doctor prescribes a specific medicine to a specific patient, linking all three elements together in one transaction.
+
+            ``Employee``, ``Department``, and ``Location`` (an employee works for a department at a specific location).
+
+
+Cardinality
+^^^^^^^^^^^
+
+The number of instances of one entity that can, or must, be associated with each instance of another entity. In general, there may be **one-to-one**, **one-to-many**, or **many-to-many** relationships.
+
+
+.. grid:: 1
+    :gutter: 3
+
+
+    .. grid-item-card:: One-to-One
+
+        Each entity in the relationship will have exactly one related entity.
+
+
+    .. grid-item-card:: One-to-Many
+
+        An entity on one side of the relationship can have many related entities, but an entity on the other side will have a maximum of one related entity.
+
+
+    .. grid-item-card:: Many-to-Many
+
+        Entities on both sides of the relationship can have many related entities on the other side.
+
+
+.. figure:: https://jcsites.juniata.edu/faculty/rhodes/dbms/images/card1.gif
+    :align: center
+    :width: 80%
+
+
+    *Source*: `jcsites.juniata.edu <https://jcsites.juniata.edu/faculty/rhodes/dbms/ermodel.htm>`_
+
+
+Cardinality Constraints
+~~~~~~~~~~~~~~~~~~~~~~~
+
+Defines the numerical limits or associations between entity instances in a relationship.
+
+
+.. grid:: 1
+    :gutter: 3
+
+
+    .. grid-item-card:: Minimum Cardinality
+
+        The **fewest** number of times an instance must participate in a relationship, showing whether the relationship is optional or mandatory.
+
+        Optional (Minimum = 0)
+          Participation is not required; an entity instance can exist without being linked (represented by a circle or dash depending on notation style).
+          
+        Mandatory (Minimum = 1)
+          Participation is required; an entity instance must be linked to at least one instance (represented by a tick mark or line).
+
+
+    .. grid-item-card:: Maximum Cardinality
+
+        The **greatest** number of times an instance of one entity can participate in a relationship with another entity.
+
+        One-to-One (1:1)
+          One instance connects to only one other instance (e.g. a person and a passport).
+
+        One-to-Many (1:M)
+          One instance connects to multiple isntances, but the reverse is single (e.g. a department has many employees).
+
+        Many-to-Many (M:M)
+          Multiple instances on one side connect to multiple instances on the other side (e.g. students and courses).
+
+
+.. figure:: https://creately.com/static/assets/guides/cardinality-symbols/cardinality-symbols-in-crows-foot-notation.webp
+    :align: center
+    :width: 80%
+
+
+    *Source*: `Creately <https://creately.com/guides/cardinality-symbols/>`_
+
+
+ERD Symbols and Notations
+^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. figure:: https://venngage-wordpress.s3.amazonaws.com/uploads/2023/11/ERD_Symbols_and_Notations.png
+    :align: center
+    :width: 80%
+
+    *Source*: `Venngage <https://venngage.com/blog/entity-relationship-diagram/>`_
+
+
+Glossary
+^^^^^^^^
+
+.. glossary::
+
+    Foreign Key
+      An attribute or group of attributes in one table that links to the primary key of another table, establishing a relationship between them.
+
+    Partial Key
+      An attribute that uniquely identifies weak entity instances only when combined with the primary key of a related strong (owner) entity.
+
+    Primary Key
+      A specific attribute or set of attributes that uniquely identifies every single record or row within an entity.
