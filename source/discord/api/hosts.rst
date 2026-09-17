@@ -1,4 +1,4 @@
-:description: Learn how to properly decide on which hosting/vps service to use/purchase for your Discord app.
+:description: Learn how to properly decide on which hosting/vps service to use/purchase for your Discord app. This is based on the https://canary.discord.com/channels/613425648685547541/1478860733365354687 Discord Developers thread.
 
 
 Bot & Server Hosts
