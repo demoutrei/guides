@@ -85,3 +85,65 @@ Design Key Principles
     .. grid-item-card:: Variety
 
         Using different visual elements (colors, shapes, textures, images, etc.) to keep the design interesting.
+
+
+Color Theory
+++++++++++++
+
+**Color Theory** is the study of how colors work together and how they can be used to communicate ideas, emotions, and visual messages.
+
+
+.. note::
+
+    In visual design, colors can help:
+
+    - Attract attention;
+
+    - Create mood or emotion;
+
+    - Organize information;
+    
+    - Make designs easier to understand;
+
+    - Create visual balance and harmony.
+
+
+.. grid:: 1
+    :gutter: 3
+
+
+    .. grid-item-card:: Primary Colors
+        
+        The basic colors that cannot be created by mixing other colors.
+
+
+    .. grid-item-card:: Secondary Colors
+
+        Created by mixing two primary colors.
+
+
+    .. grid-item-card:: Tertiary Colors
+
+        Created by mixing a primary color with a neighboring secondary color.
+
+
+    .. grid-item-card:: Warm Colors
+
+        Colors that are commonly associated with heat, energy, excitement, happiness, and action. They can make a design feel energetic, active, friendly, or attention-grabbing.
+
+
+    .. grid-item-card:: Cool Colors
+
+        Colors that are commonly associated with calmness, relaxation, freshness, nature, and stability. They can make a design feel peaceful, professional, clean, or trustworthy.
+
+
+Typography
+++++++++++
+
+**Typography** is the art and technique of arranging and designing text so that it is readable, clear, and visually appealing. In graphic design, typography helps communicate information, establish mood, create visual hierarchy, and strengthen the overall design.
+
+
+Layout and Composition
+++++++++++++++++++++++
+
+**Layout and composition** are the ways visual elements such as text, images, shapes, colors, and empty spaces are arranged in a design.
