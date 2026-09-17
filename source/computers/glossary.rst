@@ -10,6 +10,11 @@ Glossary
     Abacus
       A hand-operated calculating tool.
 
+
+    Acceptable Use Policy
+      A document explaining what users are allowed and not allowed to do when using an organization's computing and network resources.
+      
+
     Advanced Encryption Standard
       Most widely used **symmetric algorithm** and is entrusted to protect classified U.S. government information.
 
@@ -24,6 +29,15 @@ Glossary
 
     Application Macro Language
       A specialized programming or command language built into a software program to automate repetitive tasks and control the application's features.
+
+
+    Association for Computing Machinery
+      A major computing professional organization concerned with advancing computing and promoting professional and ethical standards.
+
+
+    Association of Information Technology Professionals
+      Provides seminars, conferences, networking, information about IT users, and professional development.
+      
 
     Asymmetric algorithm
       Uses one key for encryption and a different key for decryption.
@@ -46,8 +60,22 @@ Glossary
     Botnet
       A large group of such computers, which are controlled from one or more remote locations by hackers, without the knowledge or consent of their owners.
 
+
+    Breach of Contract
+      Occurs when one party fails to meet the terms of an agreement.
+
+
+    Bribery
+      Involves giving money, property, or favors to obtain a business advantage.
+      
+
     Bring Your Own Device Policy
       A set of workplace rules that lets employees use their personal phones, tablets, or laptops to do work and access company networks.
+
+
+    Certification
+      Indicates that a professional has demonstrated a particular set of skills, knowledge, or abilities according to the certifying organization.
+      
 
     Chaos Computer Club
       Europe's largest and oldest association of hackers, focused on technology, privacy, and digital rights.
@@ -57,6 +85,11 @@ Glossary
 
     Completely Automated Public Turing Test to Tell Computers and Humans Apart
       A security test used by websites to check if a user is a real human or an automated computer program.
+
+
+    Compliance
+      Following established policies, guidelines, standards, specifications, laws, and regulations.
+      
 
     Computer ethics
       A set of moral standards and philosophical guidelines that govern the responsible use of computers, digital systems, and technology.
@@ -69,6 +102,11 @@ Glossary
     
     Con artist
       A person who deceives and manipulates others to steal their money, property, or sensitive data through a false sense of trust.
+
+
+    Conflict of Interests
+      Occurs when an IT worker's personal or business interests conflict with the client's best interests.
+      
 
     Controlling the Assault of Non-Solicited Pornography and Marketing Act
       CAN-SPAM Act of 2003 is a United States federal law that sets national rules and standards for commercial email and marketing messages; states that it is legal to spam, provided the messages meet a few basic requirements---spammers cannot disguise their identity by using a false return address, the email must include a label specifying that it is an ad or a solicitation, and the email must include a way for recipients to indicate that they do not want future mass mailings.
@@ -115,6 +153,11 @@ Glossary
     Divulging
       The act of making secret, private, or sensitive information known to other people.
 
+
+    Duty of Care
+      Having an obligation to protect people from unreasonable harm or risk.
+      
+
     Electronic Discrete Variable Automatic Computer
       Or EDVAD; desigend based on the stored-program concept where instructions were stored in memory alongside data, allowing for greater flexibility and efficiency.
 
@@ -142,8 +185,20 @@ Glossary
     Firewall
       A network security device that monitors and filters incoming and outgoing network traffic based on preset safety rules.
 
+      A hardware, software, or a combination of both that helps protect an organization's network from unauthorized access.
+
+
+    Fraud
+      Involves obtaining goods, services, or property through deception or trickery.
+      
+
     Fraud and Related Activity in Connection with Access Devices Statute
       Covers false claims regarding unauthorized use of credit cards.
+
+
+    Fraudulent misrepresentation
+      Involves intentionally causing another person to rely on false information.
+      
 
     Gateway
       A hardware or software that links two different computer networks together. It translates data from one network protocol so it can travel safely to another, like connecting a home network to the Internet.
@@ -156,6 +211,11 @@ Glossary
 
     IBM 701
       Or "Defense Calculator"; it was designed for scientific and engineering calculations.
+
+
+    IEEE Computer Society
+      Part of IEEE and focuses on electrical, electronic, and information technologies and sciences.
+      
 
     Industrial spy
       An individual who captures **trade secrets** and attempts to gain an unfair competitive advantage.
@@ -177,6 +237,15 @@ Glossary
 
     Intrusion Detection System
       Software and/or hardware that monitors system and network resources and activities and notifies network security personnel when it detects network traffic that attempts to circumvent the security measures of a networked computer environment.
+
+
+    IT user
+      Someone who uses hardware or software products.
+
+
+    Legacy System
+      An older system or technology that an organization still depends on.
+      
 
     Lizard Squad
       A black-hat hacking group best known for launching large-scale distributed denial-of-service (DDoS) attacks against major gaming and technology networks.
@@ -211,6 +280,11 @@ Glossary
     National Security Agency
       A national-level intelligence agency of the United States Department of Defense focused on global monitoring, signals intelligence, and cybersecurity.
 
+
+    Negligence
+      Failing to do something a reasonable person would do, or doing something a reasonable person would not do.
+      
+
     Next-Generation Firewall
       A hardware- or software-based network security system that is able to detect and block sophisticated attacks by filtering network traffic dependent on the packet contents.
 
@@ -238,6 +312,11 @@ Glossary
     Product Lifecycle Management
       The strategic process of managing a product's complete journey from initial concept and design, through manufacturing and service, to its eventual retirement and disposal.
 
+
+    Professional Code of Ethics
+      A collection of principles and values that guide how members of a profession should behave.
+      
+
     Prosecute
       Refers to the legal process of initiating and conducting criminal proceedings against individuals or groups who commit digital crimes.
 
@@ -256,6 +335,11 @@ Glossary
     Registry key
       A folder-like container in the Windows registry database that stores configuration settings and othe keys.
 
+
+    Résumé Inflation
+      Exaggerating or lying about your qualifications.
+      
+
     Risk assessment
       The process of assessing security-related risks to an organization's computers and networks from both internal and external threats.
 
@@ -265,8 +349,18 @@ Glossary
     Safeguard
       Any action, device, policy, or technical control used to reduce vulnerabilities and protect computer systems, networks, and data from harm, damage, or unauthorized access.
 
+
+    SANS Institute
+      Focuses heavily on information security training and certification.
+      
+
     Sarbanes-Oxley
       A United States federal law enacted to protect investors by improving the accuracy, reliability, and transparency of corporate financial reporting.
+
+
+    Scope Creep
+      Occurs when the requirements or goals of a project continue to expand after the project has already begun.
+      
 
     Security audit
       A systematic, independent evaluation of an organization's security infrastructure, policies, controls, and operations to identify vulnerabilities and ensure regulatory compliance.
@@ -283,6 +377,11 @@ Glossary
     Smishing
       Another variation of phishing that involves the use of texting.
 
+
+    Software Piracy
+      The unauthorized copying, installation, distribution, or use of software.
+      
+
     Spam
       Unsolicited, bulk messages sent over the internet or mobile networks.
 
@@ -291,6 +390,11 @@ Glossary
 
     Stored Wire and Electronic Communications and Transactional Records Access Statutes
       Focuses on unlawful access to stored communications to obtain, alter, or prevent authorized access to a wire or electronic communication while it is in electronic storage.
+
+
+    Suppliers
+      The one who provide hardware, software, network equipment, IT services, and technical products.
+      
 
     Surreptitiously
       Actions taken by software, hackers, or systems secretly, stealthily, and without the user's knowledge or consent.
@@ -304,8 +408,12 @@ Glossary
     The Sholes and Glidden Typewriter
       First successful commercial typerwriter. All keys are uppercase.
 
+
     Trade secret
       Any confidential technical or commercial information---such as source code, proprietary algorithms, or internal software architecture---that gives a business a competitive advantage and is actively kept secret.
+
+      A valuable information that is generally unknown to the public and that a company takes measures to keep confidential.
+
 
     Transport Layer Security
       A communications protocol or system of rules that ensures privacy between communicating applications and their users on the Internet.
@@ -336,6 +444,11 @@ Glossary
 
     Vulnerability Equities Process
       A U.S. government interagency framework used to decide whether to disclose a newly discovered zero-day software flaw to a vendor for patching or to withhold it for national security and law enforcement operations.
+
+
+    Whistle-blowing
+      Occurs when an employee brings attention to an organization's illegal actions, dangerous practices, unethical behavior, negligence, abuse, and activities that threaten the public.
+      
 
     White hat hacker
       Someone who has been hired by an organization to test the security of its information systems.

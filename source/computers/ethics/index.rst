@@ -30,4 +30,5 @@ Computer Ethics
     :maxdepth: 1
     :caption: Topics
 
+    ethics-for-it-workers-and-users
     cybersecurity
