@@ -87,6 +87,7 @@ demoutrei's guidebook
 
     Introductory <./graphics-and-visual-computing/index.rst>
     graphics-and-visual-computing/design-principles
+    graphics-and-visual-computing/glossary
 
 
 .. toctree::
