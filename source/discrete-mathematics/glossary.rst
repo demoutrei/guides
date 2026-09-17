@@ -28,10 +28,6 @@ Glossary
       A graph whose vertices can be partitioned into two disjoint sets :math:`V_1` and :math:`V_2` such that every edge in :math:`E` has one endpoint in :math:`V_1` and one endpoint in :math:`V_2`.
 
 
-    Cardinality
-      Denoted by :math:`|S|`, is the number of elements of the set. The number is also referred as the cardinal number. If a set has an infinite number of elements, its cardinality is :math:`\infty`.
-
-
     Cartesian Product
       The Cartesian product of :math:`n` number of sets :math:`A_1, A_2, ..., A_n` denoted as :math:`A_1 \times A_2 \times ... \times A_n` can be defined as all possible oredered pairs :math:`(x_1, x_2, ..., x_n)` where :math:`x_1 \in A, x_2 \in A_2, ..., x_n \in A_n`.
 
@@ -338,6 +334,10 @@ Glossary
 
     Set Builder Notation
       The set is defined by specifying a property that elements of the set have in common.
+
+
+    Set Cardinality
+      Denoted by :math:`|S|`, is the number of elements of the set. The number is also referred as the cardinal number. If a set has an infinite number of elements, its cardinality is :math:`\infty`.
 
 
     Set Difference

@@ -20,10 +20,6 @@ Glossary
       A relationship that has a degree of 2, meaning it connects exactly two different entity types or sets.
 
 
-    Cardinality
-      The number of instances of one entity that can, or must, be associated with each instance of another entity.
-
-
     Composite Attribute
       Attribute that can be divided into smaller sub-parts, each with its own independent meaning.
 
@@ -52,6 +48,10 @@ Glossary
 
     Entity
       A real-world item or concept that exists on its own. They are equivalent to database tables in a relational database, with each row of the table representing an instance of that entity. Entities are objects or concepts that represent important data. They are typically nouns (customer, supervisor, location, or promotion).
+
+
+    Entity Cardinality
+      The number of instances of one entity that can, or must, be associated with each instance of another entity.
 
 
     Entity-Relationship Diagram
