@@ -86,6 +86,7 @@ demoutrei's guidebook
     :caption: Graphics and Visual Computing
 
     Introductory <./graphics-and-visual-computing/index.rst>
+    graphics-and-visual-computing/design-principles
 
 
 .. toctree::
