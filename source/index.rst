@@ -83,6 +83,13 @@ demoutrei's guidebook
 
 .. toctree::
     :maxdepth: 1
+    :caption: Graphics and Visual Computing
+
+    Introductory <./graphics-and-visual-computing/index.rst>
+
+
+.. toctree::
+    :maxdepth: 1
     :caption: Information Management
 
     Introductory <./information-management/index.rst>
