@@ -114,9 +114,7 @@ demoutrei's guidebook
     :caption: Programming Languages
     
     Introductory <./programming-languages/index.rst>
-    programming-languages/cpp/index
-    programming-languages/javascript/index
-    programming-languages/python/index
+    programming-languages/resources
     programming-languages/glossary
 
 
