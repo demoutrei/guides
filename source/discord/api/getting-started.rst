@@ -1,6 +1,35 @@
 :description: Don't know what to do? Read this Getting Started guide on where to start.
 
 
+.. raw:: html
+
+    <script id="discord:component-embed" type="application/json">
+      {
+        "component": {
+          "type": 17,
+          "accent_color": 3908956,
+          "components": [
+            {
+              "type": 9,
+              "components": [
+                {
+                  "type": 10,
+                  "content": "# [Getting Started](https://guides.demoutrei.dev/discord/api/getting-started)\nIf you *actually* want to learn, then here're the steps to take:\n1. Choose a programming language. [JavaScript](https://guides.demoutrei.dev/programming-languages/resources#javascript) and [Python](https://guides.demoutrei.dev/programming-languages/resources#python) are popular beginner languages.\n2. Learn your chosen programming language from documentations, tutorials, and people. Do **not** use LLMs/'AI'.\n3. Get good at the language. It'll take you weeks to months to get to the point where you'll be able to make a bot (depending on how much time you devote to learning).\n4. Choose an [API wrapper](https://libs.advaith.io) for your chosen programming language.\n5. Learn how the APi wrapper works, as well as about the [Discord API](https://discord.dev) so you know what is and isn't possible.\n6. Start coding your first bot!"
+                }
+              ],
+              "accessory": {
+                "type": 11,
+                "media": {
+                  "url": "https://cdn.discordapp.com/embed/avatars/2.png"
+                }
+              }
+            }
+          ]
+        }
+      }
+    </script>
+
+
 Getting Started
 ===============
 
@@ -35,5 +64,5 @@ If you *actually* want to learn, then here're the steps to take:
 
 .. _13eckdev@codeberg: https://codeberg.org/13eckdev
 .. _Discord API: https://discord.dev
-.. _JavaScript: ../../programming-languages/javascript
-.. _Python: ../../programming-languages/python
+.. _JavaScript: ../../programming-languages/resources#javascript
+.. _Python: ../../programming-languages/resources#python
