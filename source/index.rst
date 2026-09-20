@@ -38,6 +38,15 @@ demoutrei's guidebook
 
 .. toctree::
     :maxdepth: 1
+    :caption: Computer Programming
+    
+    Introductory <./programming/index.rst>
+    programming/languages/index
+    programming/glossary
+
+
+.. toctree::
+    :maxdepth: 1
     :caption: Database Management Systems
     
     Introductory <./dbms/index.rst>
@@ -107,15 +116,6 @@ demoutrei's guidebook
     Introductory <./is-innovations/index.rst>
     is-innovations/disruptive-innovation
     is-innovations/glossary
-
-
-.. toctree::
-    :maxdepth: 1
-    :caption: Programming Languages
-    
-    Introductory <./programming-languages/index.rst>
-    programming-languages/resources
-    programming-languages/glossary
 
 
 Contributors
