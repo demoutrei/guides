@@ -41,6 +41,7 @@ demoutrei's guidebook
     :caption: Computer Programming
     
     Introductory <./programming/index.rst>
+    programming/editors
     programming/languages/index
     programming/glossary
 
