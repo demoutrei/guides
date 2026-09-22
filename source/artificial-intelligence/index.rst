@@ -157,7 +157,7 @@ Types of Machine Learning
   
     -- `demoutrei@github`_
 
-    -- `phyniex@github`_
+    -- `phenuop@github`_
 
 
 .. _demoutrei@github: https://github.com/demoutrei
