@@ -14,7 +14,7 @@
               "components": [
                 {
                   "type": 10,
-                  "content": "Learn how to properly decide on which hosting/VPS service to use/purchase for your Discord app.\n\nThis is based on the <#1478860733365354687> Discord Developers mega-thread."
+                  "content": "# [Bot & Server Hosts](https://guides.demoutrei.dev/discord/api/hosts)\nLearn how to properly decide on which hosting/VPS service to use/purchase for your Discord app.\n\nThis is based on the <#1478860733365354687> Discord Developers mega-thread."
                 }
               ],
               "accessory": {
