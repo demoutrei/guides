@@ -220,6 +220,24 @@ After you have public endpoint to use as your app's Interactions Endpoint URL, y
 On the **General Information** tab of your Discord application, look for the **Interactive Endpoint URL** field. Paste your public URL that is set up to acknowledge ``PING`` messages and correctly handles security-related signature headers.
 
 
+Next Steps
+++++++++++
+
+
+.. grid:: 1 2 2 2
+    :gutter: 3
+
+
+    .. grid-item-card:: Receiving and Responding to Interactions
+        :link: https://docs.discord.com/developers/interactions/receiving-and-responding
+        :link-type: url
+
+
+    .. grid-item-card:: Managing Application Commands
+        :link: https://docs.discord.com/developers/interactions/application-commands
+        :link-type: url
+
+
 -----
 
 
