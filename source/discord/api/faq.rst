@@ -7,6 +7,28 @@ Frequently Asked Questions
 Discord API Frequently Asked Questions.
 
 
+How Do I Create an Application?
++++++++++++++++++++++++++++++++
+
+Navigate to your `Developer Portal`_ in a browser of your choice.
+
+On the top-right portion of the page, click on the ``New Application`` button. This will prompt you a modal to which it asks the name of your application, and to which team to apply---most of the time, you'd set the team to "Personal".
+
+
+.. figure:: /_static/discord/api/faq/DPortal_NewAppModal.png
+    :align: center
+    :width: 80%
+
+
+.. admonition:: My application name is not getting accepted
+    :class: hint
+
+    Most likely the name that you are trying to use is pretty common, or Discord blacklists you from doing so, i.e. any name containing "discord".
+
+
+After doing so, tick the checkbox of "By clicking Create, ..." and click on the ``Create`` button.
+
+
 How Do I Get A Bot Token?
 +++++++++++++++++++++++++
 

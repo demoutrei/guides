@@ -13,6 +13,7 @@ The `Discord API`_ is a REST API that allows you to interact with Discord data f
 
     getting-started
     hosts
+    cf-workers
     faq
 
 
