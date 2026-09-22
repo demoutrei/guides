@@ -101,8 +101,20 @@ Bot & Server Hosts
         - `Vultr`_
         
         - `Webdock`_
+
+        - `IONOS`_
         
+    .. grid-item-card:: Bot Hosting Sites
+
+        .. attention::
+
+           They provide slices of a shared cluster to host stuffs not a traditional VPS
+
         - `Wispbyte`_
+
+        - `Bot-Hosting`_
+
+        - `JustRunMy`_
 
 
 Knowledgebase
@@ -122,8 +134,9 @@ If you're encountering issues with rate limits and/or Cloudflare bans, your best
 Identifying Scam Hosts
 ^^^^^^^^^^^^^^^^^^^^^^
 
-If it's too good to be true, it is. Compute is not free, electricity is not free. While hosts can offer it really cheap (`OVHCloud`_ has some as low as a couple USD a month), it's never going to be free.
+If it's too good to be true, it is. Compute is not free, electricity is not free. While hosts can offer it really cheap (`OVHCloud`_ and `IONOS`_ has some as low as a couple USD a month), it's never going to be free.
 
+For people wondering why not say oracle is free, well its free but there restriction of 15% and taking in note that they r almost impossible to get its safe to say u cant get them
 
 Never accept free hosting inside Discord
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -381,3 +394,6 @@ Features
 .. _WHMCS: https://www.whmcs.com/
 .. _Wisp: https://wisp.gg/
 .. _Wispbyte: https://wispbyte.com/
+.. _Bot-Hosting: https://bot-hosting.net/
+.. _JustRunMy: https://justrunmy.app/discord-bots
+.. _IONOS: https://www.ionos.com/
