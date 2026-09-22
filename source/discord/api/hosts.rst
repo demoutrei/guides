@@ -407,4 +407,4 @@ Features
 
 
 .. _demoutrei@github: https://github.com/demoutrei
-.. _phyniex@github: https://github.com/phenuop
+.. _phenuop@github: https://github.com/phenuop
