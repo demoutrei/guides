@@ -1,10 +1,39 @@
-:description: Learn how to integrate HTTP-interaction (serverless) Discord application with Cloudflare's Workers.
+:description: Learn how to integrate HTTP-interaction (serverless) Discord application with Cloudflare Workers.
+
+
+.. raw:: html
+
+    <script id="discord:component-embed" type="application/json">
+      {
+        "component": {
+          "type": 17,
+          "accent_color": 3908956,
+          "components": [
+            {
+              "type": 9,
+              "components": [
+                {
+                  "type": 10,
+                  "content": "# [Cloudflare Workers](https://guides.demoutrei.dev/discord/api/cf-workers)\nLearn how to integrate HTTP-interaction (serverless) Discord application with Cloudflare Workers."
+                }
+              ],
+              "accessory": {
+                "type": 11,
+                "media": {
+                  "url": "https://cdn.discordapp.com/embed/avatars/2.png"
+                }
+              }
+            }
+          ]
+        }
+      }
+    </script>
 
 
 Cloudflare Workers
 ==================
 
-This guidepage walks through the steps on how to integrate your HTTP-interaction (serverless) Discord application with Cloudflare's Workers.
+This guidepage walks through the steps on how to integrate your HTTP-interaction (serverless) Discord application with Cloudflare Workers.
 
 
 Prerequisites
