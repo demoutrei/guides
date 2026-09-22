@@ -395,3 +395,16 @@ Features
 .. _WHMCS: https://www.whmcs.com/
 .. _Wisp: https://wisp.gg/
 .. _Wispbyte: https://wispbyte.com/
+
+
+-----
+
+.. admonition:: Authors
+  
+    -- `demoutrei@github`_
+
+    -- `phyniex@github`_
+
+
+.. _demoutrei@github: https://github.com/demoutrei
+.. _phyniex@github: https://github.com/phenuop
