@@ -6,7 +6,7 @@ Artificial Intelligence
 
 Artificial Intelligence (AI) is the simulation of human intelligence processes by machines, especially computer systems. It includes learning, reasoning, and self-correction.
 
-Examples of AI applications include expert systems, natural language processing (NLP), speech recognition, machine vision, and generative tools like GPT and Perplexity.
+Examples of AI applications include expert systems, natural language processing (NLP), speech recognition, machine vision, and generative tools like GPT(Generative Pre-Trained Transformer) and Perplexity.
 
 
 .. grid:: 1 2 2 2
@@ -19,7 +19,7 @@ Examples of AI applications include expert systems, natural language processing 
 
         Automation of repetitive tasks.
 
-        Faster devision-making.
+        Faster decision-making.
 
         Reduction of human error.
 
@@ -34,6 +34,10 @@ Examples of AI applications include expert systems, natural language processing 
 
         Reduced jobs for humans.
 
+        No Cognitive Thinking
+
+        Destroys Human Reasoning power
+
 
 Types of AI
 ^^^^^^^^^^^
@@ -46,6 +50,11 @@ Types of AI
     .. grid-item-card:: Narrow AI
 
         This makes up most current AI models, where the system is designed to perform a single, specific task (such as coding, image generation, or writing) but can't expand or apply their skills outside of what they're programmed to do.
+
+
+    .. grid-item-card:: Artificial General Intelligence
+       
+        AGI or Artificial General Intelligence is the type of Ai who have reached active thinking capabilities and have general resonaning powers.
 
 
     .. grid-item-card:: Artificial Superintelligence
@@ -62,10 +71,6 @@ Types of AI
 
         The endgame of AI evolution in many sci-fi stories is a self-aware system that has devleoped consciousness and goes a step beyond understanding the emotions and feelings of others and would hypothetically understand its own existence and internal process.
 
-    
-    .. grid-item-card:: Artificial General Intelligence
-
-        Used to describe models that have broader cognitive capabilities, able to match or slightly surpass humans across a variety of tasks, from recommending restaurants and booking your flights to driving your car---all in one model.
 
     .. grid-item-card:: Reactive
 
