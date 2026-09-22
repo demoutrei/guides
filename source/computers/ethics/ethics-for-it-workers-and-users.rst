@@ -662,7 +662,8 @@ Eight Principles of Software Engineering Ethics
         Software engineers should act consistently with the public interest.
 
 
-        .. hint:: Example
+        .. admonition:: Example
+            :class: hint
 
             Do not release software known to create serious safety risks.
 
@@ -672,7 +673,8 @@ Eight Principles of Software Engineering Ethics
         Act in the best interests of the client and employer while still considering the public interest.
 
 
-        .. hint:: Example
+        .. admonition:: Example
+            :class: hint
 
             Do good work for your company, but do not help the company harm the public.
 
@@ -682,7 +684,8 @@ Eight Principles of Software Engineering Ethics
         Software products should meet high professional standards.
 
 
-        .. hint:: Example
+        .. admonition:: Example
+            :class: hint
 
             Proeprly test software before releasing it.
 
@@ -692,7 +695,8 @@ Eight Principles of Software Engineering Ethics
         Maintain integrity and independence in professional judgment.
 
 
-        .. hint:: Example
+        .. admonition:: Example
+            :class: hint
 
             Don't recommend a product simply because someone offered you money.
 
@@ -702,7 +706,8 @@ Eight Principles of Software Engineering Ethics
         Managers should have ethical approaches to software development and maintenance.
 
 
-        .. hint:: Example
+        .. admonition:: Example
+            :class: hint
 
             A manager should not pressure employees to hide serious software problems.
 
@@ -712,7 +717,8 @@ Eight Principles of Software Engineering Ethics
         Help maintain the integrity and reuptation of the IT profession.
 
         
-        .. hint:: Example
+        .. admonition:: Example
+            :class: hint
 
             Do not lie about your qualifications.
 
@@ -722,7 +728,8 @@ Eight Principles of Software Engineering Ethics
         Treat colleagues fairly and support them.
 
 
-        .. hint:: Example
+        .. admonition:: Example
+            :class: hint
 
             Help a new programmer learn instead of intentionally allowing them to fail.
 
@@ -732,7 +739,8 @@ Eight Principles of Software Engineering Ethics
         Continue learning and promote ethical professional practice.
 
 
-        .. hint:: Example
+        .. admonition:: Example
+            :class: hint
 
             Keep updating your skills because technology constantly changes.
 
@@ -745,7 +753,8 @@ IT Professional Malpractice
 **Duty of care** means having an obligation to protect people from unreasonable harm or risk.
 
 
-.. hint:: Example
+.. admonition:: Example
+    :class: hint
 
     Imagine an IT professional is responsible for maintaining a company's database.
 
@@ -779,7 +788,8 @@ Ethical responsibilities do not belong only to IT professionals---IT users also 
         Company computers and networks are provided primarily for legitimate work purposes. Using them excessively for unrelated activities can waste working time, reduce productivity, consume company resources, create security risks, and create a hostile or inappropriate workplace.
 
 
-        .. hint:: Example
+        .. admonition:: Example
+            :class: hint
 
             Imagine an employee spends four hours during work watching videos, playing online games, browsing social media, or chatting while their assigned work remains unfinished.
 
@@ -831,7 +841,8 @@ Ethical responsibilities do not belong only to IT professionals---IT users also 
         Sharing this information without authorization can violate privacy and potentially harm the organization.
 
 
-        .. hint:: Example
+        .. admonition:: Example
+            :class: hint
 
             Imagine you work in HR or IT.
 
@@ -863,7 +874,8 @@ Five Important Elements of an Effective AUP
         Why does the policy exist?
 
 
-        .. hint:: Example
+        .. admonition:: Example
+            :class: hint
 
             To protect company systems and information.
 
@@ -873,7 +885,8 @@ Five Important Elements of an Effective AUP
         Who and what does the policy cover?
         
         
-        .. hint:: Example
+        .. admonition:: Example
+            :class: hint
 
             All employees using company computers and networks.
 
@@ -883,7 +896,8 @@ Five Important Elements of an Effective AUP
         What is acceptable and unacceptable?
 
         
-        .. hint:: Example
+        .. admonition:: Example
+            :class: hint
 
             **Acceptable**: Using company email for legitimate business communication.
 
@@ -900,7 +914,8 @@ Five Important Elements of an Effective AUP
         What happens when someone violates it?
 
 
-        .. hint:: Example
+        .. admonition:: Example
+            :class: hint
 
             Warning → Suspension → Loss of access → Termination
 
@@ -911,7 +926,8 @@ Limiting Access to Information
 Organizations should not automatically give every employee access to every piece of information. Instead, employees should have access to the information they need to perform their jobs.
 
 
-.. hint:: Example
+.. admonition:: Example
+    :class: hint
 
     A sales manager may need access to sales data. But they probably do not need access to employee medical records, payroll records, secret product formulas, and research and development information.
 
@@ -922,7 +938,8 @@ Firewalls
 A **firewall** is a hardware, software, or a combination of both that helps protect an organization's network from unauthorized access. It acts as a line of defense between an organization's internal network and the Internet.
 
 
-.. hint:: Example
+.. admonition:: Example
+    :class: hint
 
     Think of a firewall like a security guard at the entrance of a building.
 
@@ -937,12 +954,14 @@ Compliance
 **Compliance** means following established policies, guidelines, standards, specifications, laws, and regulations.
 
 
-.. hint:: Example
+.. admonition:: Example
+    :class: hint
 
     If a company has a rule: *"Customer information must be protected"*, employees are expected to follow that rule. If a law also requires the organization to protect certain information, the company must comply with that law as well.
 
 
-.. hint:: Why does compliance matter?
+.. admonition:: Why does compliance matter?
+    :class: hint
 
     Failure to comply can lead to lawsuits, fines, civil penalties, criminal penalties, or damage to reputation.
 
@@ -953,7 +972,8 @@ Internal Audit
 Organizations may also have an internal audit department. Its responsibilities can include checking whether internal controls are effective, company assets are protected, policies are followed, laws and good practicies are followed, and information used for management decisions is reliable.
 
 
-.. hint:: Example
+.. admonition:: Example
+    :class: hint
 
     Imagine a company says, *"Only authorized employees can access customer data."*
 

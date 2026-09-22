@@ -57,51 +57,259 @@ Models of ERD
 
     .. grid-item-card:: Logical ERD
 
-        A **logical ERD** is a mid-level data model that defines the structure of data elements, attributes, keys, and relationships using business terminology without tying them to a specific database software.
+        A **logical ERD** is an abstract representation of an organization's data requirements. It focuses on the structure and relationships of data, independent of any technical constraints or specific database technologies. Logical models are primarily concerned with **what** data is needed and **how** it relates, rather than **how** it will be stored or accessed.
 
 
         .. admonition:: Key Components
-
-            Entities
-              Represent the core business objects or nouns being tracked.
+            :class: tip
 
             Attributes
-              Detail the specific characteristics or properties of each entities.
+              Characteristics or properties of entities, such as ``StudentID``, ``FirstName``, or ``DateOfBirth``.
 
-            Primary Keys
-              Uniquely identify each specific record within an entity.
+
+            Business Rules
+              Logical models capture rules and constraints that reflect organizational policies, such as "a student can enrol in multiple courses, but each enrolment must be unique."
+
+
+            Cardinality
+              Define the numerical nature of the relationship.
+              
+
+            Data Integrity
+              Logical models define how data should be valid and consistent, for example, by specifying unique identifiers and mandatory fields.
+
+
+            Documentation
+              Logical models are often depicted using diagrams, such as Entity-Relationship Diagrams (ERDs), which visually represent entities, attributes, and relationships.
+
+
+            Entities
+              Represent real-world objects or concepts, such as ``Student``, ``Course``, or ``Enrolment``. Each entity has attributes (properties) that describe it.
+
 
             Foreign Keys
               Connect entities together by referencing a primary key in another table.
 
-            Cardinality
-              Define the numerical nature of the relationship.
 
             Normalization
               Organizes data to reduce redundancy and improve overall integrity.
 
 
+            Primary Keys
+              Uniquely identify each specific record within an entity.
+
+
+            Relationships
+              Connections between entities, such as a student enrolling in a course. Relationships can have their own attributes (e.g. ``EnrolmentDate``).
+
+
+            Technology Independence
+              Logical models do not specify how the data will be stored, making them adaptable to various database management systems.
+
+
+        .. admonition:: Example
+            :class: hint
+
+            Entity: Student
+              **Attributes**: StudentID, FirstName, LastName, DateOfBirth
+
+
+            Entity: Course
+              **Atributes**: CourseID, CourseName, Credits
+
+            
+            Entity: Enrolment
+              **Attributes**: StudentID, CourseID, EnrolmentDate
+
+
+            Relationship
+              - Student enrols in Course (via Enrolment)
+
+
     .. grid-item-card:: Physical ERD
 
-        A **physical ERD** is the final implementation blueprint of a relational database that shows exact tables, specific data types, column lengths, primary keys, foreign keys, and constraints tailored to a chosen database management system.
+        A **physical ERD** translates the logical model into a complete implementation within a specific database system. It addresses technical considerations, such as storage formats, indexing, data types, and security mechanisms, ensuring that the database performs efficiently and securely in the real world.
 
 
         .. admonition:: Key Elements
+            :class: tip
 
-            Tables and Columns
-              Entities from earlier design stages turn into actual database tables, and attributes become columns.
 
-            Data Types and Lengths
-              Every column gets a specific data type supported by your database system.
+            Backup and Recovery
+              Physical models consider mechanisms for data backup, recovery, and disaster management to maintain reliability.
 
-            Keys and Indexes
-              Primary keys, foreign keys, composite keys, and indexes are clearly defined to link tables and speed up searches.
 
-            Constraints and Rules
-              Rules like ``NOT NULL``, ``UNIQUE``, or ``CHECK`` restrict what data can enter the tables.
+            Constraints
+              Physical models implement constraints such as ``PRIMARY KEY``, ``FOREIGN KEY``, ``UNIQUE``, and ``NOT NULL`` to enforce data integrity and relationships.
+
+
+            Data Types
+              Each column is assigned a specific data type (e.g. ``INT``, ``VARCHAR``, ``DATE``) to optimze storage and performance.
+
+
+            Indexes
+              Indexes are created to speed up queries and improve efficiency, especially for frequently searched columns.
+
 
             Junction Tables
               Many-to-many relationships are broken down into physical junction tables containing foreign keys.
+
+
+            Performance Optimization
+              Techniques such as query optimization, caching, and load balancing are implemented to ensure the database operates efficiently under varying loads.
+
+
+            Security
+              Physical models specify across controls, user roles, and encryption to protect sensitive data and ensure compliance with organizational policies.
+
+
+            Storage and Partitioning
+              The physical model may include strategies for partitioning tables or clustering data to enhance scalability and performance.
+
+
+            Tables and Columns
+              Entities and attributes from the logical model become tables and columns in the physical model. For example, the ``Student`` entity becomes a ``Student`` table with columns for each attribute.
+
+            
+        .. admonition:: Example
+            :class: hint
+
+            .. code-block:: sql
+
+                CREATE TABLE IF NOT EXISTS Student (
+                  StudentID INT PRIMARY KEY,
+                  FirstName VARCHAR(50) NOT NULL,
+                  LastName VARCHAR(50) NOT NULL,
+                  DateOfBirth DATE NOT NULL
+                );
+
+                CREATE TABLE IF NOT EXISTS Course (
+                  CourseID INT PRIMARY KEY,
+                  CourseName VARCHAR(100) NOT NULL,
+                  Credits INT NOT NULL
+                );
+
+                CREATE TABLE IF NOT EXISTS Enrolment (
+                  StudentID INT,
+                  CourseID INT,
+                  EnrolmentDate DATE,
+                  PRIMARY KEY (StudentID, CourseID),
+                  FOREIGN KEY (StudentID) REFERENCES Student(StudentID),
+                  FOREIGN KEY (CourseID) REFERENCES Course(CourseID),
+                  INDEX idx enrolment date (EnrolmentDate)
+                );
+
+
+Logical vs. Physical Models
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
++----------------+--------------------------------------------+--------------------------------------------+
+| Aspect         | Logical Model                              | Physical Model                             |
++================+============================================+============================================+
+| Purpose        | Defines what data is needed and how it     | Specifies how data is stored, accessed,    |
+|                | relates to business requirements           | and managed in a specific DBMS             |
++----------------+--------------------------------------------+--------------------------------------------+
+| Technology     | Technology-independent; suitable for       | Technology-dependent; tailored to a        |
+| Dependency     | any DBMS                                   | particular DBMS and hardware               |
++----------------+--------------------------------------------+--------------------------------------------+
+| Focus          | Business rules, data integrity,            | Storage structures, indexing, constraints, |
+|                | relationships                              | optimization, security                     |
++----------------+--------------------------------------------+--------------------------------------------+
+| Representation | Entities, attributes, relationships (often | Tables, columns, data types, indexes,      |
+|                | diagrammed)                                | constraints (often script/code)            |
++----------------+--------------------------------------------+--------------------------------------------+
+| Security       | Defines access rules and required          | Implements access controls, encryption,    |
+|                | protections                                | and auditing                               |
++----------------+--------------------------------------------+--------------------------------------------+
+| Scalability    | Considers future data needs                | Implements partitioning, clustering, and   |
+|                | conceptually                               | load balancing for growth                  |
++----------------+--------------------------------------------+--------------------------------------------+
+| Quality &      | Ensures consistency and completeness       | Implements backup, recovery, error         |
+| Reliability    | of data requirements                       | handling, and monitoring                   |
++----------------+--------------------------------------------+--------------------------------------------+
+| Efficiency &   | Ensures correct data structure for         | Optimizes queries, storage, and resource   |
+| Effectiveness  | business operations                        | usage for performance                      |
++----------------+--------------------------------------------+--------------------------------------------+
+
+
+.. grid:: 1 2 2 2
+    :gutter: 3
+
+
+    .. grid-item-card:: Quality
+
+        Logical models ensure that all organizational data requirements are captured accurately and comprehensively. Physical models implement these requirements using best practices, reducing errors and inconsistencies.
+
+
+    .. grid-item-card:: Reliability
+
+        Logical models provide a stable foundation for data integrity, while physical models include backup, recovery, and failover mechanisms to minimize downtime and data loss.
+
+
+    .. grid-item-card:: Scalability
+
+        Logical models anticipate future growth by defining flexible structures. Physical models use partitioning, clustering, and distributed architectures to handle increasing volumes of data and users.
+
+
+    .. grid-item-card:: Efficiency
+
+        Logical models streamline data relationships and minimze redundancy. Physical models optimize data access through indexing, efficient queries, and resource management.
+
+
+    .. grid-item-card:: Effectiveness
+
+        Logical models ensure the database supports business processes and decision-making. Physical models guarantee that the system delivers expected results quickly and reliably.
+
+
+    .. grid-item-card:: Security
+
+        Logical models specify what data should be protected and who can access it. Physical models enforce these rules using authentication, authorization, encryption, and audit traits.
+
+
+Analyzing an Existing Database System
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+When analyzing an existing database system, it's important to evaluate both its logical and physical models to determine how well they support organizational requirements for quality, reliability, scalability, efficiency, effectiveness, and security.
+
+
+1. Review the Logical Model:
+    - Are all entities, attributes, and relationships clearly defined and documented?
+
+    - Do business rules and data integrity constraints reflect organizational policies?
+
+    - Is the logical model flexible enough to accommodate future changes?
+
+
+2. Examine the Physical Model:
+    - Is the database structure optimized for performance, scalability, and reliability?
+
+    - Are appropriate data types, indexes, and constraints implemented?
+
+    - Does the physical model include adequate security measures, such as access controls and encryption?
+
+
+3. Evaluate Quality and Reliability:
+    - Are there mechanisms for regular data validation, backup, and recovery?
+
+    - Is data consistent, accurate, and complete across the system?
+
+    - Are error rates and system downtime minimized?
+
+
+4. Assess Scalability and Efficiency:
+    - Can the database handle increasing data volumes and user loads without degradation in performance?
+
+    - Are queries and transactions processed efficiently, with minimal resource consumption?
+
+    - Are there strategies for horizontal or vertical scaling?
+
+
+5. Check Effectiveness and Security:
+    - Does the database system meet the operational and strategic needs of the organization?
+
+    - Are security policies enforced, monitored, and regularly updated?
+
+    - Is sensitive data protected against unauthorized access and breaches?
 
 
 Steps in Creating an ERD

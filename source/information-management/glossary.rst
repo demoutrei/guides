@@ -81,7 +81,7 @@ Glossary
 
 
     Logical ERD
-      A mid-level data model that defines the structure of data elements, attributes, keys, and relationships using business terminology without tying them to a specific database software.
+      An abstract representation of an organization's data requirements. It focuses on the structure and relationships of data, independent of any technical constraints or specific database technologies. Logical models are primarily concerned with **what** data is needed and **how** it relates, rather than **how** it will be stored or accessed.
 
 
     Many-to-Many Cardinality
@@ -113,7 +113,7 @@ Glossary
 
 
     Physical ERD
-      The final implementation of a relational database that shows exact tables, specific data types, column lengths, primary keys, foreign keys, and constraints tailored to a chosen database management system.
+      Translates the logical model into a complete implementation within a specific database system. It addresses technical considerations, such as storage formats, indexing, data types, and security mechanisms, ensuring that the database performs efficiently and securely in the real world.
 
 
     Primary Key
