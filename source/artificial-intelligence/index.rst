@@ -47,24 +47,31 @@ Types of AI
     :gutter: 3
 
 
+   .. rubric:: By Capabilities
+
+
     .. grid-item-card:: Narrow AI
 
         This makes up most current AI models, where the system is designed to perform a single, specific task (such as coding, image generation, or writing) but can't expand or apply their skills outside of what they're programmed to do.
 
 
-    .. grid-item-card:: Artificial General Intelligence
+    .. grid-item-card:: Artificial General Intelligence (AGI)
        
-        AGI or Artificial General Intelligence is the type of Ai who have reached active thinking capabilities and have general resonaning powers.
+        A hypothetical AI system which matches the intelligence to that of a human, it can be profound in various range of tasks and skills unlike narrow ai it doesn't need to be taught everything it knows. It can reson bryond its training data.
 
 
-    .. grid-item-card:: Artificial Superintelligence
+    .. grid-item-card:: Artificial Superintelligence (ASI)
 
         A theoretical step further, where AI surpasses human intelligence and the top human minds in every field, able to even perform tasks and solve problems that would be impossible for humans.
 
 
+
+   .. rubric:: By Learning Approach
+
+
     .. grid-item-card:: Limited Memory
 
-        As the name suggests, this next type of machine has the ability to evaluate past inputs and actions to learn and improve over time.
+        The learning approach current ai uses it holds into limitted user memory and feed into them to generate personalised outputs, this process doesnt include retraining the ai on your response, but rather just making it generate more personal outputs by giving more context about you.
 
 
     .. grid-item-card:: Self-Aware
@@ -81,6 +88,8 @@ Types of AI
 
         These would be able to understand that other entities ahve thoughts, emotions, desires, and intentions, and also how its own actions influence those. This would represent a huge step towards more personalized, human-like interactions with AI.
 
+
+.. rubric:: By Way of Learning
 
 Machine Learning
 ^^^^^^^^^^^^^^^^
@@ -109,6 +118,10 @@ Types of Machine Learning
     .. grid-item-card:: Reinforced Learning
 
         A type of machine learning that involves training models to make decisions in environments where there are no clear consequences of their actions. In other words, the model is reinforced with feedback based on its performance so it learns which actions lead to the best outcomes.
+
+    .. grid-item-card:: Recursive Self Improvement (RSI)
+
+        A major dream of many AI researchers, as the name suggests the model learns from itself and is still a dream to many.
 
 
 .. admonition:: Examples of Popular Machine Learning Applications
