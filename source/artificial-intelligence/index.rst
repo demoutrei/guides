@@ -47,7 +47,7 @@ Types of AI
     :gutter: 3
 
 
-   .. rubric:: By Capabilities
+   .. grid-item-card:: By Capabilities
 
 
     .. grid-item-card:: Narrow AI
@@ -66,7 +66,7 @@ Types of AI
 
 
 
-   .. rubric:: By Learning Approach
+   .. grid-item-card:: By Learning Approach
 
 
     .. grid-item-card:: Limited Memory
@@ -89,7 +89,7 @@ Types of AI
         These would be able to understand that other entities ahve thoughts, emotions, desires, and intentions, and also how its own actions influence those. This would represent a huge step towards more personalized, human-like interactions with AI.
 
 
-.. rubric:: By Way of Learning
+.. grid-item-card:: By Way of Learning
 
 Machine Learning
 ^^^^^^^^^^^^^^^^
@@ -138,3 +138,16 @@ Types of Machine Learning
     Speech recognition
     
     Anticipate traffic patterns
+
+
+-----
+
+.. admonition:: Authors
+  
+    -- `demoutrei@github`_
+
+    -- `phyniex@github`_
+
+
+.. _demoutrei@github: https://github.com/demoutrei
+.. _phyniex@github: https://github.com/phenuop
