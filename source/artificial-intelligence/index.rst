@@ -100,8 +100,6 @@ Types of AI
         These would be able to understand that other entities ahve thoughts, emotions, desires, and intentions, and also how its own actions influence those. This would represent a huge step towards more personalized, human-like interactions with AI.
 
 
-.. grid-item-card:: By Way of Learning
-
 Machine Learning
 ^^^^^^^^^^^^^^^^
 
