@@ -47,7 +47,18 @@ Types of AI
     :gutter: 3
 
 
-   .. grid-item-card:: By Capabilities
+.. grid:: 1
+    :gutter: 3
+    
+    .. grid-item-card:: By Capabilities
+    
+        .. grid:: 1
+            :class-row: surface
+            :gutter: 3
+            
+            .. grid-item-card:: Narrow AI
+              
+                ...
 
 
     .. grid-item-card:: Narrow AI
