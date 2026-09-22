@@ -1,8 +1,8 @@
 :description: Learn how to integrate HTTP-interaction (serverless) Discord application with Cloudflare's Workers.
 
 
-CF Workers
-==========
+Cloudflare Workers
+==================
 
 This guidepage walks through the steps on how to integrate your HTTP-interaction (serverless) Discord application with Cloudflare's Workers.
 
