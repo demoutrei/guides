@@ -57,7 +57,7 @@ Types of AI
 
     .. grid-item-card:: Artificial General Intelligence (AGI)
        
-        A hypothetical AI system which matches the intelligence to that of a human, it can be profound in various range of tasks and skills unlike narrow ai it doesn't need to be taught everything it knows. It can reson bryond its training data.
+        A hypothetical AI system which matches the intelligence to that of a human. It can be profound in various range of tasks and skills. Unlike Narrow AI, it doesn't need to be taught everything it knows---it can reason beyond its training data.
 
 
     .. grid-item-card:: Artificial Superintelligence (ASI)
@@ -71,7 +71,7 @@ Types of AI
 
     .. grid-item-card:: Limited Memory
 
-        The learning approach current ai uses it holds into limitted user memory and feed into them to generate personalised outputs, this process doesnt include retraining the ai on your response, but rather just making it generate more personal outputs by giving more context about you.
+        The learning approach current AI uses it holds into limited user memory and feed into them to generate personalised outputs. This process doesn't include retraining the AI on your response, but rather just making it generate more personal outputs by giving more context about you.
 
 
     .. grid-item-card:: Self-Aware
