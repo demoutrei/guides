@@ -110,11 +110,9 @@ Bot & Server Hosts
 
            They provide slices of a shared cluster to host stuffs not a traditional VPS
 
-        - `Wispbyte`_
-
         - `Bot-Hosting`_
 
-        - `JustRunMy`_
+        - `Wispbyte`_
 
 
 Knowledgebase
@@ -360,6 +358,7 @@ Features
 .. _AWS Lambda: https://aws.amazon.com/lambda/
 .. _AWS Lightsail: https://aws.amazon.com/lightsail/
 .. _Bot & Server Host Mega Thread: https://canary.discord.com/channels/613425648685547541/1478860733365354687
+.. _Bot-Hosting: https://bot-hosting.net/
 .. _CF Workers: https://workers.cloudflare.com/
 .. _Contabo: https://contabo.com/en-us/
 .. _Coolify: https://coolify.io/
@@ -373,6 +372,8 @@ Features
 .. _GCP VMs: https://cloud.google.com/products/compute?hl=en
 .. _Hetzner: https://www.hetzner.com/
 .. _Inbestigator's Hosting List: https://inbestigator.vercel.app/hosting
+.. _IONOS: https://www.ionos.com/
+.. _JustRunMy: https://justrunmy.app/discord-bots
 .. _Linode / Akamai Cloud: https://www.linode.com/
 .. _MatthewSH@github: https://github.com/MatthewSH
 .. _Netcup: https://www.netcup.com/en
@@ -394,6 +395,3 @@ Features
 .. _WHMCS: https://www.whmcs.com/
 .. _Wisp: https://wisp.gg/
 .. _Wispbyte: https://wispbyte.com/
-.. _Bot-Hosting: https://bot-hosting.net/
-.. _JustRunMy: https://justrunmy.app/discord-bots
-.. _IONOS: https://www.ionos.com/
