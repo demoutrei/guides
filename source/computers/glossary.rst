@@ -73,6 +73,10 @@ Glossary
       A set of workplace rules that lets employees use their personal phones, tablets, or laptops to do work and access company networks.
 
 
+    Censorship
+      The control or suppression of publishing or accessing information online.
+
+
     Certification
       Indicates that a professional has demonstrated a particular set of skills, knowledge, or abilities according to the certifying organization.
       
@@ -138,6 +142,11 @@ Glossary
     Cyberthief
       A person who commits cybertheft, meaning they use computers, digital networks, or the internet to steal property, money, or personal data.
 
+
+    Defamation
+      A false statement presented as fact that harms another person.
+      
+
     Delineates
       To describe, draw, or explain something with exact detail, or to mark the physical boundaries and outlines of an object or area.
 
@@ -152,6 +161,10 @@ Glossary
 
     Divulging
       The act of making secret, private, or sensitive information known to other people.
+
+
+    Doxing
+      Collecting and publishing someone's private information without permission.
 
 
     Duty of Care
@@ -245,6 +258,10 @@ Glossary
 
     Legacy System
       An older system or technology that an organization still depends on.
+
+
+    Libel
+      Written or published defamation.
       
 
     Lizard Squad
@@ -287,6 +304,7 @@ Glossary
 
     Next-Generation Firewall
       A hardware- or software-based network security system that is able to detect and block sophisticated attacks by filtering network traffic dependent on the packet contents.
+      
 
     Outbound data
       Information or traffix that originates inside a private network, device, or system and moves outward toward an external destination on the public Internet.
@@ -374,6 +392,11 @@ Glossary
     Security vulnerability
       A weakness or flaw in a system, software, hardware, or process that an attacker can exploit to compromise data security or gain unauthorized access.
 
+
+    Slander
+      Spoken defamation.
+      
+
     Smishing
       Another variation of phishing that involves the use of texting.
 
@@ -390,6 +413,10 @@ Glossary
 
     Stored Wire and Electronic Communications and Transactional Records Access Statutes
       Focuses on unlawful access to stored communications to obtain, alter, or prevent authorized access to a wire or electronic communication while it is in electronic storage.
+
+
+    Strategic Lawsuits Against Public Participation
+      Typically a lawsuit used to intimidate critics on matters of public interest.
 
 
     Suppliers
@@ -420,6 +447,11 @@ Glossary
 
     Trojan Horse
       A seemingly harmless program in which malicious code is hidden.
+
+
+    Truth
+      An absolute defense to a defamation claim.
+
 
     Ubiquitous
       Technology, data, or connectivity are present, accessible, and active everywhere at all times.

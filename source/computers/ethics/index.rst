@@ -33,3 +33,4 @@ Computer Ethics
     ethics-for-it-workers-and-users
     cybersecurity
     privacy
+    freedom-of-expression
