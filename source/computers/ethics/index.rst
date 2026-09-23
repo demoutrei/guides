@@ -32,3 +32,4 @@ Computer Ethics
 
     ethics-for-it-workers-and-users
     cybersecurity
+    privacy
