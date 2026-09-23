@@ -83,7 +83,7 @@ Implementation
             swapped = false;
             for (int j = 0; j < size - i - 1; j++) {
               if (array[j + 1] < array[j]) {
-                std::swap(array[j], array[j + 1])
+                std::swap(array[j], array[j + 1]);
                 swapped = true;
               }
             }
