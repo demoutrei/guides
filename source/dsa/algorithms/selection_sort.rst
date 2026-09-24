@@ -73,15 +73,15 @@ Implementation
 
         template <int size>
         void selectionSort(int (&array)[size]) {
-          int minimum_index;
+          int minimumIndex;
           for (int i = 0; i < (size - 1); ++i) {
-            minimum_index = i;
+            minimumIndex = i;
             for (int j = i + 1; j < size; ++j) {
-              if (array[j] < array[minimum_index]) {
-                minimum_index = j;
+              if (array[j] < array[minimumIndex]) {
+                minimumIndex = j;
               }
             }
-            std::swap(array[i], array[minimum_index]);
+            std::swap(array[i], array[minimumIndex]);
           }
         }
 
