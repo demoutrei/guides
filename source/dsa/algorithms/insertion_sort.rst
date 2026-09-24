@@ -75,9 +75,7 @@ Implementation
         template <int size>
         void insertionSort(int (&array)[size]) {
           for (int i = 1; i < size; ++i) {
-            int j;
-            int value = array[i];
-            j = i - 1;
+            int j = i - 1, value = array[i];
             while (0 <= j && value < array[j]) {
               std::swap(array[j], array[j + 1]);
               --j;
