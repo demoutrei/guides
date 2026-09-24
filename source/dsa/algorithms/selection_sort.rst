@@ -77,9 +77,8 @@ Implementation
           for (int i = 0; i < (size - 1); ++i) {
             minimumIndex = i;
             for (int j = i + 1; j < size; ++j) {
-              if (array[j] < array[minimumIndex]) {
-                minimumIndex = j;
-              }
+              if (array[minimumIndex] <= array[j]) continue;
+              minimumIndex = j;
             }
             std::swap(array[i], array[minimumIndex]);
           }
