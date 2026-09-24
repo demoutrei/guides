@@ -82,8 +82,7 @@ Implementation
           for (int j = 0; j < size2; j++) {
             R[j] = array[midpoint + 1 + j];
           }
-          int i { 0 }, j { 0 };
-          int k { left };
+          int i { 0 }, j { 0 }, k { left };
           while (i < size1 && j < size2) {
             if (L[i] <= R[j]) {
               array[k] = L[i];
