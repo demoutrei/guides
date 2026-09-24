@@ -74,6 +74,31 @@ A linear data structure is a data organization method where elements are arrange
     **Memory Management**: They can use continuous memory allocations or scattered memory nodes linked by pointers.
 
 
+.. grid:: 1
+    :gutter: 3
+
+
+    .. grid-item-card:: Array
+        :link: ./array
+        :link-type: url
+
+        An **array** is a fundamental, linear data structure that stores a collection of elements of the same data type in contiguous (adjacent) memory locations.
+
+
+    .. grid-item-card:: Linked List
+        :link: ./linked_list/
+        :link-type: url
+
+        A **linked list** is a linear data structure where elements are not stored in contiguous memory locations. Instead, they are represented as individual objects called **nodes**, which are chained together using pointers or references.
+
+
+    .. grid-item-card:: Stack
+        :link: ./stack
+        :link-type: url
+
+        A **stack** is a linear data structure that follows the **Last In, First Out** (LIFO) principle, meaning the last element added is the first one to be removed. Think of it like a physical stack of plates---you can only add a new plate to the top, and you can only remove the plate that is currently on top.
+
+
 Non-Linear Data Structures
 --------------------------
 
@@ -106,8 +131,8 @@ Regardless of the type, software programs use data structures to perform six fun
 
 
 .. toctree::
+    :hidden:
     :maxdepth: 2
-    :caption: Topics
 
     array
     linked_list/index

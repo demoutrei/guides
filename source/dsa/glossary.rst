@@ -121,11 +121,21 @@ Glossary
     Radix Sort
       A non-comparison-based sorting algorithm that organizes data with integer keys by grouping elements by their individual digits sharing the same significant position and value. Unlike comparison sorts like Merge Sort and Quick Sort, Radix Sort utilizes a stable subroutine (typically Counting Sort) to sort data iteratively from the least significant digit (LSD) to the most significant digit (MSD).
 
+
+    Searching Algorithm
+      A step-by-step procedure designed to locate a specific target item (often called a key) or determine its presence within a collection of data stored in a data structure.
+      
+
     Selection Sort
       An in-place, comparison-based sorting algorithm that works by repeatedly finding the minimum element from the unsorted portion of an array and swapping it with the first unsorted element. This shifts the boundary between the sorted and unsorted sections one step to the right until the entire dataset is ordered.
 
     Singly Linked List
       linear data structure where elements are stored in individual objects called **nodes**, and each node points to the next consecutive node via a reference pointer. Unlike arrays, elements are not stored in contiguous memory locations, allowing for dynamic memory allocation.
+
+
+    Sorting Algorithm
+      A step-by-step procedure or set of instructions usde to rearrange a collection of data elements (such as an array or list) into a specific, orderly sequence.
+      
 
     Space Complexity
       A metric that quantifies the total memory space an algorithm or data structure requires to run to completion as a function of the input size (:math:`n`). It is expressed using Big O notation to define how memory requirements scale rather than measuring exact bytes, which vary by hardware.

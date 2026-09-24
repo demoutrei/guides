@@ -61,9 +61,9 @@ demoutrei's guidebook
     
     Introductory <./dsa/index.rst>
     dsa/algorithms/index
-    dsa/data-structures/index
-    dsa/space-complexity
-    dsa/time-complexity
+    dsa/data_structures/index
+    dsa/space_complexity
+    dsa/time_complexity
     dsa/glossary
 
 

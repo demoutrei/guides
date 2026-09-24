@@ -46,7 +46,33 @@ The list begins at a reference point called the ``Head``. The final node points 
 Types of Linked Lists
 ^^^^^^^^^^^^^^^^^^^^^
 
+.. grid:: 1
+    :gutter: 3
+
+
+    .. grid-item-card:: Singly Linked List
+        :link: ./singly
+        :link-type: url
+
+        A **singly linked list** is a linear data structure where elements are stored in individual objects called **nodes**, and each node points to the next consecutive node via a reference pointer. Unlike `arrays <../array>`_, elements are not stored in contiguous memory locations, allowing for dynamic memory allocation.
+
+
+    .. grid-item-card:: Doubly Linked List
+        :link: ./doubly
+        :link-type: url
+
+        A **doubly linked list** is a linear data structure where each element (called a **node**) contains a data field and two pointers: one pointing to the next node, and another pointing to the previous node. This structure enabled bidirectional traversal, allowing you to move both forward and backward through the sequence.
+
+
+    .. grid-item-card:: Circular Linked List
+        :link: ./circular/
+        :link-type: url
+
+        A circular linked list is a variation of a linked list where the last node points back to the first node, forming a closed loop. Unlike regular linked lists, it does not contain any Null pointers at the end.
+
+
 .. toctree::
+    :hidden:
     :maxdepth: 2
 
     singly
