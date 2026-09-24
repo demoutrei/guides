@@ -76,7 +76,7 @@ Implementation
           int minimum_index;
           for (int i = 0; i < (size - 1); ++i) {
             minimum_index = i;
-            for (int j = i + 1; j < n; ++j) {
+            for (int j = i + 1; j < size; ++j) {
               if (array[j] < array[minimum_index]) {
                 minimum_index = j;
               }
