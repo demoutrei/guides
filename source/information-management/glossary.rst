@@ -38,6 +38,10 @@ Glossary
       Refers to the characteristics, attributes, or rules that define a specific piece of data.
 
 
+    Database Re-Engineering
+      A comprehensive process that involves analyzing, modifying, and optimizing an existing database system to better meet organizational needs.
+
+
     Derived Attribute
       Attributes whose value is not stored directly in the database, but instead calculated or derived from other stored attributes or system values.
 

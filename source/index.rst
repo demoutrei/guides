@@ -107,6 +107,7 @@ demoutrei's guidebook
     Introductory <./information-management/index.rst>
     information-management/fundamentals
     information-management/erd
+    information-management/reengineering-of-databases
     information-management/glossary
 
 
