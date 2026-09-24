@@ -101,7 +101,17 @@ Bot & Server Hosts
         - `Vultr`_
         
         - `Webdock`_
+
+        - `IONOS`_
         
+    .. grid-item-card:: Bot Hosting Sites
+
+        .. attention::
+
+           They provide slices of a shared cluster to host stuffs not a traditional VPS
+
+        - `Bot-Hosting`_
+
         - `Wispbyte`_
 
 
@@ -122,8 +132,9 @@ If you're encountering issues with rate limits and/or Cloudflare bans, your best
 Identifying Scam Hosts
 ^^^^^^^^^^^^^^^^^^^^^^
 
-If it's too good to be true, it is. Compute is not free, electricity is not free. While hosts can offer it really cheap (`OVHCloud`_ has some as low as a couple USD a month), it's never going to be free.
+If it's too good to be true, it is. Compute is not free, electricity is not free. While hosts can offer it really cheap (`OVHCloud`_ and `IONOS`_ has some as low as a couple USD a month), it's never going to be free.
 
+For people wondering why not say oracle is free, well its free but there restriction of 15% and taking in note that they r almost impossible to get its safe to say u cant get them
 
 Never accept free hosting inside Discord
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -347,6 +358,7 @@ Features
 .. _AWS Lambda: https://aws.amazon.com/lambda/
 .. _AWS Lightsail: https://aws.amazon.com/lightsail/
 .. _Bot & Server Host Mega Thread: https://canary.discord.com/channels/613425648685547541/1478860733365354687
+.. _Bot-Hosting: https://bot-hosting.net/
 .. _CF Workers: https://workers.cloudflare.com/
 .. _Contabo: https://contabo.com/en-us/
 .. _Coolify: https://coolify.io/
@@ -360,6 +372,8 @@ Features
 .. _GCP VMs: https://cloud.google.com/products/compute?hl=en
 .. _Hetzner: https://www.hetzner.com/
 .. _Inbestigator's Hosting List: https://inbestigator.vercel.app/hosting
+.. _IONOS: https://www.ionos.com/
+.. _JustRunMy: https://justrunmy.app/discord-bots
 .. _Linode / Akamai Cloud: https://www.linode.com/
 .. _MatthewSH@github: https://github.com/MatthewSH
 .. _Netcup: https://www.netcup.com/en
@@ -381,3 +395,16 @@ Features
 .. _WHMCS: https://www.whmcs.com/
 .. _Wisp: https://wisp.gg/
 .. _Wispbyte: https://wispbyte.com/
+
+
+-----
+
+.. admonition:: Authors
+  
+    -- `demoutrei@github`_
+
+    -- `phenuop@github`_
+
+
+.. _demoutrei@github: https://github.com/demoutrei
+.. _phenuop@github: https://github.com/phenuop
