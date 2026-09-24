@@ -68,13 +68,11 @@ Implementation
 
         template <int size>
         int partition(int (&array)[size], int lowIndex, int highIndex) {
-          int pivot { array[highIndex] };
-          int i { lowIndex - 1 };
+          int pivot { array[highIndex] }, i { lowIndex - 1 };
           for (int j = lowIndex; j < highIndex; ++j) {
-            if (array[j] < pivot) {
-              ++i;
-              std::swap(array[i], array[j]);
-            }
+            if (pivot <= array[j]) continue;
+            ++i;
+            std::swap(array[i], array[j]);
           }
           std::swap(array[i + 1], array[highIndex]);
           return i + 1;
