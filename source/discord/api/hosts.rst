@@ -55,11 +55,6 @@ Bot & Server Hosts
         - `Netlify Functions`_
 
 
-        .. attention::
-
-            See `Shared IP Warning <#shared-ip-warning>`_ before using anything serverless.
-
-
     .. grid-item-card:: VPS / Dedicated
 
         - `Aruba Cloud`_
@@ -103,6 +98,13 @@ Bot & Server Hosts
         - `Webdock`_
         
         - `Wispbyte`_
+
+
+
+
+.. attention::
+
+    See `Shared IP Warning <#shared-ip-warning>`_
 
 
 Knowledgebase
