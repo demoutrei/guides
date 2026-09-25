@@ -26,11 +26,37 @@ Computer Ethics
       Weighing how software design and new technologies affect society, accessibility, and human well-being.
 
 
-.. toctree::
-    :maxdepth: 1
-    :caption: Topics
+.. grid:: 1
+    :gutter: 3
 
-    ethics-for-it-workers-and-users
+
+    .. grid-item-card:: Chapter 2: Ethics For IT Workers and Users
+        :link: ./ethics_for_it_workers_and_users
+        :link-type: url
+
+
+    .. grid-item-card:: Chapter 3: CyberAttacks and CyberSecurity
+        :link: ./cybersecurity
+        :link-type: url
+
+        Cyber security is the practice of defending computers, servers, mobile devices, networks, and data from digital attacks, theft, or unauthorized access.
+
+
+    .. grid-item-card:: Chapter 4: Privacy
+        :link: ./privacy
+        :link-type: url
+
+
+    .. grid-item-card:: Chapter 5: Freedom of Expression
+        :link: ./freedom_of_expression
+        :link-type: url
+
+
+.. toctree::
+    :hidden:
+    :maxdepth: 1
+
+    ethics_for_it_workers_and_users
     cybersecurity
     privacy
-    freedom-of-expression
+    freedom_of_expression

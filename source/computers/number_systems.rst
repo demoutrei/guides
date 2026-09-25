@@ -1,8 +1,14 @@
-:description: Binary is the base-2 numbering system consisting solely of 0s and 1s.
+:description: Number systems form the foundation of data representation, computer architecture, and integer algorithms by organizing values into distinct bases and countable sets.
+
+
+Number Systems
+==============
+
+**Number systems** form the foundation of data representation, computer architecture, and integer algorithms by organizing values into distinct bases and countable sets.
 
 
 Binary
-======
+^^^^^^
 
 **Binary** is the base-2 numbering system consisting solely of ``0`` s and ``1`` s.
 

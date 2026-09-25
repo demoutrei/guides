@@ -8,13 +8,48 @@ The `Discord API`_ is a REST API that allows you to interact with Discord data f
 
 
 .. toctree::
+    :hidden:
     :maxdepth: 1
-    :caption: Topics
 
-    getting-started
+    getting_started
     hosts
-    cf-workers
+    cf_workers
     faq
+
+
+-----
+
+
+.. grid:: 1
+    :gutter: 3
+
+
+    .. grid-item-card:: Getting Started
+        :link: ./getting_started
+        :link-type: url
+
+        Don't know what to do? Read this Getting Started guide on where to start.
+
+
+    .. grid-item-card:: Cloudflare Workers
+        :link: ./cf_workers
+        :link-type: url
+
+        Learn how to integrate HTTP-interaction (serverless) Discord application with Cloudflare Workers.
+
+
+    .. grid-item-card:: Bot & Server Hosts
+        :link: ./hosts
+        :link-type: url
+
+        Learn how to properly decide on which hosting/VPS service to use/purchase for your Discord app. This is based on the "Bot & Server Host Mega Thread" Discord Developers thread.
+
+
+    .. grid-item-card:: Frequently Asked Questions
+        :link: ./faq
+        :link-type: url
+
+        Discord API Frequently Asked Questions.
 
 
 .. seealso::

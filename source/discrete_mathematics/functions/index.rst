@@ -350,15 +350,63 @@ An **inverse function** is a mathematical operation that reverses or "undoes" th
 Types of Functions
 ^^^^^^^^^^^^^^^^^^
 
+
+.. grid:: 1
+    :gutter: 3
+
+
+    .. grid-item-card:: Bijective Function
+        :link: ./bijection
+        :link-type: url
+
+        A bijective function is a function that is both injective (one-to-one) and surjective (onto). It pairs every element in the domain with a unique element in the codomain, leaving no elements unmatched in either set, creating a direct one-to-one correspondence.
+
+
+    .. grid-item-card:: Constant Function
+        :link: ./constant
+        :link-type: url
+
+        A constant function is a specific type of function where every input from the domain maps to the exact same single output in the codomain.
+
+
+    .. grid-item-card:: Identity Function
+        :link: ./identity
+        :link-type: url
+
+        An identity function is a special mapping on a set that returns every element exactly as it was given.
+
+
+    .. grid-item-card:: Injective Function
+        :link: ./injection
+        :link-type: url
+
+        An injective function is a one-to-one function where every distinct input in the domain maps to a unique output in the codomain. No two different elements share the same image, meaning no target value is hit more than once.
+
+
+    .. grid-item-card:: Many-To-One Function
+        :link: ./many_to_one
+        :link-type: url
+
+        A many-to-one function is a function where two or more distinct inputs from the domain map to the same single output in the codomain. It satisfies the core rule of a function---each input has only one output---but breaks uniqueness in reverse, meaning multiple inputs share an image.
+
+
+    .. grid-item-card:: Surjective Function
+        :link: ./surjection
+        :link-type: url
+
+        A surjective function (also called an "onto" function) is a function where every element in the codomain is mapped to by at least one element from the domain. No element in the target set is left out.
+
+
 .. toctree::
+    :hidden:
     :maxdepth: 3
     
-    injection
-    surjection
     bijection
-    many-to-one
-    identity
     constant
+    identity
+    injection
+    many_to_one
+    surjection
 
 
 -----

@@ -21,8 +21,8 @@ demoutrei's guidebook
     :maxdepth: 1
     :caption: Artificial Intelligence
 
-    Introductory <./artificial-intelligence/index.rst>
-    artificial-intelligence/glossary
+    Introductory <./artificial_intelligence/index.rst>
+    artificial_intelligence/glossary
 
 
 .. toctree::
@@ -30,9 +30,9 @@ demoutrei's guidebook
     :caption: Computers
     
     Introductory <./computers/index.rst>
-    computers/binary
     computers/ethics/index
-    computers/history-of-computing
+    computers/history_of_computing
+    computers/number_systems
     computers/glossary
 
 
@@ -51,7 +51,7 @@ demoutrei's guidebook
     :caption: Database Management Systems
     
     Introductory <./dbms/index.rst>
-    dbms/getting-started
+    dbms/getting_started
     dbms/glossary
 
 
@@ -74,7 +74,7 @@ demoutrei's guidebook
     Introductory <./discord/index.rst>
     discord/api/index
     discord/markdown
-    discord/message-formatting
+    discord/message_formatting
     discord/glossary
 
 
@@ -82,42 +82,42 @@ demoutrei's guidebook
     :maxdepth: 1
     :caption: Discrete Mathematics
     
-    Introductory <./discrete-mathematics/index.rst>
-    discrete-mathematics/functions/index
-    discrete-mathematics/graph-theory/index
-    discrete-mathematics/matrix
-    discrete-mathematics/propositions/index
-    discrete-mathematics/set-theory
-    discrete-mathematics/glossary
+    Introductory <./discrete_mathematics/index.rst>
+    discrete_mathematics/functions/index
+    discrete_mathematics/graph_theory/index
+    discrete_mathematics/matrix
+    discrete_mathematics/propositions/index
+    discrete_mathematics/set_theory
+    discrete_mathematics/glossary
 
 
 .. toctree::
     :maxdepth: 1
     :caption: Graphics and Visual Computing
 
-    Introductory <./graphics-and-visual-computing/index.rst>
-    graphics-and-visual-computing/design-principles
-    graphics-and-visual-computing/glossary
+    Introductory <./graphics_and_visual_computing/index.rst>
+    graphics_and_visual_computing/design_principles
+    graphics_and_visual_computing/glossary
 
 
 .. toctree::
     :maxdepth: 1
     :caption: Information Management
 
-    Introductory <./information-management/index.rst>
-    information-management/fundamentals
-    information-management/erd
-    information-management/reengineering-of-databases
-    information-management/glossary
+    Introductory <./information_management/index.rst>
+    information_management/fundamentals
+    information_management/erd
+    information_management/reengineering_of_databases
+    information_management/glossary
 
 
 .. toctree::
     :maxdepth: 1
     :caption: IS Innovations
 
-    Introductory <./is-innovations/index.rst>
-    is-innovations/disruptive-innovation
-    is-innovations/glossary
+    Introductory <./is_innovations/index.rst>
+    is_innovations/disruptive_innovation
+    is_innovations/glossary
 
 
 Contributors

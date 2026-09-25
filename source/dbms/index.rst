@@ -327,6 +327,20 @@ Applications of DBMS
 - **Data science**: Supports analytics and predictions.
 
 
+-----
+
+
+.. grid:: 1
+    :gutter: 3
+
+
+    .. grid-item-card:: Getting Started
+        :link: ./getting_started
+        :link-type: url
+
+        Picking out a database? See a few choices to pick out.
+
+
 .. _Amazon RDS: https://aws.amazon.com/rds/
 .. _AWS: https://aws.amazon.com/
 .. _Azure: https://azure.microsoft.com/en-us

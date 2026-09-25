@@ -400,16 +400,33 @@ The negation of an implication is a `conjunction <#conjunction>`_:
 That is, the only way for an implication to be |false| is for the hypothesis to be |true| *AND* the conclusion to be |false|.
 
 
-.. toctree::
-    :maxdepth: 1
-    :caption: SubTopics
-
-    deductions
-    predicates
-    rules-of-inference
-
-
 -----
+
+
+.. grid:: 1
+    :gutter: 3
+
+
+    .. grid-item-card:: Deductions
+        :link: ./deductions
+        :link-type: url
+
+        Deductions in Discrete Mathematics use rules of inference to derive a valid conclusion from a set of given premises.
+
+
+    .. grid-item-card:: Predicate Logic
+        :link: ./predicates
+        :link-type: url
+
+        Predicate Logic deals with predicates, which are propositions containing variables.
+
+
+    .. grid-item-card:: Rules of Inference
+        :link: ./rules_of_inference
+        :link-type: url
+
+        Rules of Inference are standard logical templates used to build valid arguments and prove conclusions from given premises in propositional logic.
+
 
 .. admonition:: Sources
     :class: seealso
@@ -417,6 +434,15 @@ That is, the only way for an implication to be |false| is for the hypothesis to 
     `Discrete Mathematics - Propositional Logic`_
 
     `discrete.openmathbooks.org <https://discrete.openmathbooks.org/dmoi3/sec_propositional.html>`_
+
+
+.. toctree::
+    :hidden:
+    :maxdepth: 1
+
+    deductions
+    predicates
+    rules_of_inference
 
 
 .. _Discrete Mathematics - Propositional Logic: https://www.tutorialspoint.com/discrete_mathematics/discrete_mathematics_propositional_logic.htm

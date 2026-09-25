@@ -1,3 +1,6 @@
+:description: Database re-engineering is a comprehensive process that involves analyzing, modifying, and optimizing an existing database system to better meet organizational needs.
+
+
 Re-Engineering of Databases
 ===========================
 
