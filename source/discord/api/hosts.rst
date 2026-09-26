@@ -7,7 +7,7 @@
       {
         "component": {
           "type": 17,
-          "accent_color": 3908956,
+          "accent_color": 16777215,
           "components": [
             {
               "type": 9,
@@ -20,7 +20,7 @@
               "accessory": {
                 "type": 11,
                 "media": {
-                  "url": "https://cdn.discordapp.com/embed/avatars/2.png"
+                  "url": "https://cdn.discordapp.com/guilds/613425648685547541/users/468197798924386304/avatars/165049c95e073321409b6b27c691787e.webp?size=128"
                 }
               } 
             }
