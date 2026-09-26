@@ -1,0 +1,10 @@
+:layout: 404
+:orphan:
+
+
+404
+===
+
+Looks like the page you are looking for does not exist. It may be because it has moved to a different location, or from a typo in the URL.
+
+Want a page to get added to the site? `Contribute now <https://github.com/demoutrei/guides>`_!.
