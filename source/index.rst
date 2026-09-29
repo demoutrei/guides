@@ -108,6 +108,7 @@ demoutrei's guidebook
     information_management/fundamentals
     information_management/erd
     information_management/reengineering_of_databases
+    information_management/uml
     information_management/glossary
 
 

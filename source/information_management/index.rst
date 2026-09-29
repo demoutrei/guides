@@ -28,3 +28,10 @@ Information Management
         :link-type: url
 
         Database re-engineering is a comprehensive process that involves analyzing, modifying, and optimizing an existing database system to better meet organizational needs.
+
+
+    .. grid-item-card:: Unified Modeling Language
+        :link: ./uml
+        :link-type: url
+
+        A widely adopted standard for visualizing, specifying, constructing, and documenting the artifacts of software systems.

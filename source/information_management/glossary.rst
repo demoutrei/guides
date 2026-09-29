@@ -8,6 +8,12 @@ Glossary
 .. glossary::
 
 
+    Activity Diagram
+      Represents workflows of stepwise activities and actions, supporting modelling of business and operational processes.
+
+      Represents the *workflow* or *business process* in terms of activities, decisions, and parallel flows. It is useful for modeling how information is processed and transformed.
+
+
     Associative Entity
       Associates the instances of one or more entity types. They also contain attributes that are unique to the relationship between those entity instances.
 
@@ -18,6 +24,12 @@ Glossary
 
     Binary Relationship
       A relationship that has a degree of 2, meaning it connects exactly two different entity types or sets.
+
+
+    Class Diagram
+      Describes the static structure of a system, including classes, attributes, oeprations, and relationships.
+
+      Models the *static structure* of a system: its calsses, attributes, operations, and relationships. It is particularly important for information management because it closely relates to **database schema design**.
 
 
     Composite Attribute
@@ -128,6 +140,18 @@ Glossary
       The association that describes the interaction between entities.
 
 
+    Sequence Diagram
+      Shows how objects interact in a particular scenario of a use-case, focusing on the sequence of messages exchanged.
+
+      Models the *time-ordered interaction* between objects or components. It is useful for analyzing how data flows through the system during a specific scenario.
+
+
+    State Machine Diagram
+      Depicts the states of an object and transitions triggered by events.
+
+      Models the *states of an object* and the events that cause transitions between those states. It is valuable for understanding how data entities change over time.
+
+
     Strong Entity
       Exists independently from other entity types. They always possess one or more attributes that uniquely distinguish each occurence of the entity.
 
@@ -142,6 +166,16 @@ Glossary
 
     Unary Relationhsip
       An association where a single entity type relates to instances of itself, giving it a degree of 1.
+
+
+    Unified Modeling Language
+      A widely adopted stsandard for visualizing, specifying, constructing, and documenting the artifacts of software systems.
+
+
+    Use-Case Diagram
+      Illustrates the functionality provided by a system in terms of actors and their interactions with use-cases.
+
+      It shows the *functional requirements* of a system from the perspective of its users (called **actors**). It answers the question: *"What should the system do?"*
 
 
     Weak Entity
