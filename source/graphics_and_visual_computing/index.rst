@@ -11,6 +11,11 @@ Graphics and Visual Computing
     :gutter: 3
 
 
+    .. grid-item-card:: Foundations of Graphics and Visual Computing
+        :link: ./foundations
+        :link-type: url
+
+
     .. grid-item-card:: Design Principles
         :link: ./design_principles
         :link-type: url

@@ -96,6 +96,7 @@ demoutrei's guidebook
     :caption: Graphics and Visual Computing
 
     Introductory <./graphics_and_visual_computing/index.rst>
+    graphics_and_visual_computing/foundations
     graphics_and_visual_computing/design_principles
     graphics_and_visual_computing/glossary
 

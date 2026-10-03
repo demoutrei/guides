@@ -19,6 +19,10 @@ Glossary
       The study of how colors work together and how they can be used to communicate ideas, emotions, and visual messages.
 
 
+    Computer Graphics
+      The field of computing concerned with creating, manipulating, storing, and displaying visual information using computers.
+
+
     Cool Colors
       Colors that are commonly associated with calmness, relaxation, freshness, and stability. They can make a design feel peaceful, professional, clean, or trustworthy.
 
@@ -30,9 +34,16 @@ Glossary
     Emphasis
       Highlights the viewer's attention to the most important or specific design element of the layout.
 
+    Frame Buffer
+      Stores information about the image that is going to be displayed.
+
 
     Graphics and Visual Computing
       A branch of computer science that deals with the creation, processing, analysis, and rendering of digital images and 3D models using computers.
+
+
+    Graphics System
+      A combination of hardware and software used to create, process, store, and display graphical information.
 
 
     Hierarchy
@@ -47,6 +58,14 @@ Glossary
       Guiding the viewer's eye to a predetermined path in the layout.
 
 
+    Pixel
+      Short for **picture element**; one of the smallest individual units of a digital raster image.
+
+
+    Pixel density
+      Describes how many pixels are packed into a physical area of a display. It is commonly expressed in **PPI** (pixels per inch).
+
+
     Primary Colors
       The basic colors that cannot be created by mixing other colors.
 
@@ -59,8 +78,20 @@ Glossary
       A design principle where visual elements are arranged in a circular pattern around a central focal point.
 
 
+    Raster Image
+      Represents an image using a grid of pixels.
+
+
+    Rasterization
+      Converts geometric information into fragments/pixels that can eventually be displayed.
+
+
     Repetition
       When reusing the same visual element (color, shape, font, pattern, images, etc.) to create consistency throughout the design.
+
+
+    Resolution
+      Refers to the number of pixels used to represent an image or display.
 
 
     Secondary Colors
@@ -81,6 +112,13 @@ Glossary
 
     Variety
       Using different visual elements (colors, shapes, textures, images, etc.) to keep the design interesting.
+
+
+    Vector Image
+      Represents graphics using mathematical descriptions of shapes.
+
+    Visual computing
+      A broader field involving the processing, analysis, generation, and understanding of visual information using computers.
 
 
     Warm Colors
