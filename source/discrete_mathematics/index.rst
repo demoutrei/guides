@@ -27,6 +27,12 @@ Discrete Mathematics
 
         Graph theory is the study of graphs, which are mathematical structures used to model pairwise relations between objects. A graph in this context is made up of vertices (also called nodes or points) which are connected by edges (also called arcs, links, or lines). A distinction is made between undirected graphs, where edges link two vertices symmetrically, and directed graphs, where edges link two vertices asymmetrically. Graphs are one of the principal objects of study in discrete mathematics.
 
+    .. grid-item-card:: Integers and Divisibility
+        :link: ./integers_and_divisibility
+        :link-type: url
+
+        This section includes some basic topics in number theory such as integers, divisibility, greatest common divisor, and integers.
+
 
     .. grid-item-card:: Matrix
         :link: ./matrix

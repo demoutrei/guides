@@ -84,6 +84,7 @@ demoutrei's guidebook
     Introductory <./discrete_mathematics/index.rst>
     discrete_mathematics/functions/index
     discrete_mathematics/graph_theory/index
+    discrete_mathematics/integers_and_divisibility
     discrete_mathematics/matrix
     discrete_mathematics/number_systems
     discrete_mathematics/propositions/index
