@@ -32,7 +32,6 @@ demoutrei's guidebook
     Introductory <./computers/index.rst>
     computers/ethics/index
     computers/history_of_computing
-    computers/number_systems
     computers/glossary
 
 
@@ -86,6 +85,7 @@ demoutrei's guidebook
     discrete_mathematics/functions/index
     discrete_mathematics/graph_theory/index
     discrete_mathematics/matrix
+    discrete_mathematics/number_systems
     discrete_mathematics/propositions/index
     discrete_mathematics/set_theory
     discrete_mathematics/glossary

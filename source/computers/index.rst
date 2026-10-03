@@ -21,10 +21,3 @@ A **computer** is a machine that can be programmed to automatically carry out se
     .. grid-item-card:: History of Computing
         :link: ./history_of_computing
         :link-type: url
-
-
-    .. grid-item-card:: Number Systems
-        :link: ./number_systems
-        :link-type: url
-
-        Number systems form the foundation of data representation, computer architecture, and integer algorithms by organizing values into distinct bases and countable sets.

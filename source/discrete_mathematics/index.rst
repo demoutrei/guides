@@ -35,6 +35,13 @@ Discrete Mathematics
         A matrix is some table of numbers, symbols, or mathematical objects coming from a set. A matrix has a "height" and a "width" corresponding to the number of rows and the number of columns, respectively. We describe a matrix first by its number of rows and then by its number of columns.
 
 
+    .. grid-item-card:: Number Systems
+        :link: ./number_systems
+        :link-type: url
+
+        Number systems form the foundation of data representation, computer architecture, and integer algorithms by organizing values into distinct bases and countable sets.
+
+
     .. grid-item-card:: Propositional Logic
         :link: ./propositions
         :link-type: url
