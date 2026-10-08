@@ -145,7 +145,7 @@ Implementation
               if (head == nullptr) return;
               if (head->data == data) {
                 Node *current = head;
-                haed = head->next;
+                head = head->next;
                 delete current;
                 return;
               }
