@@ -30,6 +30,7 @@ demoutrei's guidebook
     :caption: Cloudflare
 
     Introductory <./cloudflare/index.rst>
+    cloudflare/workers/index
 
 
 .. toctree::
