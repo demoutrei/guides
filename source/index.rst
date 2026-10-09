@@ -27,6 +27,13 @@ demoutrei's guidebook
 
 .. toctree::
     :maxdepth: 1
+    :caption: Cloudflare
+
+    Introductory <./cloudflare/index.rst>
+
+
+.. toctree::
+    :maxdepth: 1
     :caption: Computers
     
     Introductory <./computers/index.rst>
