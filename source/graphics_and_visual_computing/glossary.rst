@@ -7,12 +7,18 @@ Glossary
 
 .. glossary::
 
+    2D Primitives
+      The basic geometric elements used to construct graphical images. They serve as the building blocks of more complicated drawings.
+
     Asymmetrical Balance
       A design principle where both sides of an image or layout feel equal in visual weight even though the elements do not match.
 
 
     Balance
       The distribution of the visual weight of objects, colors, texture, and space.
+
+    Circle Primitive
+      A two-dimensional shape whose points are all the same distance from a central point.
 
 
     Color Theory
@@ -30,6 +36,9 @@ Glossary
     Design Principles
       The starting point of visual design. They act as the foundation or building blocks that guide us in creating effective and appealing visuals.
 
+    Ellipse Primitive
+      Resembles a circle that has been stretched horizontally, vertically, or in both directions.
+
     
     Emphasis
       Highlights the viewer's attention to the most important or specific design element of the layout.
@@ -40,6 +49,12 @@ Glossary
 
     Graphics and Visual Computing
       A branch of computer science that deals with the creation, processing, analysis, and rendering of digital images and 3D models using computers.
+
+    Graphics Canvas
+      The area where graphical objects are displayed. It can represent a window, an image, a web canvas, or another drawable surface.
+
+    Graphics Programming
+      The process of writing computer instructions that generate, manipulate, and display visual content on a screen or another output device.
 
 
     Graphics System
@@ -53,6 +68,9 @@ Glossary
     Layout and Composition
       The ways visual elements such as text, images, shapes, colors, and empty spaces are arranged in a design.
 
+    Line Primitive
+      Connects two points.
+
 
     Movement
       Guiding the viewer's eye to a predetermined path in the layout.
@@ -64,6 +82,12 @@ Glossary
 
     Pixel density
       Describes how many pixels are packed into a physical area of a display. It is commonly expressed in **PPI** (pixels per inch).
+
+    Point Primitive
+      Identifies a specific location in a coordinate system.
+
+    Polygon Primitive
+      A closed shape formed by connecting three or more straight line segments.
 
 
     Primary Colors
@@ -84,6 +108,9 @@ Glossary
 
     Rasterization
       Converts geometric information into fragments/pixels that can eventually be displayed.
+
+    Rectangle Primitive
+      A four-sided polygon with four right angles. In a typical 2D drawing API, a rectangle can be defined using its position, width, and height.
 
 
     Repetition

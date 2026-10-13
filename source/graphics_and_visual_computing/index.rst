@@ -21,3 +21,9 @@ Graphics and Visual Computing
         :link-type: url
 
         Design principles are the starting point of visual design. They act as the foundation or building blocks that guide us in creating effective and appealing visuals.
+
+    .. grid-item-card:: Graphics Programming
+        :link: ./graphics_programming
+        :link-type: url
+
+        The process of computer instructions that generate, manipulate, and display visual content on a screen or another output device.

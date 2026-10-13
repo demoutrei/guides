@@ -107,6 +107,7 @@ demoutrei's guidebook
     Introductory <./graphics_and_visual_computing/index.rst>
     graphics_and_visual_computing/foundations
     graphics_and_visual_computing/design_principles
+    graphics_and_visual_computing/graphics_programming
     graphics_and_visual_computing/glossary
 
 
@@ -129,6 +130,15 @@ demoutrei's guidebook
     Introductory <./is_innovations/index.rst>
     is_innovations/disruptive_innovation
     is_innovations/glossary
+
+
+.. toctree::
+    :maxdepth: 1
+    :caption: Web Development
+
+    Introductory <./webdev/index.rst>
+    webdev/canvas/index
+    webdev/glossary
 
 
 Contributors
