@@ -11,4 +11,4 @@ Cloudflare provides a range of Internet services, including content delivery net
         :link: ./workers/
         :link-type: url
 
-        Cloudflare Workers are fast, elastic, and serverless functions that scale automatically from zero to automatically from zero to millions of requests.
+        Cloudflare Workers are fast, elastic, and serverless functions that scale automatically from zero to millions of requests.
