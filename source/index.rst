@@ -120,6 +120,7 @@ demoutrei's guidebook
     information_management/erd
     information_management/reengineering_of_databases
     information_management/uml
+    information_management/database_normalization
     information_management/glossary
 
 

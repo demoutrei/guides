@@ -15,7 +15,9 @@ author = 'demoutrei'
 
 extensions = [
   "shibuya",
+  "sphinxcontrib.jquery",
   "sphinx_contributors",
+  "sphinx_datatables",
   "sphinx_design",
   "sphinx_tabs.tabs"
 ]

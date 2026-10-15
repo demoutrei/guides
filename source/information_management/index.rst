@@ -35,3 +35,9 @@ Information Management
         :link-type: url
 
         A widely adopted standard for visualizing, specifying, constructing, and documenting the artifacts of software systems.
+
+    .. grid-item-card:: Database Normalization
+        :link: ./database_normalization
+        :link-type: url
+
+        An important process in relational database design aimed at organizing data to minimize redundancy, enhance data integrity, and improve database efficiency. It is a systematic process used in relational database design to organize data efficiently by dividing large, complex tables into smaller, related tables.

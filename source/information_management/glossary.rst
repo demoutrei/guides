@@ -49,6 +49,8 @@ Glossary
     Data Properties
       Refers to the characteristics, attributes, or rules that define a specific piece of data.
 
+    Database Normalization
+      An important process in relational database design aimed at organizing data to minimize redundancy, enhance data integrity, and improve database efficiency.
 
     Database Re-Engineering
       A comprehensive process that involves analyzing, modifying, and optimizing an existing database system to better meet organizational needs.
@@ -72,7 +74,9 @@ Glossary
 
     Entity-Relationship Diagram
       A data modeling technique that graphically illustrates an information system's entities and the relationships between those entities. It's a conceptual and representational model of data used to represent the entity framework infrastructure.
-
+      
+    First Normal Form Normalization
+      Initial state in the process of database normalization. It ensures taht each column in a table contains only atomic, indivisible values, and that each row is uniquely identifiable.
 
     Foreign Key
       An attribute or group of attributes in one table that links to the primary key of another table, establishing a relationship between them.
@@ -139,6 +143,8 @@ Glossary
     Relationship
       The association that describes the interaction between entities.
 
+    Second Normal Form Normalization
+      A table is in 2NF if it is in 1NF and every non-prime attribute (i.e. non-primary key attribute) is fully functionally dependent on the entire primary key. This addresses **partial dependencies**, where a non-key attribute depends only on part of a composite key.
 
     Sequence Diagram
       Shows how objects interact in a particular scenario of a use-case, focusing on the sequence of messages exchanged.
@@ -163,6 +169,8 @@ Glossary
     Ternary Relationship
       A single diamond-shaped conenction that links three distinct entity types together. It is used when a normal two-way (binary) link cannot correctly show how all three things depend on each other at the same time.
 
+    Third Normal Form Normalization
+      A table is in 3NF if it is in 2NF and all the attributes are functionally dependent only on the primary key, there are not **transitive dependencies** (i.e. non-key attributes depending on other non-key attributes).
 
     Unary Relationhsip
       An association where a single entity type relates to instances of itself, giving it a degree of 1.
