@@ -12,8 +12,9 @@ The `Discord API`_ is a REST API that allows you to interact with Discord data f
     :maxdepth: 1
 
     getting_started
-    hosts
     cf_workers
+    hosts
+    privileged_intents
     faq
 
 
@@ -43,7 +44,12 @@ The `Discord API`_ is a REST API that allows you to interact with Discord data f
         :link-type: url
 
         Learn how to properly decide on which hosting/VPS service to use/purchase for your Discord app. This is based on the "Bot & Server Host Mega Thread" Discord Developers thread.
+        
+    .. grid-item-card:: Privileged Intents
+        :link: ./privileged_intents
+        :link-type: url
 
+        Know more about Privileged Intents, and whether your bot really needs them or not.
 
     .. grid-item-card:: Frequently Asked Questions
         :link: ./faq
