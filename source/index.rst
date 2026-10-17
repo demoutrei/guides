@@ -130,6 +130,7 @@ demoutrei's guidebook
 
     Introductory <./is_innovations/index.rst>
     is_innovations/disruptive_innovation
+    is_innovations/iot
     is_innovations/glossary
 
 

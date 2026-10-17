@@ -10,9 +10,12 @@ IS Innovations
 .. grid:: 1
     :gutter: 3
 
-
     .. grid-item-card:: Disruptive Innovation
         :link: ./disruptive_innovation
         :link-type: url
 
         Disruptive Innovation describes a process where a new, simpler, or more affordable technology and business model takes root at the bottom of a market and eventually displaces established industry leaders.
+
+    .. grid-item-card:: Internet of Things
+        :link: ./iot
+        :link-type: url
