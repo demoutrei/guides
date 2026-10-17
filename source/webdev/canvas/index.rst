@@ -19,12 +19,17 @@ The Canvas API largely focuses on 2D graphics. The `WebGL API`_, which also uses
         :link: ./shapes
         :link-type: url
 
+    .. grid-item-card:: Styling
+        :link: ./styles
+        :link-type: url
+
 .. toctree::
     :hidden:
     :maxdepth: 1
 
     getting_started
     shapes
+    styles
 
 
 .. _WebGL API: https://developer.mozilla.org/en-US/docs/Web/API/WebGL_API

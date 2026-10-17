@@ -30,17 +30,12 @@ The ``arc()`` method is used to define a circle.
               context.stroke();
             </script>
 
-    .. tab:: Code
+    .. code-tab:: javascript
 
-        .. code-block:: html
-
-            <canvas id="canvas" width="300" height="300" style="background-color: white;"></canvas>
-            <script>
-              const context = document.querySelector("#canvas").getContext("2d");
-              context.beginPath();
-              context.arc(95, 50, 40, 0, 2 * Math.PI);
-              context.stroke();
-            </script>
+        const context = document.querySelector("#canvas").getContext("2d");
+        context.beginPath();
+        context.arc(95, 50, 40, 0, 2 * Math.PI);
+        context.stroke();
 
 
 Ellipse
@@ -73,15 +68,12 @@ The ``ellipse()`` method of the Canvas 2D API adds an elliptical arc to the curr
               context.stroke();
             </script>
 
-    .. code-tab:: html
+    .. code-tab:: javascript
 
-        <canvas id="canvas" width="300" height="300" style="background-color: white;"></canvas>
-        <script>
-          const context = document.querySelector("#canvas").getContext("2d");
-          context.beginPath();
-          context.ellipse(100, 100, 50, 75, ,0, 0, 2 * Math.PI);
-          context.stroke();
-        </script>
+        const context = document.querySelector("#canvas").getContext("2d");
+        context.beginPath();
+        context.ellipse(100, 100, 50, 75, ,0, 0, 2 * Math.PI);
+        context.stroke();
 
 
 Line
@@ -109,18 +101,13 @@ To draw a line in canvas, we use the following methods:
               context.stroke();
             </script>
 
-    .. tab:: Code
+    .. code-tab:: javascript
 
-        .. code-block:: html
-
-            <canvas id="canvas" width="300" height="300" style="background-color: white;"></canvas>
-            <script>
-              const context = document.querySelector("#canvas").getContext("2d");
-              context.beginPath();
-              context.moveTo(0, 0);
-              context.lineTo(300, 300);
-              context.stroke();
-            </script>
+        const context = document.querySelector("#canvas").getContext("2d");
+        context.beginPath();
+        context.moveTo(0, 0);
+        context.lineTo(300, 300);
+        context.stroke();
 
 
 Rectangle
@@ -155,17 +142,12 @@ There are three functions that draw rectangles on canvas:
               context.strokeRect(50, 50, 50, 50);
             </script>
 
-    .. tab:: Code
+    .. code-tab:: javascript
 
-        .. code-block:: html
-
-            <canvas id="canvas" width="300" height="300" style="background-color: white;"></canvas>
-            <script>
-              const context = document.querySelector("#canvas").getContext("2d");
-              context.fillRect(25, 25, 100, 100);
-              context.clearRect(45, 45, 60, 60);
-              context.strokeRect(50, 50, 50, 50);
-            </script>
+        const context = document.querySelector("#canvas").getContext("2d");
+        context.fillRect(25, 25, 100, 100);
+        context.clearRect(45, 45, 60, 60);
+        context.strokeRect(50, 50, 50, 50);
 
 
 Triangle
@@ -187,16 +169,11 @@ Triangle
               context.fill();
             </script>
 
-    .. tab:: Code
+    .. code-tab:: javascript
 
-        .. code-block:: html
-
-            <canvas id="canvas" width="300" height="300" style="background-color: white;"></canvas>
-            <script>
-              const context = document.querySelector("#canvas").getContext("2d");
-              context.beginPath();
-              context.moveTo(75, 50);
-              context.lineTo(100, 75);
-              context.lineTo(100, 25);
-              context.fill();
-            </script>
+        const context = document.querySelector("#canvas").getContext("2d");
+        context.beginPath();
+        context.moveTo(75, 50);
+        context.lineTo(100, 75);
+        context.lineTo(100, 25);
+        context.fill();
