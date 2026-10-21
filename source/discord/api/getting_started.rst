@@ -64,5 +64,5 @@ If you *actually* want to learn, then here're the steps to take:
 
 .. _13eckdev@codeberg: https://codeberg.org/13eckdev
 .. _Discord API: https://discord.dev
-.. _JavaScript: ../../programming-languages/resources#javascript
-.. _Python: ../../programming-languages/resources#python
+.. _JavaScript: ../../programming/languages/resources#javascript
+.. _Python: ../../programming/languages/resources#python
