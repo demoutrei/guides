@@ -23,3 +23,9 @@ Computer Programming
         :link-type: url
 
         A code editor (or source-code editor) is a specialized software application designed specifically for writing, editing, and managing computer programming code.
+
+    .. grid-item-card:: Resources
+        :link: ./resources
+        :link-type: url
+
+        See resources of general programming online.

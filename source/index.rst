@@ -49,6 +49,7 @@ demoutrei's guidebook
     
     Introductory <./programming/index.rst>
     programming/editors
+    programming/resources
     programming/languages/index
     programming/glossary
 
