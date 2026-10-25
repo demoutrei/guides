@@ -33,3 +33,7 @@ Core Layers
         :link-type: url
 
         Provides a means for drawing graphics via JavaScript and the HTML ``<canvas>`` element.
+
+    .. grid-item-card:: Online Resources
+        :link: ./resources
+        :link-type: url

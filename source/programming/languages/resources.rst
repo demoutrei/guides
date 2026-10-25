@@ -56,7 +56,7 @@ C
         :link-type: url
 
 
-C#
+CS
 +++
 
 .. grid:: 1 2 2 3
@@ -87,7 +87,7 @@ C#
         :link-type: url
 
 
-C++
+CPP
 +++
 
 .. grid:: 1 2 2 3
@@ -252,6 +252,74 @@ JavaScript
 
     .. grid-item-card:: Ajax Design Patterns
         :link: https://shop.oreilly.com/product/9780596101800.do
+        :link-type: url
+
+    .. grid-item-card:: JavaScripture
+        :link: https://www.javascripture.com/
+        :link-type: url
+
+    .. grid-item-card:: Eloquent JavaScript
+        :link: https://eloquentjavascript.net/
+        :link-type: url
+
+    .. grid-item-card:: JavaScript30
+        :link: https://javascript30.com/
+        :link-type: url
+
+    .. grid-item-card:: JavaScript Tutorial
+        :link: https://www.scaler.com/topics/javascript/
+        :link-type: url
+
+    .. grid-item-card:: JavaScript Design Patterns
+        :link: https://addyosmani.com/resources/essentialjsdesignpatterns/book/
+        :link-type: url
+
+    .. grid-item-card:: JavaScript Cheat Sheet
+        :link:https://www.interviewbit.com/javascript-cheat-sheet/
+        :link-type: url
+
+    .. grid-item-card:: JavaScript Interview Questions
+        :link: https://www.interviewbit.com/javascript-interview-questions/
+        :link-type: url
+
+    .. grid-item-card:: Node.js Tutorial
+        :link: https://www.youtube.com/playlist?list=PL4cUxeGkcC9jsz4LDYc6kv3ymONOKxwBU
+        :link-type: url
+
+    .. grid-item-card:: Mixu's Node book
+        :link: http://book.mixu.net/node/index.html
+        :link-type: url
+
+    .. grid-item-card:: Node JS
+        :link: https://nodejs.dev/learn
+        :link-type: url
+    
+    .. grid-item-card:: 30 Days of Node
+        :link: https://www.nodejsera.com/30-days-of-node.html
+        :link-type: url
+
+    .. grid-item-card:: nodebestpractices
+        :link: https://github.com/goldbergyoni/nodebestpractices
+        :link-type: url
+
+    .. grid-item-card:: The Node Way
+        :link: http://thenodeway.io/
+        :link-type: url
+
+    .. grid-item-card:: You Don't Know Node.js
+        :link: https://github.com/azat-co/you-dont-know-node
+        :link-type: url
+
+    .. grid-item-card:: Awesome Nodejs
+        :link: https://github.com/sindresorhus/awesome-nodejs
+        :link-type: url
+
+    .. grid-item-card:: Express.js Security Tips
+        :link: https://www.freecodecamp.org/news/express-js-security-tips/
+        :link-type: url
+
+    .. grid-item-card:: Node.js Interview Questions
+        :link: https://www.interviewbit.com/node-js-interview-questions/
         :link-type: url
 
 

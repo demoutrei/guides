@@ -49,7 +49,7 @@ demoutrei's guidebook
     
     Introductory <./programming/index.rst>
     programming/editors
-    programming/resources
+    programming/databases/index
     programming/languages/index
     programming/glossary
 
@@ -141,6 +141,7 @@ demoutrei's guidebook
 
     Introductory <./webdev/index.rst>
     webdev/canvas/index
+    webdev/resources
     webdev/glossary
 
 

@@ -18,8 +18,6 @@ A **programming language** is a formal, structured language composed of a specif
         :link: ./resources
         :link-type: url
 
-        Online resources for learning programming languages.
-
 
 .. toctree::
     :hidden:
