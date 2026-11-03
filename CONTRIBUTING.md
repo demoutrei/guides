@@ -56,22 +56,6 @@ Ths is a reference_. Works for `multiple words`_ too.
 ```
 
 
-### Glossary
-
-When a word or terminology is used in a page, and it conveys a different meaning than its conceptual/logical meaning, then that term must be added in the guidebook's global glossary page.
-
-```rst
-[...] :term:`language` [...]
-
-.. glossary::
-
-  Language
-    A formal system of rules, vocabulary, and grammatical structures used to write instructions that a computer can understand and execute
-```
-
-*You may also append a term/noun in the glossary if you simply want to add additional information in regards that matter.*
-
-
 ### Authors attribution
 
 Contributors must attribute their social network, e.g. Github, at the end of the page; the primary/leading author must be the first attributed, followed by co-authors. Example:

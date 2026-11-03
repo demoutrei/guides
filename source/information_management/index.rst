@@ -41,3 +41,7 @@ Information Management
         :link-type: url
 
         An important process in relational database design aimed at organizing data to minimize redundancy, enhance data integrity, and improve database efficiency. It is a systematic process used in relational database design to organize data efficiently by dividing large, complex tables into smaller, related tables.
+
+    .. grid-item-card:: MySQL
+        :link: ./mysql
+        :link-type: url

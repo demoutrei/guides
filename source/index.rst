@@ -22,7 +22,6 @@ demoutrei's guidebook
     :caption: Artificial Intelligence
 
     Introductory <./artificial_intelligence/index.rst>
-    artificial_intelligence/glossary
 
 
 .. toctree::
@@ -40,7 +39,6 @@ demoutrei's guidebook
     Introductory <./computers/index.rst>
     computers/ethics/index
     computers/history_of_computing
-    computers/glossary
 
 
 .. toctree::
@@ -51,7 +49,6 @@ demoutrei's guidebook
     programming/editors
     programming/databases/index
     programming/languages/index
-    programming/glossary
 
 
 .. toctree::
@@ -60,7 +57,6 @@ demoutrei's guidebook
     
     Introductory <./dbms/index.rst>
     dbms/getting_started
-    dbms/glossary
 
 
 .. toctree::
@@ -72,7 +68,6 @@ demoutrei's guidebook
     dsa/data_structures/index
     dsa/space_complexity
     dsa/time_complexity
-    dsa/glossary
 
 
 .. toctree::
@@ -83,7 +78,6 @@ demoutrei's guidebook
     discord/api/index
     discord/markdown
     discord/message_formatting
-    discord/glossary
 
 
 .. toctree::
@@ -98,7 +92,6 @@ demoutrei's guidebook
     discrete_mathematics/number_systems
     discrete_mathematics/propositions/index
     discrete_mathematics/set_theory
-    discrete_mathematics/glossary
 
 
 .. toctree::
@@ -109,7 +102,6 @@ demoutrei's guidebook
     graphics_and_visual_computing/foundations
     graphics_and_visual_computing/design_principles
     graphics_and_visual_computing/graphics_programming
-    graphics_and_visual_computing/glossary
 
 
 .. toctree::
@@ -122,7 +114,7 @@ demoutrei's guidebook
     information_management/reengineering_of_databases
     information_management/uml
     information_management/database_normalization
-    information_management/glossary
+    information_management/mysql
 
 
 .. toctree::
@@ -132,7 +124,6 @@ demoutrei's guidebook
     Introductory <./is_innovations/index.rst>
     is_innovations/disruptive_innovation
     is_innovations/iot
-    is_innovations/glossary
 
 
 .. toctree::
@@ -142,7 +133,6 @@ demoutrei's guidebook
     Introductory <./webdev/index.rst>
     webdev/canvas/index
     webdev/resources
-    webdev/glossary
 
 
 Contributors

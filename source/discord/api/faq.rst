@@ -144,7 +144,7 @@ In the **Install Link** portion, select upon the ``Discord Provided Link`` optio
     Enable **Public Bot** setting and save changes.
 
 
-Scrolling down, a **Default Install Settings** section is prompted. For you to invite your bot with a :term:`bot user`, the scopes under **Guild Install** must include the ``bot`` scope.
+Scrolling down, a **Default Install Settings** section is prompted. For you to invite your bot with a bot user, the scopes under **Guild Install** must include the ``bot`` scope.
 
 Afterward, select the permissions necessary for your bot to function. Save changes.
 
