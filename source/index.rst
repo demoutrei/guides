@@ -102,6 +102,7 @@ demoutrei's guidebook
     graphics_and_visual_computing/foundations
     graphics_and_visual_computing/design_principles
     graphics_and_visual_computing/graphics_programming
+    graphics_and_visual_computing/animation_and_interaction
 
 
 .. toctree::

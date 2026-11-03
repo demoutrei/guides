@@ -27,3 +27,7 @@ Graphics and Visual Computing
         :link-type: url
 
         The process of computer instructions that generate, manipulate, and display visual content on a screen or another output device.
+
+    .. grid-item-card:: Animation and Interaction
+        :link: ./animation_and_interaction
+        :link-type: url
