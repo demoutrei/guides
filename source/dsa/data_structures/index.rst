@@ -126,8 +126,16 @@ A non-linear data structure is an organization method where data items are not a
     :gutter: 3
 
     .. grid-item-card:: Hash Map
+        :link: ./hash_map
+        :link-type: url
 
         A **hash map** (also known as a **hash table**, **dictionary**, or **associative array**) is a fundamental data structure designed to store key-value pairs, enabling ultra-fast data retrieval, insertion, and deletion.
+
+    .. grid-item-card:: Tree
+        :link: ./tree
+        :link-type: url
+
+        A **tree** is a non-linear, hierarchical data structure composed of nodes connected by directed edges. Unlike linear structures like `arrays <./array>`_ or `linked lists <./linked_list>`_, trees organize data in a parent-child relationship, making them highly efficient for sorting, searching, and managing hierarchical information.
 
 
 Common Operations
@@ -150,5 +158,6 @@ Regardless of the type, software programs use data structures to perform six fun
     array
     hash_map
     linked_list/index
-    stack
     queue
+    stack
+    tree
