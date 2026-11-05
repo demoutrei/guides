@@ -98,6 +98,12 @@ A linear data structure is a data organization method where elements are arrange
 
         A **stack** is a linear data structure that follows the **Last In, First Out** (LIFO) principle, meaning the last element added is the first one to be removed. Think of it like a physical stack of plates---you can only add a new plate to the top, and you can only remove the plate that is currently on top.
 
+    .. grid-item-card:: Queue
+        :link: ./queue
+        :link-type: url
+
+        A **queue** is a fundamental, linear data structure that operates on the **First In, First Out (FIFO) principle**. This means that the first element added to the queue will be the first one to be removed, much like a real-world line of people waiting at a supermarket or a ticket counter.
+
 
 Non-Linear Data Structures
 --------------------------
@@ -137,3 +143,4 @@ Regardless of the type, software programs use data structures to perform six fun
     array
     linked_list/index
     stack
+    queue
