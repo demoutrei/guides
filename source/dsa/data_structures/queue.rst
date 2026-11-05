@@ -6,7 +6,7 @@ A **queue** is a fundamental linear data structure that operates on the **First 
 Unlike a `stack <../stack>`_ (which only allows access at one end), a queue is open at both ends: elements are added at the back (tail), and removed from the front (head).
 
 .. admonition:: Key Characteristics
-    :class: hint
+    :class: tip
 
     Two Open Ends
       Unlike a stack (which is open at only one end), a queue keeps its entry and exit points separate.

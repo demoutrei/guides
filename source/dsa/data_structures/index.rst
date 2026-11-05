@@ -122,6 +122,13 @@ A non-linear data structure is an organization method where data items are not a
 
     **Flexible Memory**: Memory is allocated dynamically as nodes branch out.
 
+.. grid:: 1
+    :gutter: 3
+
+    .. grid-item-card:: Hash Map
+
+        A **hash map** (also known as a **hash table**, **dictionary**, or **associative array**) is a fundamental data structure designed to store key-value pairs, enabling ultra-fast data retrieval, insertion, and deletion.
+
 
 Common Operations
 ^^^^^^^^^^^^^^^^^
@@ -141,6 +148,7 @@ Regardless of the type, software programs use data structures to perform six fun
     :maxdepth: 2
 
     array
+    hash_map
     linked_list/index
     stack
     queue
